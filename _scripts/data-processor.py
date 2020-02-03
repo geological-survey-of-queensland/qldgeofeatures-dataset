@@ -203,9 +203,9 @@ for file in os.listdir(DATA_DIR):
 # import pprint
 # pprint.pprint(g.serialize(format='turtle').decode('utf-8'))
 
-with open(join(CONFIG_DIR, 'data.ttl'), 'w') as f:
+with open(join(DATA_DIR, 'features.ttl'), 'w') as f:
     f.write(g.serialize(format='turtle').decode('utf-8'))
 
-with open(join(CONFIG_DIR, 'data.pickle'), 'wb') as f:
-    pickle.dump(g, f)
-    f.close()
+# with open(join(CONFIG_DIR, 'data.pickle'), 'wb') as f:
+#     pickle.dump(g, f)
+#     f.close()

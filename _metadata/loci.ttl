@@ -1,0 +1,27 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix loci: <http://linked.data.gov.au/def/loci#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sdo: <https://schema.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://linked.data.gov.au/dataset/qldgeofoi>
+    a loci:Dataset , void:Dataset , dcat:DataService ;
+    dct:publisher <http://linked.data.gov.au/org/gsq> ;
+    dct:description """This is a Linked Data dataset (i.e. online in HTML & RDF, according to LD principles) of the Geological Features of Interest of Queensland.
+
+Currently this dataset contains only Structural Framework data sourced from the Queensland GeoResGlobe (https://georesglobe.information.qld.gov.au/). In the future, it will contain other sorts of Geo FoIs too.
+
+This tool uses the SWEET Geological Features Profile Ontology (https://github.com/geological-survey-of-queensland/sweet-geological-features-profile-ont) as its main data model and that model conforms to the Location Index (LocI) project's requirements so this information is compatible with other spatial data published by LocI."""@en ;
+    dct:title "Queensland Features of Interest Dataset" ;
+.
+
+<http://linked.data.gov.au/org/gsq>
+    a org:Organization ;
+    sdo:name "Geological Survey of Queensland" ;
+.
