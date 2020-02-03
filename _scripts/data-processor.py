@@ -11,7 +11,7 @@ DATA_DIR = join(dirname(dirname(realpath(__file__))), '_data')
 CONFIG_DIR = join(dirname(dirname(realpath(__file__))), 'structf', 'config')
 
 g = Graph()
-SF = Namespace('http://linked.data.gov.au/dataset/qld-structural-framework/')
+SF = Namespace('http://linked.data.gov.au/dataset/qldgeofoi/')
 g.bind('sf', SF)
 SGF = Namespace('http://linked.data.gov.au/def/sweetgeofeatures#')
 g.bind('sgf', SGF)
