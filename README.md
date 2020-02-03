@@ -1,23 +1,41 @@
 <img src="gsq.jpg" style="width:25%" />
 
-# Queendland Geo Features of Interest Dataset 
-This  [RDF](https://en.wikipedia.org/wiki/RDF) dataset contains some of the geological Features of Interest (GeoFoIs) of Queensland described and published by the [Geological Survey of Queensland](https://en.wikipedia.org/wiki/Geological_Survey_of_Queensland).
+# Queensland Geo Features of Interest Dataset 
+This [RDF](https://en.wikipedia.org/wiki/RDF) dataset contains some of the geological Features of Interest (GeoFoIs) of Queensland described and published by the [Geological Survey of Queensland](https://en.wikipedia.org/wiki/Geological_Survey_of_Queensland).
 
-This dataset, considering each GeoFoI to be a specialised form of a [SOS Feature of Interest](https://www.w3.org/TR/vocab-ssn/#SOSAFeatureOfInterest), allows them to be associated with property obsesrvations.
+This dataset considers each GeoFoI to be a specialised form of the [SOSA Ontology's Feature of Interest](https://www.w3.org/TR/vocab-ssn/#SOSAFeatureOfInterest), which allows them to be associated with property obsesrvations.
 
-With each GeoFoI also being a specialised form of the [GeoSPARQL ontology](https://en.wikipedia.org/wiki/OGC_GeoSPARQL)'s `Feature` class and with the dataset overall being a [DCAT2 Dataset](https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset), this dataset is *LocI compatable* meaning it is published in accordance with the expectations of the [Location Index (LocI)[https://locationindex.org] project and this data can be used with other LocI data.
+Each GeoFoI is also considered a specialised form of the [GeoSPARQL ontology](https://en.wikipedia.org/wiki/OGC_GeoSPARQL)'s `Feature` class meaning they can be associated with one or more `Geometry` objects too. 
+
+The dataset as a whole is modelled as being a [LocI Dataset](http://linked.data.gov.au/def/loci#Dataset) which is a specialised form of both a [DCAT2 Dataset](https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset) and a [VoID Dataset](http://rdfs.org/ns/void#Dataset). This means that the dataset is 1. compatible with the [Location Index (LocI)](https://locationindex.org) Project's notion of a dataset; 2. has standard catalogue metadata (due to DCAT); and 3. has some RDF/graph properties of it described (due to VoID). This dataset can be used with other LocI datasets.
 
 
 ## Data
-***Currently this API only delivers already public GSQ Structural Framework data, not all of GSQ's Features of Interest.***
+***Currently this API only delivers already public GSQ Structural Framework data, not all of GSQ's Features of Interest but it will grow to inculde more data over time.***
 
-This dataset's final data is all in the single file [data.ttl](data.ttl).
+This dataset's features data is all in the single file [features.ttl](features.ttl).
 
-The source data for this dataset so far is taken from data already published by GSQ via the [Queensland Globe](https://qldglobe.information.qld.gov.au/), so all of this information is already public.
+Its dataset-level metadata is available in the following files:
 
-This data is published via a Linked Data API so that the URIs for each item will resolve. See the API:
+* [loci.ttl](loci.ttl) - LocI 
+* [dcat.ttl](dcat.ttl) - DCAT2
+* [void.ttl](void.ttl) - VoID
 
-* https://github.com/geological-survey-of-queensland/gsq-foi-api
+The total dataset, assembeled from the files above, is available in the file [data.ttl](data.ttl).
+
+The source for this dataset's features so far is the [Queensland Globe](https://qldglobe.information.qld.gov.au/), so all of the features information is already public.
+
+This data is published via a Linked Data API so that the URIs for each item - each feature and the dataset as a whole - will resolve when the persistent URI is allocated (see below). See the API online in test mode:
+
+* https://gsq.cat/foi
+
+
+## Persistent Identifier
+The proposed persistent identifier (PID) for this dataset is:
+
+* **http://linked.data.gov.au/dataset/qldgeofoi**
+
+This PID has been requested from the [Australian Government Linked Data Working Group](http://linked.data.gov.au), see the request catalogue entry: http://catalogue.linked.data.gov.au/resource/145.
 
 
 ## Model
