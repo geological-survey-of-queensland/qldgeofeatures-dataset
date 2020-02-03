@@ -1,13 +1,15 @@
 <img src="gsq.jpg" style="width:25%" />
 
-# GSQ's Features of Interest Dataset 
-This  [RDF](https://en.wikipedia.org/wiki/RDF) dataset contains the [Geological Survey of Queensland](https://en.wikipedia.org/wiki/Geological_Survey_of_Queensland)'s Structural Framework [Features of Interest](https://www.w3.org/TR/vocab-ssn/#SOSAFeatureOfInterest).
+# Queendland Geo Features of Interest Dataset 
+This  [RDF](https://en.wikipedia.org/wiki/RDF) dataset contains some of the geological Features of Interest (GeoFoIs) of Queensland described and published by the [Geological Survey of Queensland](https://en.wikipedia.org/wiki/Geological_Survey_of_Queensland).
 
-This dataset, being in the RDF format and with semantic relations in it, can be added to the total pool of GSQ's semantic data.
+This dataset, considering each GeoFoI to be a specialised form of a [SOS Feature of Interest](https://www.w3.org/TR/vocab-ssn/#SOSAFeatureOfInterest), allows them to be associated with property obsesrvations.
+
+With each GeoFoI also being a specialised form of the [GeoSPARQL ontology](https://en.wikipedia.org/wiki/OGC_GeoSPARQL)'s `Feature` class and with the dataset overall being a [DCAT2 Dataset](https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset), this dataset is *LocI compatable* meaning it is published in accordance with the expectations of the [Location Index (LocI)[https://locationindex.org] project and this data can be used with other LocI data.
 
 
 ## Data
-***Currently this API only delivers Structural Framework data, not all of GSQ's Features of Interest.***
+***Currently this API only delivers already public GSQ Structural Framework data, not all of GSQ's Features of Interest.***
 
 This dataset's final data is all in the single file [data.ttl](data.ttl).
 
