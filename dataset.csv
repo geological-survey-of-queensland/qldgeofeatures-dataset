@@ -1,13 +1,19 @@
 id,name,alias,type,status,relationship,geometry
 AdavaleBasin,"Adavale Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((143.925537922 -3000554.2315877248, 16346403.748648955 -23.572884777307745))"
+AmberleyBasin,"Amberley Basin",,Basin,,,
 AnakieProvince,"Anakie Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((146.85069934800003 -23.704934990304817, 148.02838695900004 -20.863771789371395))"
 AuburnSubprovince,"Auburn Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((150.01641689400003 -26.070166308254553, 151.10030673000006 -23.762619344303516))"
+AustralDowsBasin,"Austral Dows Basin",,Basin,,,
 AwoongaSubprovince,"Awoonga Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((151.14050422499997 -24.261566344292525, 151.333964819 -23.881427799300855))"
+BagaBasin,"Baga Basin",,Basin,,,
 BarnardProvince,"Barnard Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((145.90324141899998 -17.661333071453896, 146.14748301099996 -17.075849761469755))"
 BarrolkaDepression,"Barrolka Depression",,Depression,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((141.25224942199998 -26.951228832237117, 142.29678892200002 -25.725580599261544))"
+BeaudesertBasin,"Beaudesert Basin",,Basin,,,
 BeenleighSubprovince,"Beenleigh Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((152.677294512 -3240273.3920767605, 17092707.7213762 -27.459484110227358))"
 BelyandoBasin,"Belyando Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((145.379313517 -23.386533958311954, 146.76581785400003 -20.98733328436835))"
 BerserkerSubprovince,"Berserker Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((150.34094557799995 -23.504141911309308, 150.82622878400002 -23.005043710320578))"
+BiloelaBasin,"Biloela Basin",,Basin,,,
+BoovalBasin,"Booval Basin",,Basin,,,
 BowenBasin,"Bowen Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((147.498144895 -3110416.623516571, 16779517.87637011 -20.52932777537966))"
 BundockBasin,"Bundock Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((144.138247407 -19.659951328401565, 144.791907949 -19.222028773412777))"
 BurdekinBasin,"Burdekin Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((145.807558136 -19.897107714395528, 146.96082131599997 -19.078033866416497))"
@@ -19,7 +25,9 @@ CampwynSubprovince,"Campwyn Subprovince",,SubProvince,,,"<http://www.opengis.net
 CanobieDepression,"Canobie Depression",,Depression,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((140.30758944700005 -19.823524789397403, 140.78017857400005 -18.75505010942492))"
 CapeYork-OriomoProvince,"Cape York-Oriomo Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((142.11083800400002 -1211327.8574840403, 15896421.754636463 -10.594299999658519))"
 CapellaSubprovince,"Capella Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((150.33803100100002 -2817755.8263468216, 16798632.33084232 -23.487362761309633))"
+CapricornBasin,"Capricorn Basin",,Basin,,,
 CarpentariaBasin,"Carpentaria Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((137.99469999999997 -2230128.757394884, 15716205.07274101 -10.70813661065504))"
+CasuarinaBasin,"Casuarina Basin",,Basin,,,
 ChartersTowersProvince,"Charters Towers Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((144.12138905300003 -2176163.5387834827, 16350864.250068484 -18.783460869424157))"
 ChillagoeSubprovince,"Chillagoe Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((144.13566926600004 -1878999.971655168, 16052129.214002581 -16.79833296147736))"
 Clarence-MoretonBasin,"Clarence-Moreton Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((151.06181100000003 -28.447541933209177, 153.190499609 -26.41809057824758))"
@@ -30,7 +38,9 @@ CooperBasin,"Cooper Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326
 CraigileeSubprovince,"Craigilee Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((149.86118761 -23.35103503731276, 150.15815497999995 -23.011145357320476))"
 CroydonProvince,"Croydon Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((142.15134722599998 -18.99609928441863, 142.97884623200002 -17.936644271446543))"
 DrummondBasin,"Drummond Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((144.154775889 -25.776666877260514, 149.14189286700002 -20.332740999384555))"
+DuaringaBasin,"Duaringa Basin",,Basin,,,
 EasternSubprovince,"Eastern Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((139.704475945 -22.089637193341837, 140.955165428 -19.325583782410124))"
+EmeraldBasin,"Emerald Basin",,Basin,,,
 ErebusSubprovince,"Erebus Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((150.70268339999996 -2541097.102946749, 16708521.731333436 -23.69021181230514))"
 EromangaBasin,"Eromanga Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((137.99789999999996 -28.999099999199398, 147.84893812300004 -18.865479999422018))"
 EskBasin,"Esk Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((151.412610987 -27.390100399228682, 152.614238795 -25.133776500273832))"
@@ -44,12 +54,18 @@ GrantleighSubprovince,"Grantleigh Subprovince",,SubProvince,,,"<http://www.openg
 GraveyardCreekSubprovince,"Graveyard Creek Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((144.138247407 -19.659951328401565, 144.99896092300003 -18.90360330842105))"
 GreenvaleProvince,"Greenvale Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((144.31641028800004 -19.420306624407694, 145.316030781 -17.862612619448498))"
 GympieProvince,"Gympie Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((151.75744009899995 -3083902.7141949795, 17038495.995536838 -24.417161153289126))"
+HerbertCreekBasin,"Herbert Creek Basin",,Basin,,,
+HillsboroughBasin,"Hillsborough Basin",,Basin,,,
 InorunieBasin,"Inorunie Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((142.63616240600004 -18.3476961594356, 142.88243662000002 -18.181133889440034))"
 IpswichBasin,"Ipswich Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((152.677294512 -28.35717558021077, 153.28597785099998 -27.483292716226906))"
 IronRangeProvince,"Iron Range Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((142.99354688799997 -13.96965109855739, 143.62633022900002 -12.341251975605537))"
 Kalkadoon-LeichhardtSubprovince,"Kalkadoon-Leichhardt Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((139.515343401 -22.055848736342693, 139.997457232 -19.24453554741219))"
+KalpowarBasin,"Kalpowar Basin",,Basin,,,
+KarumbBasin,"Karumb Basin",,Basin,,,
 LakefieldBasin,"Lakefield Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((143.63262416900002 -15.483088363514005, 144.283922631 -13.980818682557084))"
 LauraBasin,"Laura Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((143.37369739200005 -15.945888177500994, 145.16839716100003 -13.617751261567703))"
+LowmeadGraben,"Lowmead Graben",,Graben,,,
+MarionBasin,"Marion Basin",,Basin,,,
 MarlboroughProvince,"Marlborough Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((149.773983972 -23.131444351317732, 150.40419597799996 -22.632224765329145))"
 MaryboroughBasin,"Maryborough Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((151.97081030200002 -2973946.675917195, 17071686.947563466 -24.47679365128789))"
 McArthurBasin,"McArthur Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((137.99490000000003 -17.57412353245622, 138.47146791 -17.089597136469372))"
@@ -57,21 +73,32 @@ MillungeraBasin,"Millungera Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPS
 MossmanOrogen,"Mossman Orogen",,Orogen,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((143.81758998400005 -2095364.398538449, 16291950.964571105 -14.166447269551671))"
 MountWindsorSubprovince,"Mount Windsor Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((145.433064069 -20.609464740377696, 147.249068254 -19.914320246395068))"
 MulgildieBasin,"Mulgildie Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((150.83083277100002 -26.057007371254805, 151.247238447 -24.655504838284017))"
+NagoorinGraben,"Nagoorin Graben",,Graben,,,
 NambourBasin,"Nambour Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((152.27300185 -3168773.1609381195, 17083952.70146389 -25.244099328271517))"
+NarrowsGraben,"Narrows Graben",,Graben,,,
 NewEnglandOrogen,"New England Orogen",,Orogen,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((147.11812992399996 -3240273.3920767605, 17092707.7213762 -19.30506372641065))"
 NgarrabullganBasin,"Ngarrabullgan Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((144.76150439599996 -16.90908312047429, 144.86843961399995 -16.754451195478538))"
 NogoSubprovince,"Nogo Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((150.562635302 -25.640006829263307, 151.16693163800008 -24.570019747285862))"
+NoransideBasin,"Noranside Basin",,Basin,,,
 NorthAustralianCraton,"North Australian Craton",,Craton,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((137.99469999999997 -1936993.1601743835, 15896421.754636463 -10.690817137655586))"
 NorthDAguilarSubprovince,"North D'Aguilar Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((152.11336225399995 -27.32862775022987, 153.04692154199995 -25.738556968261292))"
+OldCorkBasin,"Old Cork Basin",,Basin,,,
 OliveRiverBasin,"Olive River Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((142.50975108199998 -1361884.1027774345, 15920476.650152557 -11.91384280161835))"
+OxleyBasin,"Oxley Basin",,Basin,,,
 Palmer-BarronSubprovince,"Palmer-Barron Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((144.13928027600002 -2095364.398538449, 16291950.964571105 -14.166447269551671))"
+PetrieBasin,"Petrie Basin",,Basin,,,
 PhilpottSubprovince,"Philpott Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((151.282818746 -26.043383046255112, 151.44949263299998 -25.170044217273063))"
+PomonaBasin,"Pomona Basin",,Basin,,,
+RedbankBasin,"Redbank Basin",,Basin,,,
 RockhamptonSubprovince,"Rockhampton Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((149.944808846 -2817755.8263468216, 16812500.810451023 -23.072339193319053))"
+RossmoyaBasin,"Rossmoya Basin",,Basin,,,
 SavannahProvince,"Savannah Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((142.84899463199997 -15.531994662512565, 143.47020460299996 -12.836065343590771))"
 SilverSpurSubprovince,"Silver Spur Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((151.41162488700004 -3360530.157161613, 16850510.889655534 -28.80662928720278))"
 SilverwoodProvince,"Silverwood Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((151.941785064 -28.527958260207715, 152.185973246 -28.276117344212235))"
 SouthDAguilarSubprovince,"South D'Aguilar Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((152.54463956100008 -27.555866276225558, 153.156971613 -26.981421293236476))"
 SouthNicholsonBasin,"South Nicholson Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((137.99530000000007 -18.833598219422868, 138.556533641 -17.778700741450766))"
+SpringvaleBasin,"Springvale Basin",,Basin,,,
+StanwellBasin,"Stanwell Basin",,Basin,,,
 StoodleighSubprovince,"Stoodleigh Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((149.70284533799997 -2565901.7108128592, 16703912.37293423 -22.40667499233443))"
 StyxBasin,"Styx Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((149.537155525 -2566337.603297379, 16667325.558392592 -22.297024085337004))"
 SuratBasin,"Surat Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((146.689525397 -28.998999999199434, 151.42222689899995 -24.711061025282802))"
@@ -80,7 +107,10 @@ TexasSubprovince,"Texas Subprovince",,SubProvince,,,"<http://www.opengis.net/def
 ThomsonOrogen,"Thomson Orogen",,Orogen,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((137.9983 -2204483.256083215, 16350864.250068484 -18.783460869424157))"
 WarburtonBasin,"Warburton Basin",,Basin,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((137.9983 -28.960797427200045, 143.54927777299997 -24.29449283929177))"
 WarrabinTrough,"Warrabin Trough",,Trough,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((142.59217451100005 -2779605.1600978863, 15998589.460477019 -24.126574143295507))"
+WaterparkCreekBasin,"Waterpark Creek Basin",,Basin,,,
 WesternSubprovince,"Western Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((138.369406638 -2033902.1711317198, 15418347.84262357 -18.092924678442394))"
 WhitsundayProvince,"Whitsunday Province",,Province,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((148.44174043199996 -2335160.0941653224, 16598145.220488269 -20.061633193391394))"
+WoorabindaBasin,"Woorabinda Basin",,Basin,,,
+YaambaBasin,"Yaamba Basin",,Basin,,,
 YaringaSubprovince,"Yaringa Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((139.03702107599997 -22.11392913834129, 139.40886681400002 -20.79347179237313))"
 YarramanSubprovince,"Yarraman Subprovince",,SubProvince,,,"<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((151.140757567 -27.437689619227807, 152.33167780099993 -26.01358220725568))"

@@ -45,6 +45,7 @@ for s, o in g.subject_objects(predicate=rdflib.namespace.RDF.type):
         GEOF.Orogen,
         GEOF.Trough,
         GEOF.Craton,
+        GEOF.Graben,
     ]:
         individuals[str(s)] = {
             "type": str(o)
@@ -79,7 +80,7 @@ for k in kk:
                 individuals[k]["type"].split("#")[-1],
                 "",
                 "",
-                '"' + individuals[k]["geometry"] + '"'
+                '"' + individuals[k]["geometry"] + '"' if individuals[k].get("geometry") else ""
             )
 
     with open("../dataset.csv", "w") as f:
