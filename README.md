@@ -5,9 +5,9 @@ This [RDF](https://en.wikipedia.org/wiki/RDF) dataset contains some of the geolo
 
 This dataset considers each GeoFoI to be a specialised form of the [SOSA Ontology's Feature of Interest](https://www.w3.org/TR/vocab-ssn/#SOSAFeatureOfInterest), which allows them to be associated with property obsesrvations.
 
-Each GeoFoI is also considered a specialised form of the [GeoSPARQL ontology](https://en.wikipedia.org/wiki/OGC_GeoSPARQL)'s `Feature` class meaning they can be associated with one or more `Geometry` objects too. 
+Each GeoFoI is also considered a specialised form of the [GeoSPARQL ontology](https://en.wikipedia.org/wiki/OGC_GeoSPARQL)'s `Feature` class meaning they can also be associated with one or more `Geometry` objects. 
 
-The dataset as a whole is modelled as being a [LocI Dataset](http://linked.data.gov.au/def/loci#Dataset) which is a specialised form of both a [DCAT2 Dataset](https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset) and a [VoID Dataset](http://rdfs.org/ns/void#Dataset). This means that the dataset is 1. compatible with the [Location Index (LocI)](https://locationindex.org) Project's notion of a dataset; 2. has standard catalogue metadata (due to DCAT); and 3. has some RDF/graph properties of it described (due to VoID). This dataset can be used with other LocI datasets.
+The dataset as a whole is modelled as a [LocI Dataset](http://linked.data.gov.au/def/loci#Dataset) which is a specialised form of both a [DCAT2 Dataset](https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset) and a [VoID Dataset](http://rdfs.org/ns/void#Dataset). This means that the dataset is 1. compatible with the [Location Index (LocI)](https://locationindex.org) Project's notion of a dataset; 2. has standard catalogue metadata (due to DCAT); and 3. has some RDF/graph properties of it described (due to VoID). This dataset can be used with other LocI datasets.
 
 
 ## Persistent Identifier
