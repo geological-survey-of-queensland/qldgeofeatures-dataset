@@ -215,10 +215,10 @@ data:BurdekinBasin
 
 data:BurketownDepression 
         a geof:Depression ,
-        geo:Feature ,
+        geo:Feature , 
         sdo:Landform ;
     dct:isPartOf data:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
-    skos:scopeNote """The section in the Burketown Depression is very poorly known, but ‘The drilled section between the Gilbert River Formation and the Proterozoic … belongs to a separate phase of sedimentation, probably late Paleozoic and/or early Mesozoic’ (Jell, 2012, p. 101). This includes a Permian (Cisuralian) tilloid and overlying, potentially Triassic strata that are here assumed to be pre-Late Triassic in age (i.e., strata deposited unconformably on the tilloid prior to the extensional phase of the Late Triassic)."""@en ;
+    skos:scopeNote """The section in the Burketown Depression is very poorly known, but 'The drilled section between the Gilbert River Formation and the Proterozoic ... belongs to a separate phase of sedimentation, probably late Paleozoic and/or early Mesozoic' (Jell, 2012, p. 101). This includes a Permian (Cisuralian) tilloid and overlying, potentially Triassic strata that are here assumed to be pre-Late Triassic in age (i.e., strata deposited unconformably on the tilloid prior to the extensional phase of the Late Triassic)."""@en ;
     geo:hasGeometry [ a geo:Geometry ;
             geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((140.562087 -17.628053,140.566529 -17.601823,140.566030 -17.601977,140.565122 -17.602324,140.564232 -17.602720,140.563354 -17.603153,140.562485 -17.603611,140.561622 -17.604087,140.559907 -17.605072,140.548828 -17.611660,140.522384 -17.627297,140.520673 -17.628295,140.518952 -17.629272,140.517210 -17.630206,140.516326 -17.630646,140.515426 -17.631062,140.514517 -17.631459,140.513601 -17.631840,140.511756 -17.632575,140.508970 -17.633642,140.496872 -17.638214,140.486644 -17.642121,140.483847 -17.643149,140.481971 -17.643778,140.481026 -17.644058,140.480075 -17.644304,140.479116 -17.644503,140.478206 -17.644637,140.477289 -17.644730,140.476367 -17.644794,140.472665 -17.644948,140.471745 -17.645001,140.470834 -17.645077,140.469933 -17.645187,140.469047 -17.645343,140.468181 -17.645562,140.467380 -17.645838,140.466596 -17.646163,140.464300 -17.647218,140.463539 -17.647525,140.462773 -17.647770,140.462000 -17.647923,140.461224 -17.647960,140.460444 -17.647899,140.459664 -17.647759,140.458892 -17.647555,140.458135 -17.647295,140.457402 -17.646986,140.456790 -17.646677,140.456213 -17.646332,140.455679 -17.645946,140.455200 -17.645516,140.454736 -17.644980,140.453920 -17.643853,140.453500 -17.643330,140.453022 -17.642884,140.452455 -17.642541,140.451813 -17.642298,140.451117 -17.642140,140.450383 -17.642058,140.449623 -17.642050,140.448851 -17.642116,140.448078 -17.642264,140.447201 -17.642542,140.446333 -17.642911,140.445473 -17.643344,140.444619 -17.643823,140.442924 -17.644866,140.441242 -17.645965,140.431218 -17.652660,140.418713 -17.660921,140.417037 -17.662006,140.415347 -17.663065,140.413630 -17.664076,140.412777 -17.664542,140.411915 -17.664992,140.410173 -17.665861,140.407537 -17.667124,140.399598 -17.670861,140.391667 -17.674619,140.389901 -17.675442,140.388127 -17.676240,140.386337 -17.676984,140.385432 -17.677321,140.384515 -17.677622,140.383563 -17.677886,140.382599 -17.678114,140.381627 -17.678314,140.379668 -17.678664,140.376709 -17.679124,140.359906 -17.681607,140.272981 -17.694645,140.255195 -17.697288,140.252235 -17.697744,140.250268 -17.698075,140.248313 -17.698458,140.247344 -17.698682,140.246398 -17.698932,140.244522 -17.699496,140.242659 -17.700110,140.238946 -17.701402,140.224101 -17.706715,140.222256 -17.707329,140.221340 -17.707606,140.220430 -17.707848,140.219530 -17.708043,140.218644 -17.708171,140.217775 -17.708205,140.216931 -17.708113,140.216153 -17.707883,140.215397 -17.707539,140.214654 -17.707117,140.213918 -17.706644,140.212442 -17.705641,140.211690 -17.705153,140.210919 -17.704704,140.210119 -17.704318,140.209267 -17.704008,140.208385 -17.703770,140.207481 -17.703587,140.206560 -17.703446,140.205627 -17.703337,140.204686 -17.703254,140.203740 -17.703195,140.202791 -17.703156,140.201840 -17.703140,140.200889 -17.703150,140.199938 -17.703192,140.198947 -17.703275,140.197957 -17.703391,140.196969 -17.703530,140.194996 -17.703852,140.193027 -17.704204,140.184176 -17.705851,140.175331 -17.707475,140.150479 -17.712004,140.148050 -17.741312,140.143619 -17.791103,140.135646 -17.840459,140.125833 -17.889486,140.115800 -17.938468,140.107146 -17.987711,140.099697 -18.037153,140.092386 -18.086615,140.085295 -18.136110,140.078508 -18.185647,140.072109 -18.235236,140.066180 -18.284883,140.060809 -18.334593,140.056079 -18.384369,140.052123 -18.434211,140.049658 -18.484149,140.048412 -18.534133,140.047752 -18.584129,140.047045 -18.634124,140.045661 -18.684104,140.042962 -18.734029,140.038051 -18.783780,140.024521 -18.840100,140.017775 -18.864172,140.011614 -18.888399,140.007075 -18.912974,140.006036 -18.937912,140.012288 -18.961934,140.028236 -18.981004,140.049800 -18.996345,140.071932 -19.007972,140.095010 -19.017586,140.118727 -19.025490,140.142936 -19.031731,140.167550 -19.036106,140.192480 -19.037967,140.217334 -19.035339,140.237364 -19.020547,140.243153 -18.996142,140.242960 -18.971130,140.240565 -18.946243,140.237271 -18.921461,140.233770 -18.896707,140.230585 -18.871911,140.228265 -18.847019,140.227562 -18.822031,140.229695 -18.797123,140.234606 -18.772608,140.241073 -18.748458,140.248748 -18.724665,140.257283 -18.701167,140.266355 -18.677871,140.275662 -18.654668,140.284896 -18.631436,140.301473 -18.586222,140.315192 -18.538155,140.329117 -18.490280,140.349649 -18.444661,140.370528 -18.399167,140.391400 -18.353670,140.411911 -18.308041,140.431708 -18.262151,140.450437 -18.215874,140.467606 -18.168956,140.482822 -18.121230,140.496145 -18.072916,140.507646 -18.024245,140.517077 -17.975250,140.524485 -17.925817,140.530809 -17.876150,140.536999 -17.826456,140.542934 -17.776803,140.548339 -17.727097,140.554722 -17.677507,140.562087 -17.628053))"^^geo:wktLiteral ;
             geox:hasRole grole:boundary ],
@@ -249,7 +249,7 @@ data:CallideBasin
         geo:Feature ,
         sdo:Landform ;
     dct:isPartOf data:UPPER_TRIASSIC_BASIN_TYPES ; 
-    skos:scopeNote """The lower part of the section includes equivalents of the Ipswich Coal Measures (Carnian - lower Norian), and the upper part of the section, equivalents of the basal Bundamba Group (Aberdare Conglomerate – Raceview Formation; Rhaetian) in the Clarence-Moreton Basin (Bomfleur et al., 2014; McKellar, pers. comm., 19.10.2020)."""@en ;
+    skos:scopeNote """The lower part of the section includes equivalents of the Ipswich Coal Measures (Carnian - lower Norian), and the upper part of the section, equivalents of the basal Bundamba Group (Aberdare Conglomerate, Raceview Formation; Rhaetian) in the Clarence-Moreton Basin (Bomfleur et al., 2014; McKellar, pers. comm., 19.10.2020)."""@en ;
     geo:hasGeometry [ a geo:Geometry ;
             geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((150.540016 -24.195932,150.536172 -24.194382,150.527508 -24.190005,150.521301 -24.187844,150.515554 -24.187869,150.509413 -24.188920,150.503762 -24.190551,150.501219 -24.192919,150.499798 -24.195419,150.499004 -24.197814,150.499090 -24.199880,150.499543 -24.202409,150.500853 -24.205870,150.502965 -24.206476,150.504598 -24.206043,150.506448 -24.206063,150.508733 -24.206627,150.511431 -24.208119,150.513904 -24.210134,150.520024 -24.216375,150.524699 -24.220347,150.531879 -24.224013,150.539602 -24.226578,150.542233 -24.227871,150.545000 -24.229561,150.547189 -24.231439,150.548816 -24.234022,150.550432 -24.238205,150.552011 -24.243817,150.552535 -24.249329,150.552164 -24.255974,150.549937 -24.261558,150.547745 -24.265193,150.546447 -24.267810,150.546155 -24.270099,150.546117 -24.272163,150.546836 -24.273894,150.548062 -24.275174,150.550301 -24.275782,150.552867 -24.276025,150.555525 -24.277238,150.556979 -24.279783,150.557164 -24.283341,150.556239 -24.286078,150.555826 -24.288136,150.556301 -24.289519,150.557140 -24.291481,150.558121 -24.292528,150.560344 -24.294053,150.562842 -24.294206,150.565352 -24.293672,150.567250 -24.292439,150.568908 -24.290630,150.570819 -24.288710,150.571843 -24.287350,150.573241 -24.286110,150.575387 -24.284996,150.577762 -24.285033,150.584548 -24.286536,150.588126 -24.287186,150.590137 -24.287152,150.593242 -24.286300,150.596889 -24.285094,150.600911 -24.283894,150.603157 -24.284157,150.605392 -24.284993,150.607677 -24.286178,150.611294 -24.288605,150.613345 -24.290283,150.614394 -24.292009,150.613986 -24.293837,150.612573 -24.295995,150.612422 -24.297377,150.612830 -24.298634,150.614076 -24.301089,150.615401 -24.303216,150.616088 -24.304872,150.616957 -24.308374,150.617057 -24.310969,150.617031 -24.312459,150.616759 -24.315085,150.616146 -24.317181,150.615170 -24.319404,150.613746 -24.321354,150.619128 -24.319005,150.621300 -24.318118,150.623176 -24.317621,150.625565 -24.317747,150.627687 -24.318008,150.631697 -24.319071,150.633473 -24.320151,150.635615 -24.322255,150.637628 -24.324626,150.639551 -24.325512,150.642415 -24.326017,150.646941 -24.325404,150.651960 -24.324447,150.656231 -24.323363,150.659635 -24.321808,150.660753 -24.320969,150.661561 -24.319994,150.662100 -24.318028,150.662236 -24.314542,150.662689 -24.311648,150.663166 -24.310804,150.664094 -24.309948,150.665927 -24.309069,150.668873 -24.308413,150.672386 -24.307777,150.673938 -24.306954,150.675047 -24.305752,150.677224 -24.302802,150.678560 -24.301628,150.679754 -24.301119,150.683010 -24.300822,150.685895 -24.300291,150.688588 -24.299148,150.690316 -24.297718,150.692242 -24.295649,150.692305 -24.292161,150.691765 -24.288573,150.685614 -24.283648,150.681273 -24.280626,150.672759 -24.274442,150.666199 -24.270202,150.661109 -24.266606,150.655950 -24.262830,150.646442 -24.256040,150.635920 -24.247072,150.629204 -24.241111,150.622271 -24.235148,150.620250 -24.236827,150.618479 -24.238062,150.616846 -24.238496,150.614091 -24.238799,150.611727 -24.238190,150.606027 -24.235467,150.593744 -24.230466,150.588788 -24.228097,150.583982 -24.224355,150.578084 -24.218761,150.575194 -24.212755,150.572197 -24.205714,150.569395 -24.201773,150.567178 -24.199377,150.564485 -24.197557,150.561366 -24.196720,150.555999 -24.196408,150.550878 -24.196329,150.544126 -24.196684,150.540016 -24.195932))"^^geo:wktLiteral ;
             geox:hasRole grole:boundary ],
@@ -311,7 +311,7 @@ data:TorresStraitSubprovince
     dct:isPartOf data:KENNEDY_IGNEOUS_PROVINCE , data:NORTH_AUSTRALIAN_CRATON ;
     skos:altLabel "Cape York - Oriomo Province"@en ;
     skos:prefLabel "Torres Strait Subprovince"@en ;
-    skos:scopeNote """The Torres Strait Subprovince (TSSP) is informally recognised here as a new igneous subprovince of the Kennedy Igneous Province and embraces intrusive and extrusive rocks and a very minor component of interbedded sedimentary rocks of Carboniferous age. The Badu Supersuite (comprising the Badu Suite and the Torres Strait Volcanic Group), previously associated with the Jardine Subprovince and also with the Cape York - Oriomo Province (e.g., Jell, 2013; Cross et al., 2019), is assigned hereto (to the TSSP). Usage of the term ‘Cape York - Oriomo Province’ is discontinued in this dataset (advised by: F. von Gnielinski, pers. comm., 21.09.2020)."""@en ;
+    skos:scopeNote """The Torres Strait Subprovince (TSSP) is informally recognised here as a new igneous subprovince of the Kennedy Igneous Province and embraces intrusive and extrusive rocks and a very minor component of interbedded sedimentary rocks of Carboniferous age. The Badu Supersuite (comprising the Badu Suite and the Torres Strait Volcanic Group), previously associated with the Jardine Subprovince and also with the Cape York - Oriomo Province (e.g., Jell, 2013; Cross et al., 2019), is assigned hereto (to the TSSP). Usage of the term 'Cape York - Oriomo Province' is discontinued in this dataset (advised by: F. von Gnielinski, pers. comm., 21.09.2020)."""@en ;
     geo:hasGeometry [ a geo:Geometry ;
             geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((142.110838 -1211327.857484, 15896421.754636 -10.594299))"^^geo:wktLiteral ;
             geox:hasRole grole:bounding-box ],
@@ -374,7 +374,7 @@ data:CentralianSuperbasin
         sdo:Landform ;
     dct:hasPart data:GEORGINA_BASIN ;
     dct:isPartOf data:NORTH_AUSTRALIAN_CRATON ;
-    skos:scopeNote """Only the Georgina Basin, in northwestern Queensland, represents the intracratonic Centralian Superbasin that has been inferred to have developed over a large expanse of western, southern, central and northern-central Australia during the Neoproterozoic and early Paleozoic, the deposition of which was interrupted by the Petermann Orogeny during the latest Neoproterozoic and early Cambrian (Jell, 2013; Ahmad & Munson, 2013)."""@en ;
+    skos:scopeNote """Only the Georgina Basin, in northwestern Queensland, represents the intracratonic Centralian Superbasin that has been inferred to have developed over a large expanse of western, southern, central and northern-central Australia during the Neoproterozoic and early Paleozoic (Jell, 2013; Ahmad & Munson, 2013)."""@en ;
     geo:hasGeometry [ a geo:Geometry ;
             geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((137.995599 -24.621167, 141.318563 -18.603222))"^^geo:wktLiteral ;
             geox:hasRole grole:bounding-box ],
@@ -1316,7 +1316,7 @@ data:WhitsundayIgneousProvince
     dct:isPartOf data:WHITSUNDAY_SILICIC_LARGE_IGNEOUS_PROVINCE ;
     skos:altLabel "Whitsunday Province" , "Whitsunday Volcanic Province"@en ;
     skos:prefLabel "Whitsunday Igneous Province"@en ;
-    skos:scopeNote """In the 'Geology of Queensland' publication (Jell 2013), this feature has been referred to both as the Whitsunday Volcanic Province and simply as the Whitsunday Province. But, as it contains a significant complement of intrusive rocks, it is here and better referred to as the Whitsunday Igneous Province (David Purdy, pers. comm.)."""@en ;
+    skos:scopeNote """In the 'Geology of Queensland' publication (Jell 2013), this feature has been referred to both as the Whitsunday Volcanic Province and simply as the Whitsunday Province. But, as it contains a significant complement of intrusive rocks, it is here and better referred to as the Whitsunday Igneous Province (David Purdy, pers. comm., 03.09.2020)."""@en ;
     geo:hasGeometry [ a geo:Geometry ;
             geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((148.441740 -2335160.094165, 16598145.220488 -20.061633))"^^geo:wktLiteral ;
             geox:hasRole grole:bounding-box ],
@@ -1362,7 +1362,7 @@ data:YarramanSubprovince
         dcat:Dataset ;
     dct:description """This is a Linked Data dataset (i.e. online in HTML & RDF, according to LD principles) of the Geological Features of Interest of Queensland.
 
-The foundation of this dataset was sourced from the Structural Framework data in Queensland GeoResGlobe (https://georesglobe.information.qld.gov.au/), and has been modified and revised therefrom. This has embraced updating the chronostratigraphic ‘ages’ of units/features, better delineation of the relationships between them, and the addition of units/features that had not been previously included (and for which spatial data may be presently wanting). Such revision and amendment, and the addition of other sorts of Geo Feature Types, will be an ongoing process.
+The foundation of this dataset was sourced from the Structural Framework data in Queensland GeoResGlobe (https://georesglobe.information.qld.gov.au/), and has been modified and revised therefrom. This has embraced updating the chronostratigraphic 'ages' of units/features, better delineation of the relationships between them, and the addition of units/features that had not been previously included (and for which spatial data may be presently wanting). Such revision and amendment, and the addition of other sorts of Geo Feature Types, will be an ongoing process.
 
 This tool uses the SWEET Geological Features Profile Ontology (https://github.com/geological-survey-of-queensland/sweet-geological-features-profile-ont) as its main data model and that model conforms to the Location Index (LocI) project's requirements so this information is compatible with other spatial data published by LocI."""@en ;
     dct:issued "2020-02-04"^^xsd:date ;
@@ -1480,7 +1480,7 @@ data:DuaringaBasin
         geo:Feature , 
         sdo:Landform ;
     dct:isPartOf data:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
-    skos:scopeNote """Babaahmadi et al. (2018) have indicated a Late Cretaceous(?) to early Cenozoic age for the basin fill. Palynofloras from the upper part of its succession are middle to late Eocene, and Oligocene–Miocene nearer the surface (Foster, 1980; Jell, 2013)."""@en ;
+    skos:scopeNote """Babaahmadi et al. (2018) have indicated a Late Cretaceous(?) to early Cenozoic age for the basin fill. Palynofloras from the upper part of its succession are middle to late Eocene, and Oligocene-Miocene nearer the surface (Foster, 1980; Jell, 2013)."""@en ;
     time:hasTime ischart:Miocene , 
         ischart:Paleogene , 
         ischart:UpperCretaceous ;    
@@ -1679,7 +1679,7 @@ data:BagaBasin
 dct:isPartOf data:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
 skos:altLabel "Jim Crow Basin"@en ;
 skos:prefLabel "Baga Basin"@en ;
-skos:scopeNote """"The basin contains the Baga beds (Geoscience-Australia Stratigraphic Number 81555 — Reserved Status, Australian Stratigraphic Units Database), renamed from the Jim Crow beds. The Jim Crow Basin, associated with the latter unit, is proposed to be renamed the Baga Basin (Paul Blake, pers. comm., 29.09.2020)."""@en ;
+skos:scopeNote """"The basin contains the Baga beds (Geoscience-Australia Stratigraphic Number 81555 - Reserved Status, Australian Stratigraphic Units Database), renamed from the Jim Crow beds. The Jim Crow Basin, associated with the latter unit, is proposed to be renamed the Baga Basin (Paul Blake, pers. comm., 29.09.2020)."""@en ;
     time:hasTime ischart:LowerCretaceous ;    
     sdo:name "Baga Basin"@en ;
 .
@@ -1711,7 +1711,7 @@ data:GreatAustralianSuperbasin
     dct:isPartOf data:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
     skos:altLabel "Great Australian Basin"@en ;
     skos:prefLabel "Great Australian Superbasin"@en ;
-    skos:scopeNote """The Great Australian Superbasin (Jell, 2013), not to be confused with the hydrogeological Great Artesian Basin, is here considered to include the Mulgildie Basin (with continuity existing between it and the Surat Basin). In the north, the Superbasin extends offshore to include the Papuan Basin (Mesozoic only), the Money Shoal Basin (offshore from the Northern Territory), and the Peninsula Basin (offshore from Cape York Peninsula). The Nambour Basin, in the southeast, also has an offshore extent, this being imprecisely known."""@en ; 
+    skos:scopeNote """The Great Australian Superbasin (Jell, 2013), not to be confused with the hydrogeological Great Artesian Basin, is here considered to include the Mulgildie Basin (with continuity existing between it and the Surat Basin)."""@en ; 
     time:hasTime ischart:Cenomanian
         ischart:LowerCretaceous , 
         ischart:Jurassic , 
@@ -1931,7 +1931,7 @@ data:LakefieldSubprovince
         geo:Feature , 
         sdo:Landform ;
     dct:isPartOf data:KENNEDY_IGNEOUS_PROVINCE ;
-    skos:scopeNote """The Lakefield Subprovince is provisionally assigned the same age as the Kennedy Igneous Province (Visean–Guadalupian: David Purdy, pers. comm.), and is approximately coincident with the Permian–Triassic Lakefield Basin (Bain & Draper, 1997). This nomenclatural similarity has the potential to cause confusion, and a suggestion has been made to assign rocks of the Lakefield Subprovince to the Jardine Subprovince, then abandoning the former term (Bob Bultitude, pers. comm.)."""@en ;
+    skos:scopeNote """The Lakefield Subprovince is provisionally assigned the same age as the Kennedy Igneous Province (Visean-Guadalupian: David Purdy, pers. comm.), and is approximately coincident with the Permian-Triassic Lakefield Basin (Bain & Draper, 1997). This nomenclatural similarity has the potential to cause confusion, and a suggestion has been made to assign rocks of the Lakefield Subprovince to the Jardine Subprovince, then abandoning the former term (Bob Bultitude, pers. comm.)."""@en ;
     time:hasTime ischart:Guadalupian , 
         ischart:Cisuralian , 
         ischart:Carboniferous ;
@@ -1988,7 +1988,7 @@ data:UpperCretaceousCenozoicBasinTypes
         ischart:Neogene , 
         ischart:Paleogene , 
         ischart:UpperCretaceous ;
-    sdo:name "Upper Cretaceous – Cenozoic (largely Paleogene–Neogene) Basins"@en .
+    sdo:name "Upper Cretaceous - Cenozoic (largely Paleogene-Neogene) Basins"@en .
 .
 
 data:RhaetianJurassicCenomanianBasinTypes 
@@ -1996,12 +1996,12 @@ data:RhaetianJurassicCenomanianBasinTypes
         geo:Feature ,
         sdo:Landform ; 
     dct:hasPart data:GREAT_AUSTRALIAN_SUPERBASIN , data:EROMANGA_BASIN , data:SURAT_BASIN , data:MULGILDIE_BASIN , data:CARPENTARIA_BASIN , data:CLARENCE_MORETON BASIN , data:NAMBOUR_BASIN , data:MARYBOROUGH_BASIN , data:LAURA_BASIN , data:STYX_BASIN , data:STANWELL_BASIN , data:BAGA_BASIN ;
-    skos:scopeNote skos:scopeNote """Only the Eromanga Basin, in this group of basins, has strata extending above the Lower Cretaceous into the Cenomanian. The Nambour Basin embraces the Rhaetian and Lower Jurassic, and the Clarence-Moreton Basin (Queensland portion), the Rhaetian to Middle Jurassic."""@en ;@en ,
+    skos:scopeNote skos:scopeNote """Only the Eromanga Basin, in this group of basins, has strata extending above the Lower Cretaceous into the Cenomanian."""@en ; 
     time:hasTime ischart:Cenomanian ,
         ischart:LowerCretaceous , 
         ischart:Jurassic , 
         ischart:Rhaetian ;
-    sdo:name "Rhaetian–Jurassic–Cenomanian Basins"@en .
+    sdo:name "Rhaetian-Jurassic-Cenomanian Basins"@en .
 .
 
 data:UpperTriassicBasinTypes 
@@ -2024,7 +2024,7 @@ data:UpperPaleozoicMiddleTriassicBasinTypes
             ischart:Pennsylvanian , 
             ischart:UpperMississippian ; 
     skos:scopeNote """Includes upper Paleozoic and/or Lower to Middle Triassic Basins. Some upper Paleozoic basins may extend down into the Pennsylvanian, and one (Galilee Basin) may have commenced deposition in the Upper Mississippian (Serpukhovian) [van Heeswijck, 2010; McKellar & Henderson, 2013]. Excludes Upper Triassic (extensional) basins.""" @en ; 
-    sdo:name "Upper Paleozoic – Middle Triassic Basins"@en .
+    sdo:name "Upper Paleozoic - Middle Triassic Basins"@en .
 .
 
 data:DevonianCarboniferousBasinTypes 
@@ -2034,7 +2034,7 @@ data:DevonianCarboniferousBasinTypes
     dct:hasPart data:ADAVALE_BASIN , data:BARROLKA_DEPRESSION , data:BELYANDO_BASIN , data:BUNDOCK_BASIN , data:BURDEKIN_BASIN , data:CLARKE_RIVER_BASIN , data:DRUMMOND_BASIN , data:GILBERTON_BASIN , data:PASCOE_RIVER_BASIN , data:WARRABIN_TROUGH ;
     time:hasTime ischart:Carboniferous ,
         ischart:Devonian ;
-    sdo:name "Devonian–Carboniferous Basins"@en .
+    sdo:name "Devonian-Carboniferous Basins"@en .
 .
 
 data:NeoproterozoicLowerPaleozoicProvinces 
@@ -2048,7 +2048,7 @@ data:NeoproterozoicLowerPaleozoicProvinces
         ischart:Ordovician , 
         ischart:Cambrian , 
         ischart:Neoproterozoic ;
-    sdo:name "Neoproterozoic – Lower Paleozoic Provinces"@en .
+    sdo:name "Neoproterozoic - Lower Paleozoic Provinces"@en .
 .
 
 data:NeoproterozoicLowerPaleozoicBasinTypes 
@@ -2059,7 +2059,7 @@ data:NeoproterozoicLowerPaleozoicBasinTypes
     time:hasTime ischart:MiddleOrdovician , 
         ischart:EarlyOrdovician , 
         ischart:Cambrian ;
-    sdo:name "Neoproterozooic – Lower Paleozoic Basins"@en .
+    sdo:name "Neoproterozooic - Lower Paleozoic Basins"@en .
 .
 
 data:PaleoproterozoicMesoproterozoicProvinces 
@@ -2070,7 +2070,7 @@ data:PaleoproterozoicMesoproterozoicProvinces
     dct:isPartOf data:NORTH_AUSTRALIAN_CRATON ;
     time:hasTime ischart:Mesoproterozoic , 
         ischart:Paleoproterozoic ;
-    sdo:name "Paleoproterozoic–Mesoproterozoic Provinces"@en .
+    sdo:name "Paleoproterozoic-Mesoproterozoic Provinces"@en .
 .
 
 data:PaleoproterozoicMesoproterozoicBasinTypes 
@@ -2081,5 +2081,5 @@ data:PaleoproterozoicMesoproterozoicBasinTypes
     dct:isPartOf data:NORTH_AUSTRALIAN_CRATON ;
     time:hasTime ischart:Mesoproterozoic , 
         ischart:Paleoproterozoic ;
-    sdo:name "Paleoproterozoic–Mesoproterozoic Basins"@en .
+    sdo:name "Paleoproterozoic-Mesoproterozoic Basins"@en .
 .
