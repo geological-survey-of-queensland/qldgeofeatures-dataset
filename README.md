@@ -21,7 +21,7 @@ This dataset considers each _Feature_ from a number of points of view, or _profi
 
 ## Dataset
 
-This dataset as a whole is modelled as a [LocI Dataset](http://linked.data.gov.au/def/loci#Dataset) which is a specialised form of both a [DCAT2 Dataset](https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset) and a [VoID Dataset](http://rdfs.org/ns/void#Dataset). 
+This dataset as a whole is modelled as a [LocI Dataset](https://linked.data.gov.au/def/loci#Dataset) which is a specialised form of both a [DCAT2 Dataset](https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset) and a [VoID Dataset](http://rdfs.org/ns/void#Dataset). 
 
 This means that the dataset is:
 
@@ -42,7 +42,7 @@ The dataset-level metadata is available in the following files:
 ### Persistent Identifier
 The persistent identifier (PID) for this dataset is:
 
-* **http://linked.data.gov.au/dataset/qldgeofeatures**
+* **https://linked.data.gov.au/dataset/qldgeofeatures**
 
 
 ## Data

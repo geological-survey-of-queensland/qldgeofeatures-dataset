@@ -7,45 +7,45 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-<http://linked.data.gov.au/dataset/qldgeofoi>
-    a dcat:Dataset ;
-    dcat:distribution
-        <http://foi.gsq.cat> ,
-        [
-            a dcat:Distribution ;
-            dct:title "Qld GeoFoI in RDF" ;
-            dcat:downloadURL <http://foi.gsq.cat/data.ttl> ;
-        ] ;
-    dcat:keyword "Queensland",
-        "geologic",
-        "geological",
-        "minerals",
-        "province" ;
-    dcat:landingPage <http://foi.gsq.cat> ;
-    dct:description """This is a Linked Data dataset (i.e. online in HTML & RDF, according to LD principles) of the Geological Features of Interest of Queensland.
+<https://linked.data.gov.au/dataset/qldgeofeatures>
+  a owl:NamedIndividual ;
+  a dcat:DataService ;
+  a dcat:Dataset ;
+  dcterms:description """This is a Linked Data dataset (i.e. online in HTML & RDF, according to LD principles) of the Geological Features of Interest of Queensland.
 
-Currently this dataset contains only Structural Framework data sourced from the Queensland GeoResGlobe (https://georesglobe.information.qld.gov.au/). In the future, it will contain other sorts of Geo FoIs too.
+The foundation of this dataset was sourced from the Structural Framework data in Queensland GeoResGlobe (https://georesglobe.information.qld.gov.au/), and has been modified and revised therefrom. This has embraced updating the chronostratigraphic 'ages' of units/features, better delineation of the relationships between them, and the addition of units/features that had not been previously included (and for which spatial data may be presently wanting). Such revision and amendment, and the addition of other sorts of Geo Feature Types, will be an ongoing process.
 
 This tool uses the SWEET Geological Features Profile Ontology (https://github.com/geological-survey-of-queensland/sweet-geological-features-profile-ont) as its main data model and that model conforms to the Location Index (LocI) project's requirements so this information is compatible with other spatial data published by LocI."""@en ;
-    dct:issued "2020-02-04"^^xsd:date ;
-    dct:modified "2020-02-04"^^xsd:date ;
-    dct:publisher <http://linked.data.gov.au/org/gsq> ;
-    dct:spatial [ a dct:Location ;
-            dcat:bbox "POLYGON ((96.0000 -45.0000, 96.0000 -9.0000, 168.0000 -9.0000, 168.0000 -45.0000, 96.0000 -45.0000))"^^gsp:wktLiteral ;
-            locn:geometry "{\"type\": \"Polygon\", \"coordinates\": [[ [96.0,-45.0],[96.0,-9.0], [168.0,-9.0], [168.0,-45.0], [96.0,-45.0]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> ] ;
-    dct:title "Queensland's Geological Features of Interest" ;
+  dcterms:issued "2020-02-04"^^xsd:date ;
+  dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+  dcterms:modified "2020-12-19"^^xsd:date ;
+  dcterms:publisher <https://linked.data.gov.au/org/gsq> ;
+  dcterms:spatial [
+      a dcterms:Location ;
+      dcat:bbox "POLYGON ((96.0000 -45.0000,96.0000 -9.0000,96.0000 -9.0000,96.0000 -45.0000,96.0000 -45.0000, 168.0000 -9.0000,168.0000 -45.0000,168.0000 -45.0000,168.0000 -9.0000,168.0000 -9.0000, 96.0000 -45.0000))"^^geo:wktLiteral ;
+      locn:geometry "{\"type\": \"Polygon\", \"coordinates\": [[ [96.0,-45.0],[96.0,-9.0], [168.0,-9.0], [168.0,-45.0], [96.0,-45.0]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> ;
+    ] ;
+  dcterms:title "Queensland's Geological Features" ;
+  dcat:distribution [
+      a dcat:Distribution ;
+      dcterms:title "Qld GeoFeatures Dataset via an OGC & Linked Data API" ;
+      dcat:accessURL <http://qldgeofeatures.surroundaustralia.com> ;
+    ] ;
+  dcat:distribution [
+      a dcat:Distribution ;
+      dcterms:title "Qld GeoFeatures Dataset as a downloadable in RDF (Turtle) file" ;
+      dcat:downloadURL <http://qldgeofeatures.surroundaustralia.com/?_profile=dcat&_mediatype=text/turtle> ;
+    ] ;
+  dcat:keyword "Queensland" ;
+  dcat:keyword "geologic" ;
+  dcat:keyword "geological" ;
+  dcat:keyword "minerals" ;
+  dcat:keyword "province" ;
+  dcat:landingPage <http://qldgeofeatures.surroundaustralia.com> ;
 .
 
-<http://foi.gsq.cat> a dcat:DataService ;
-    dct:conformsTo <https://github.com/UKGovLD/linked-data-api/blob/wiki/Specification.md> ;
-    dct:publisher <http://linked.data.gov.au/org/gsq> ;
-    dct:title "Qld GeoFoI via a Linked Data API" ;
-    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcat:endpointDescription "A Linked Data API" ;
-    dcat:endpointURL <http://foi.gsq.cat> ;
-    dcat:servesDataset <http://linked.data.gov.au/dataset/qldgeofoi> ;
-.
-
-<http://linked.data.gov.au/org/gsq> a sdo:Organization ;
+<https://linked.data.gov.au/org/gsq> 
+    a sdo:Organization ;
     sdo:name "Geological Survey of Queensland" ;
+    sdo:url "https://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq"^^xsd:anyURI ;
 .

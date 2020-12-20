@@ -22,7 +22,7 @@ g.update(q)
 # WHERE {
 #     ?f a ?c
 #
-#     FILTER NOT EXISTS {?c rdf:type <http://linked.data.gov.au/def/sweetgeofeatures#Province>}
+#     FILTER NOT EXISTS {?c rdf:type <https://linked.data.gov.au/def/sweetgeofeatures#Province>}
 #     FILTER NOT EXISTS {?f rdf:type <https://schema.org/Organization>}
 #     FILTER NOT EXISTS {?f rdf:type <http://www.w3.org/ns/org#Organization>}
 # }
@@ -33,8 +33,8 @@ g.update(q)
 
 individuals = {}
 GEO = rdflib.Namespace("http://www.opengis.net/ont/geosparql#")
-GEOF = rdflib.Namespace("http://linked.data.gov.au/def/geofeatures#")
-GROLE = rdflib.Namespace("http://linked.data.gov.au/def/geometry-roles/")
+GEOF = rdflib.Namespace("https://linked.data.gov.au/def/geofeatures#")
+GROLE = rdflib.Namespace("https://linked.data.gov.au/def/geometry-roles/")
 SDO = rdflib.Namespace("https://schema.org/")
 
 for s, o in g.subject_objects(predicate=rdflib.namespace.RDF.type):
@@ -64,7 +64,7 @@ for s, o in g.subject_objects(predicate=SDO.name):
 for i in individuals.keys():
     for o in g.objects(subject=rdflib.URIRef(i), predicate=GEO.hasGeometry):
         for p2, o2 in g.predicate_objects(subject=o):
-            if o2 == rdflib.URIRef("http://linked.data.gov.au/def/geometry-roles/bounding-box"):
+            if o2 == rdflib.URIRef("https://linked.data.gov.au/def/geometry-roles/bounding-box"):
                 for o3 in g.objects(subject=o, predicate=GEO.asWKT):
                     individuals[str(i)]["geometry"] = str(o3)
 
