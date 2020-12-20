@@ -1,0 +1,604 @@
+PREFIX data: <https://linked.data.gov.au/dataset/qldgeofeatures/>
+PREFIX ischart: <http://resource.geosciml.org/classifier/ics/ischart/>
+PREFIX su: <http://pid.geoscience.gov.au/def/stratunits#> 
+
+data:AdavaleBasin
+    su:older ischart:Devonian ;
+    su:younger ischart:Devonian .
+
+data:AmberleyBasin
+    su:older ischart:Paleocene ;
+    su:younger ischart:Eocene .
+
+data:AnakieProvince
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Silurian .
+
+data:AuburnSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Permian .
+
+data:AustralDownsBasin
+    su:older ischart:Neogene ;
+    su:younger ischart:Neogene .
+
+data:AwoongaSubprovince
+    su:older ischart:Pridoli ;
+    su:younger ischart:LowerDevonian .
+
+data:BagaBasin
+    su:older ischart:LowerCretaceous ;
+    su:younger ischart:LowerCretaceous .
+
+data:BarnardProvince
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:LowerOrdovician .
+
+data:BarrolkaDepression
+    su:older ischart:Devonian ;
+    su:younger ischart:Devonian .
+
+data:BeaudesertBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:BeenleighSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Carboniferous .
+
+data:BelyandoBasin
+    su:older ischart:Devonian ;
+    su:younger ischart:Devonian .
+
+data:BerserkerSubprovince
+    su:older ischart:Permian ;
+    su:younger ischart:Permian .
+
+data:BiloelaBasin
+    su:older ischart:Eocene ;
+    su:younger ischart:Oligocene .
+
+data:BoovalBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Neogene .
+
+data:BowenBasin
+    su:older ischart:UpperPennsylvanian ;
+    su:younger ischart:MiddleTriassic .
+
+data:BrokenRiverProvince
+    su:older ischart:Silurian ;
+    su:younger ischart:Frasnian .
+
+data:BundockBasin
+    su:older ischart:UpperDevonian ;
+    su:younger ischart:UpperDevonian .
+
+data:BurdekinBasin
+    su:older ischart:Devonian ;
+    su:younger ischart:Mississippian .
+
+data:BurdekinFallsSubprovince
+    su:older ischart:UpperPennsylvanian ;
+    su:younger ischart:Cisuralian .
+
+data:BurketownDepression
+    su:older ischart:Cisuralian ;
+    su:younger ischart:MiddleTriassic .
+
+data:CalenBasin
+    su:older ischart:Permian ;
+    su:younger ischart:Permian .
+
+data:CallideBasin
+    su:older ischart:UpperTriassic ;
+    su:younger ischart:UpperTriassic .
+
+data:CalliopeProvince
+    su:older ischart:Pridoli ;
+    su:younger ischart:MiddleDevonian .
+
+data:CamelCreekSubprovince
+    su:older ischart:Ordovician ;
+    su:younger ischart:LowerDevonian .
+
+data:CampwynSubprovince
+    su:older ischart:UpperDevonian ;
+    su:younger ischart:Mississippian .
+
+data:CanobieDepression
+    su:older ischart:MiddleTriassic ;
+    su:younger ischart:MiddleTriassic .
+
+data:CapellaSubprovince
+    su:older ischart:LowerDevonian ;
+    su:younger ischart:MiddleDevonian .
+
+data:CapricornBasin
+    su:older ischart:UpperCretaceous ;
+    su:younger ischart:Quaternary .
+
+data:CarpentariaBasin
+    su:older ischart:Jurassic ;
+    su:younger ischart:Cretaceous .
+
+data:CasuarinaBasin
+    su:older ischart:Eocene ;
+    su:younger ischart:Neogene .
+
+data:CentralianSuperbasin
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Devonian .
+
+data:ChartersTowersProvince
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Ordovician .
+
+data:ChillagoeSubprovince
+    su:older ischart:Llandovery ;
+    su:younger ischart:LowerDevonian .
+
+data:Clarence-MoretonBasin
+    su:older ischart:Rhaetian ;
+    su:younger ischart:MiddleJurassic .
+
+data:ClarkeRiverBasin
+    su:older ischart:UpperDevonian ;
+    su:younger ischart:UpperDevonian .
+
+data:CoastalSubprovince
+    su:older ischart:Devonian ;
+    su:younger ischart:Carboniferous .
+
+data:Connors-AuburnProvince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Permian .
+
+data:ConnorsSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Cisuralian .
+
+data:CooperBasin
+    su:older ischart:Permian ;
+    su:younger ischart:Triassic .
+
+data:CraigileeSubprovince
+    su:older ischart:Pridoli ;
+    su:younger ischart:MiddleDevonian .
+
+data:CroydonProvince
+    su:older ischart:Calymmian ;
+    su:younger ischart:Calymmian .
+
+data:DaintreeSubprovince
+    su:older ischart:Cisuralian ;
+    su:younger ischart:Guadalupian .
+
+data:DevonianCarboniferousBasinTypes
+    su:older ischart:Devonian ;
+    su:younger ischart:Carboniferous .
+
+data:DrummondBasin
+    su:older ischart:Devonian ;
+    su:younger ischart:Carboniferous .
+
+data:DuaringaBasin
+    su:older ischart:UpperCretaceous ;
+    su:younger ischart:Miocene .
+
+data:EasternSubprovince
+    su:older ischart:Statherian ;
+    su:younger ischart:Calymmian .
+
+data:EmeraldBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Neogene .
+
+data:ErebusSubprovince
+    su:older ischart:Pridoli ;
+    su:younger ischart:MiddleDevonian .
+
+data:EromangaBasin
+    su:older ischart:Rhaetian ;
+    su:younger ischart:Cenomanian .
+
+data:EskBasin
+    su:older ischart:LowerTriassic ;
+    su:younger ischart:MiddleTriassic .
+
+data:EtheridgeProvince
+    su:older ischart:Paleoproterozoic ;
+    su:younger ischart:Calymmian .
+
+data:ForkLagoonsSubprovince
+    su:older ischart:Ordovician ;
+    su:younger ischart:Silurian .
+
+data:ForsaythSubprovince
+    su:older ischart:Paleoproterozoic ;
+    su:younger ischart:Calymmian .
+
+data:GalileeBasin
+    su:older ischart:UpperMississippian ;
+    su:younger ischart:MiddleTriassic .
+
+data:GamboolaBasin
+    su:older ischart:Permian ;
+    su:younger ischart:Permian .
+
+data:GeorginaBasin
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Devonian .
+
+data:GilbertonBasin
+    su:older ischart:UpperDevonian ;
+    su:younger ischart:UpperDevonian .
+
+data:GrantleighSubprovince
+    su:older ischart:Permian ;
+    su:younger ischart:Permian .
+
+data:GraveyardCreekSubprovince
+    su:older ischart:Silurian ;
+    su:younger ischart:Frasnian .
+
+data:GreatAustralianSuperbasin
+    su:older ischart:Rhaetian ;
+    su:younger ischart:Cenomanian .
+
+data:GreenvaleProvince
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Ordovician .
+
+data:GympieProvince
+    su:older ischart:Permian ;
+    su:younger ischart:MiddleTriassic .
+
+data:HebertonSubprovince
+    su:older ischart:Pennsylvanian ;
+    su:younger ischart:Cisuralian .
+
+data:HerbertCreekBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Neogene .
+
+data:HillsboroughBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:HodgkinsonProvince
+    su:older ischart:Wenlock ;
+    su:younger ischart:Mississippian .
+
+data:InorunieBasin
+    su:older ischart:Mesoproterozoic ;
+    su:younger ischart:Mesoproterozoic .
+
+data:IpswichBasin
+    su:older ischart:UpperTriassic ;
+    su:younger ischart:UpperTriassic .
+
+data:IronRangeProvince
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Neoproterozoic .
+
+data:JardineSubprovince
+    su:older ischart:Cisuralian ;
+    su:younger ischart:Cisuralian .
+
+data:KalpowarBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Neogene .
+
+data:KangarooHillsSubprovince
+    su:older ischart:Mississippian ;
+    su:younger ischart:Cisuralian .
+
+data:KarumbaBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Neogene .
+
+data:KennedyIgneousProvince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Guadalupian .
+
+data:KidstonSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Cisuralian .
+
+data:LakefieldBasin
+    su:older ischart:Permian ;
+    su:younger ischart:Triassic .
+
+data:LakefieldSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Guadalupian .
+
+data:LauraBasin
+    su:older ischart:Jurassic ;
+    su:younger ischart:LowerCretaceous .
+
+data:LowmeadGraben
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:MacrossanIgneousProvince
+    su:older ischart:Miaolingian ;
+    su:younger ischart:Devonian .
+
+data:MarionBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:MarlboroughProvince
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Paleozoic .
+
+data:MaryboroughBasin
+    su:older ischart:LowerCretaceous ;
+    su:younger ischart:LowerCretaceous .
+
+data:McArthurBasin
+    su:older ischart:Paleoproterozoic ;
+    su:younger ischart:Mesoproterozoic .
+
+data:MillungeraBasin
+    su:older ischart:Mesoproterozoic ;
+    su:younger ischart:Mesoproterozoic .
+
+data:MossmanOrogen
+    su:older ischart:Silurian ;
+    su:younger ischart:Mississippian .
+
+data:MountIsaProvince
+    su:older ischart:Paleoproterozoic ;
+    su:younger ischart:Mesoproterozoic .
+
+data:MountWindsorSubprovince
+    su:older ischart:Cambrian ;
+    su:younger ischart:Ordovician .
+
+data:MulgildieBasin
+    su:older ischart:LowerJurassic ;
+    su:younger ischart:MiddleJurassic .
+
+data:NagoorinGraben
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:NambourBasin
+    su:older ischart:Rhaetian ;
+    su:younger ischart:LowerJurassic .
+
+data:NarrowsGraben
+    su:older ischart:Eocene ;
+    su:younger ischart:Eocene .
+
+data:NeoproterozoicLowerPaleozoicBasinTypes
+    su:older ischart:Cambrian ;
+    su:younger ischart:MiddleOrdovician .
+
+data:NeoproterozoicLowerPaleozoicProvinces
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Devonian .
+
+data:NewEnglandOrogen
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Triassic .
+
+data:NgarrabullganBasin
+    su:older ischart:Permian ;
+    su:younger ischart:Triassic .
+
+data:NogoSubprovince
+    su:older ischart:UpperDevonian ;
+    su:younger ischart:Cisuralian .
+
+data:NoransideBasin
+    su:older ischart:Neogene ;
+    su:younger ischart:Neogene .
+
+data:NorthAustralianCraton
+    su:older ischart:Paleoproterozoic ;
+    su:younger ischart:Mesoproterozoic .
+
+data:NorthDAguilarSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Carboniferous .
+
+data:OldCorkBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:OliveRiverBasin
+    su:older ischart:Permian ;
+    su:younger ischart:Permian .
+
+data:OxleyBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:PaleoproterozoicMesoproterozoicBasinTypes
+    su:older ischart:Paleoproterozoic ;
+    su:younger ischart:Mesoproterozoic .
+
+data:PaleoproterozoicMesoproterozoicProvinces
+    su:older ischart:Paleoproterozoic ;
+    su:younger ischart:Mesoproterozoic .
+
+data:Palmer-BarronSubprovince
+    su:older ischart:Wenlock ;
+    su:younger ischart:Mississippian .
+
+data:PalumaSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Cisuralian .
+
+data:PamaIgneousProvince
+    su:older ischart:Llandovery ;
+    su:younger ischart:Frasnian .
+
+data:PascoeRiverBasin
+    su:older ischart:UpperDevonian ;
+    su:younger ischart:Mississippian .
+
+data:PetrieBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:PhilpottSubprovince
+    su:older ischart:LowerDevonian ;
+    su:younger ischart:MiddleDevonian .
+
+data:PomonaBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Neogene .
+
+data:RedbankBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:RhaetianJurassicCenomanianBasinTypes
+    su:older ischart:Rhaetian ;
+    su:younger ischart:Cenomanian .
+
+data:RockhamptonSubprovince
+    su:older ischart:UpperDevonian ;
+    su:younger ischart:Cisuralian .
+
+data:RossmoyaBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:SavannahProvince
+    su:older ischart:Calymmian ;
+    su:younger ischart:Calymmian .
+
+data:SilverSpurSubprovince
+    su:older ischart:Permian ;
+    su:younger ischart:Permian .
+
+data:SilverwoodProvince
+    su:older ischart:Silurian ;
+    su:younger ischart:Devonian .
+
+data:SouthDAguilarSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Carboniferous .
+
+data:SouthNicholsonBasin
+    su:older ischart:Mesoproterozoic ;
+    su:younger ischart:Mesoproterozoic .
+
+data:SpringvaleBasin
+    su:older ischart:Neogene ;
+    su:younger ischart:Neogene .
+
+data:StanwellBasin
+    su:older ischart:LowerCretaceous ;
+    su:younger ischart:LowerCretaceous .
+
+data:StoodleighSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Permian .
+
+data:StyxBasin
+    su:older ischart:LowerCretaceous ;
+    su:younger ischart:LowerCretaceous .
+
+data:SuratBasin
+    su:older ischart:Rhaetian ;
+    su:younger ischart:LowerCretaceous .
+
+data:TarongBasin
+    su:older ischart:UpperTriassic ;
+    su:younger ischart:UpperTriassic .
+
+data:Tasmanides
+    su:older ischart:Paleozoic ;
+    su:younger ischart:Triassic .
+
+data:TateSubprovince
+    su:older ischart:Pennsylvanian ;
+    su:younger ischart:Cisuralian .
+
+data:TexasSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Carboniferous .
+
+data:ThomsonOrogen
+    su:older ischart:Neoproterozoic ;
+    su:younger ischart:Silurian .
+
+data:TorresStraitSubprovince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Carboniferous .
+
+data:UpperCretaceousCenozoicBasinTypes
+    su:older ischart:UpperCretaceous ;
+    su:younger ischart:Quaternary .
+
+data:UpperPaleozoicMiddleTriassicBasinTypes
+    su:older ischart:UpperMississippian ;
+    su:younger ischart:MiddleTriassic .
+
+data:UpperTriassicBasinTypes
+    su:older ischart:UpperTriassic ;
+    su:younger ischart:UpperTriassic .
+
+data:WandillaProvince
+    su:older ischart:Devonian ;
+    su:younger ischart:Carboniferous .
+
+data:WarburtonBasin
+    su:older ischart:Cambrian ;
+    su:younger ischart:MiddleOrdovician .
+
+data:WarrabinTrough
+    su:older ischart:Devonian ;
+    su:younger ischart:Devonian .
+
+data:WaterParkCreekBasin
+    su:older ischart:Eocene ;
+    su:younger ischart:Eocene .
+
+data:WesternSubprovince
+    su:older ischart:Statherian ;
+    su:younger ischart:Calymmian .
+
+data:WhitsundayIgneousProvince
+    su:older ischart:LowerCretaceous ;
+    su:younger ischart:Cenomanian .
+
+data:WhitsundaySilicicLargeIgneousProvince
+    su:older ischart:LowerCretaceous ;
+    su:younger ischart:Cenomanian .
+
+data:WoolominProvince
+    su:older ischart:Carboniferous ;
+    su:younger ischart:Permian .
+
+data:WoorabindaBasin
+    su:older ischart:Paleogene ;
+    su:younger ischart:Paleogene .
+
+data:YaambaBasin
+    su:older ischart:Eocene ;
+    su:younger ischart:Eocene .
+
+data:YamboSubprovince
+    su:older ischart:Calymmian ;
+    su:younger ischart:Calymmian .
+
+data:YaringaSubprovince
+    su:older ischart:Paleoproterozoic ;
+    su:younger ischart:Paleoproterozoic .
+
+data:YarramanSubprovince
+    su:older ischart:Devonian ;
+    su:younger ischart:Carboniferous .
+
+data:YarrolProvince
+    su:older ischart:Devonian ;
+    su:younger ischart:Permian .
+
