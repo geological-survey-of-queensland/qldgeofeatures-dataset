@@ -1,0 +1,919 @@
+@prefix eg: <http://example.org/> .
+@prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> .
+@prefix ischart: <http://resource.geosciml.org/classifier/ics/ischart/> .
+@prefix rank: <http://resource.geosciml.org/ontology/timescale/rank/> .
+
+
+ischart:Meghalayan
+  eg:beginning 0.0042;
+  eg:end 0.0;
+  gts:rank rank:Age .
+
+ischart:Holocene
+  eg:beginning 0.0117;
+  eg:end 0.0;
+  gts:rank rank:Epoch .
+
+ischart:Quaternary
+  eg:beginning 2.58;
+  eg:end 0.0;
+  gts:rank rank:Period .
+
+ischart:Cenozoic
+  eg:beginning 66.0;
+  eg:end 0.0;
+  gts:rank rank:Era .
+
+ischart:Phanerozoic
+  eg:beginning 541.0;
+  eg:end 0.0;
+  gts:rank rank:Eon .
+
+ischart:Northgrippian
+  eg:beginning 0.0082;
+  eg:end 0.0042;
+  gts:rank rank:Age .
+
+ischart:Greenlandian
+  eg:beginning 0.0117;
+  eg:end 0.0082;
+  gts:rank rank:Age .
+
+ischart:UpperPleistocene
+  eg:beginning
+    0.129;
+  eg:end 0.0117;
+  gts:rank rank:Age .
+
+ischart:Pleistocene
+  eg:beginning 2.58;
+  eg:end 0.0117;
+  gts:rank rank:Epoch .
+
+ischart:MiddlePleistocene
+  eg:beginning
+    0.774;
+  eg:end 0.129;
+  gts:rank rank:Age .
+
+ischart:Calabrian
+  eg:beginning 1.8;
+  eg:end 0.774;
+  gts:rank rank:Age .
+
+ischart:Gelasian
+  eg:beginning 2.58;
+  eg:end 1.8;
+  gts:rank rank:Age .
+
+ischart:Piacenzian
+  eg:beginning 3.6;
+  eg:end 2.58;
+  gts:rank rank:Age .
+
+ischart:Pliocene
+  eg:beginning 5.333;
+  eg:end 2.58;
+  gts:rank rank:Epoch .
+
+ischart:Neogene
+  eg:beginning 23.03;
+  eg:end 2.58;
+  gts:rank rank:Period .
+
+ischart:Zanclean
+  eg:beginning 5.333;
+  eg:end 3.6;
+  gts:rank rank:Age .
+
+ischart:Messinian
+  eg:beginning 7.246;
+  eg:end 5.333;
+  gts:rank rank:Age .
+
+ischart:Miocene
+  eg:beginning 23.03;
+  eg:end 5.333;
+  gts:rank rank:Epoch .
+
+ischart:Tortonian
+  eg:beginning 11.63;
+  eg:end 7.246;
+  gts:rank rank:Age .
+
+ischart:Serravallian
+  eg:beginning 13.82;
+  eg:end 11.63;
+  gts:rank rank:Age .
+
+ischart:Langhian
+  eg:beginning 15.97;
+  eg:end 13.82;
+  gts:rank rank:Age .
+
+ischart:Burdigalian
+  eg:beginning 20.44;
+  eg:end 15.97;
+  gts:rank rank:Age .
+
+ischart:Aquitanian
+  eg:beginning 23.03;
+  eg:end 20.44;
+  gts:rank rank:Age .
+
+ischart:Chattian
+  eg:beginning 27.82;
+  eg:end 23.03;
+  gts:rank rank:Age .
+
+ischart:Oligocene
+  eg:beginning 33.9;
+  eg:end 23.03;
+  gts:rank rank:Epoch .
+
+ischart:Paleogene
+  eg:beginning 66.0;
+  eg:end 23.03;
+  gts:rank rank:Period .
+
+ischart:Rupelian
+  eg:beginning 33.9;
+  eg:end 27.82;
+  gts:rank rank:Age .
+
+ischart:Priabonian
+  eg:beginning 37.8;
+  eg:end 33.9;
+  gts:rank rank:Age .
+
+ischart:Eocene
+  eg:beginning 56.0;
+  eg:end 33.9;
+  gts:rank rank:Epoch .
+
+ischart:Bartonian
+  eg:beginning 41.2;
+  eg:end 37.8;
+  gts:rank rank:Age .
+
+ischart:Lutetian
+  eg:beginning 47.8;
+  eg:end 41.2;
+  gts:rank rank:Age .
+
+ischart:Ypresian
+  eg:beginning 56.0;
+  eg:end 47.8;
+  gts:rank rank:Age .
+
+ischart:Thanetian
+  eg:beginning 59.2;
+  eg:end 56.0;
+  gts:rank rank:Age .
+
+ischart:Paleocene
+  eg:beginning 66.0;
+  eg:end 56.0;
+  gts:rank rank:Epoch .
+
+ischart:Selandian
+  eg:beginning 61.6;
+  eg:end 59.2;
+  gts:rank rank:Age .
+
+ischart:Danian
+  eg:beginning 66.0;
+  eg:end 61.6;
+  gts:rank rank:Age .
+
+ischart:Maastrichtian
+  eg:beginning 72.1;
+  eg:end 66.0;
+  gts:rank rank:Age .
+
+ischart:UpperCretaceous
+  eg:beginning
+    100.5;
+  eg:end 66.0;
+  gts:rank rank:Epoch .
+
+ischart:Cretaceous
+  eg:beginning 145.0;
+  eg:end 66.0;
+  gts:rank rank:Period .
+
+ischart:Mesozoic
+  eg:beginning 251.902;
+  eg:end 66.0;
+  gts:rank rank:Era .
+
+ischart:Campanian
+  eg:beginning 83.6;
+  eg:end 72.1;
+  gts:rank rank:Age .
+
+ischart:Santonian
+  eg:beginning 86.3;
+  eg:end 83.6;
+  gts:rank rank:Age .
+
+ischart:Coniacian
+  eg:beginning 89.8;
+  eg:end 86.3;
+  gts:rank rank:Age .
+
+ischart:Turonian
+  eg:beginning 93.9;
+  eg:end 89.8;
+  gts:rank rank:Age .
+
+ischart:Cenomanian
+  eg:beginning 100.5;
+  eg:end 93.9;
+  gts:rank rank:Age .
+
+ischart:Albian
+  eg:beginning 113.0;
+  eg:end 100.5;
+  gts:rank rank:Age .
+
+ischart:LowerCretaceous
+  eg:beginning
+    145.0;
+  eg:end 100.5;
+  gts:rank rank:Epoch .
+
+ischart:Aptian
+  eg:beginning 125.0;
+  eg:end 113.0;
+  gts:rank rank:Age .
+
+ischart:Barremian
+  eg:beginning 129.4;
+  eg:end 125.0;
+  gts:rank rank:Age .
+
+ischart:Hauterivian
+  eg:beginning 132.6;
+  eg:end 129.4;
+  gts:rank rank:Age .
+
+ischart:Valanginian
+  eg:beginning 139.8;
+  eg:end 132.6;
+  gts:rank rank:Age .
+
+ischart:Berriasian
+  eg:beginning 145.0;
+  eg:end 139.8;
+  gts:rank rank:Age .
+
+ischart:Tithonian
+  eg:beginning 152.1;
+  eg:end 145.0;
+  gts:rank rank:Age .
+
+ischart:UpperJurassic
+  eg:beginning 163.5;
+  eg:end 145.0;
+  gts:rank rank:Epoch .
+
+ischart:Jurassic
+  eg:beginning 201.3;
+  eg:end 145.0;
+  gts:rank rank:Period .
+
+ischart:Kimmeridgian
+  eg:beginning 157.3;
+  eg:end 152.1;
+  gts:rank rank:Age .
+
+ischart:Oxfordian
+  eg:beginning 163.5;
+  eg:end 157.3;
+  gts:rank rank:Age .
+
+ischart:Callovian
+  eg:beginning 166.1;
+  eg:end 163.5;
+  gts:rank rank:Age .
+
+ischart:MiddleJurassic
+  eg:beginning
+    174.1;
+  eg:end 163.5;
+  gts:rank rank:Epoch .
+
+ischart:Bathonian
+  eg:beginning 168.3;
+  eg:end 166.1;
+  gts:rank rank:Age .
+
+ischart:Bajocian
+  eg:beginning 170.3;
+  eg:end 168.3;
+  gts:rank rank:Age .
+
+ischart:Aalenian
+  eg:beginning 174.1;
+  eg:end 170.3;
+  gts:rank rank:Age .
+
+ischart:Toarcian
+  eg:beginning 182.7;
+  eg:end 174.1;
+  gts:rank rank:Age .
+
+ischart:LowerJurassic
+  eg:beginning 201.3;
+  eg:end 174.1;
+  gts:rank rank:Epoch .
+
+ischart:Pliensbachian
+  eg:beginning 190.8;
+  eg:end 182.7;
+  gts:rank rank:Age .
+
+ischart:Sinemurian
+  eg:beginning 199.3;
+  eg:end 190.8;
+  gts:rank rank:Age .
+
+ischart:Hettangian
+  eg:beginning 201.3;
+  eg:end 199.3;
+  gts:rank rank:Age .
+
+ischart:Rhaetian
+  eg:beginning 208.5;
+  eg:end 201.3;
+  gts:rank rank:Age .
+
+ischart:UpperTriassic
+  eg:beginning 237.0;
+  eg:end 201.3;
+  gts:rank rank:Epoch .
+
+ischart:Triassic
+  eg:beginning 251.902;
+  eg:end 201.3;
+  gts:rank rank:Period .
+
+ischart:Norian
+  eg:beginning 227.0;
+  eg:end 208.5;
+  gts:rank rank:Age .
+
+ischart:Carnian
+  eg:beginning 237.0;
+  eg:end 227.0;
+  gts:rank rank:Age .
+
+ischart:Ladinian
+  eg:beginning 242.0;
+  eg:end 237.0;
+  gts:rank rank:Age .
+
+ischart:MiddleTriassic
+  eg:beginning
+    247.2;
+  eg:end 237.0;
+  gts:rank rank:Epoch .
+
+ischart:Anisian
+  eg:beginning 247.2;
+  eg:end 242.0;
+  gts:rank rank:Age .
+
+ischart:Olenekian
+  eg:beginning 251.2;
+  eg:end 247.2;
+  gts:rank rank:Age .
+
+ischart:LowerTriassic
+  eg:beginning 251.902;
+  eg:end 247.2;
+  gts:rank rank:Epoch .
+
+ischart:Induan
+  eg:beginning 251.902;
+  eg:end 251.2;
+  gts:rank rank:Age .
+
+ischart:Changhsingian
+  eg:beginning 254.14;
+  eg:end 251.902;
+  gts:rank rank:Age .
+
+ischart:Lopingian
+  eg:beginning 259.1;
+  eg:end 251.902;
+  gts:rank rank:Epoch .
+
+ischart:Permian
+  eg:beginning 298.9;
+  eg:end 251.902;
+  gts:rank rank:Period .
+
+ischart:Paleozoic
+  eg:beginning 541.0;
+  eg:end 251.902;
+  gts:rank rank:Era .
+
+ischart:Wuchiapingian
+  eg:beginning 259.1;
+  eg:end 254.14;
+  gts:rank rank:Age .
+
+ischart:Capitanian
+  eg:beginning 265.1;
+  eg:end 259.1;
+  gts:rank rank:Age .
+
+ischart:Guadalupian
+  eg:beginning 272.95;
+  eg:end 259.1;
+  gts:rank rank:Epoch .
+
+ischart:Wordian
+  eg:beginning 268.8;
+  eg:end 265.1;
+  gts:rank rank:Age .
+
+ischart:Roadian
+  eg:beginning 272.95;
+  eg:end 268.8;
+  gts:rank rank:Age .
+
+ischart:Kungurian
+  eg:beginning 283.5;
+  eg:end 272.95;
+  gts:rank rank:Age .
+
+ischart:Cisuralian
+  eg:beginning 298.9;
+  eg:end 272.95;
+  gts:rank rank:Epoch .
+
+ischart:Artinskian
+  eg:beginning 290.1;
+  eg:end 283.5;
+  gts:rank rank:Age .
+
+ischart:Sakmarian
+  eg:beginning 293.52;
+  eg:end 290.1;
+  gts:rank rank:Age .
+
+ischart:Asselian
+  eg:beginning 298.9;
+  eg:end 293.52;
+  gts:rank rank:Age .
+
+ischart:Gzhelian
+  eg:beginning 303.7;
+  eg:end 298.9;
+  gts:rank rank:Age .
+
+ischart:UpperPennsylvanian
+  eg:beginning
+    307.0;
+  eg:end 298.9;
+  gts:rank rank:Epoch .
+
+ischart:Pennsylvanian
+  eg:beginning 323.2;
+  eg:end 298.9;
+  gts:rank rank:Sub-Period .
+
+ischart:Carboniferous
+  eg:beginning 358.9;
+  eg:end 298.9;
+  gts:rank rank:Period .
+
+ischart:Kasimovian
+  eg:beginning 307.0;
+  eg:end 303.7;
+  gts:rank rank:Age .
+
+ischart:MiddlePennsylvanian
+  eg:beginning
+    315.2;
+  eg:end 307.0;
+  gts:rank rank:Epoch .
+
+ischart:Moscovian
+  eg:beginning 315.2;
+  eg:end 307.0;
+  gts:rank rank:Age .
+
+ischart:Bashkirian
+  eg:beginning 323.2;
+  eg:end 315.2;
+  gts:rank rank:Age .
+
+ischart:LowerPennsylvanian
+  eg:beginning
+    323.2;
+  eg:end 315.2;
+  gts:rank rank:Epoch .
+
+ischart:Serpukhovian
+  eg:beginning 330.9;
+  eg:end 323.2;
+  gts:rank rank:Age .
+
+ischart:UpperMississippian
+  eg:beginning
+    330.9;
+  eg:end 323.2;
+  gts:rank rank:Epoch .
+
+ischart:Mississippian
+  eg:beginning 358.9;
+  eg:end 323.2;
+  gts:rank rank:Sub-Period .
+
+ischart:MiddleMississippian
+  eg:beginning
+    346.7;
+  eg:end 330.9;
+  gts:rank rank:Epoch .
+
+ischart:Visean
+  eg:beginning 346.7;
+  eg:end 330.9;
+  gts:rank rank:Age .
+
+ischart:LowerMississippian
+  eg:beginning
+    358.9;
+  eg:end 346.7;
+  gts:rank rank:Epoch .
+
+ischart:Tournaisian
+  eg:beginning 358.9;
+  eg:end 346.7;
+  gts:rank rank:Age .
+
+ischart:Famennian
+  eg:beginning 372.2;
+  eg:end 358.9;
+  gts:rank rank:Age .
+
+ischart:UpperDevonian
+  eg:beginning 382.7;
+  eg:end 358.9;
+  gts:rank rank:Epoch .
+
+ischart:Devonian
+  eg:beginning 419.2;
+  eg:end 358.9;
+  gts:rank rank:Period .
+
+ischart:Frasnian
+  eg:beginning 382.7;
+  eg:end 372.2;
+  gts:rank rank:Age .
+
+ischart:Givetian
+  eg:beginning 387.7;
+  eg:end 382.7;
+  gts:rank rank:Age .
+
+ischart:MiddleDevonian
+  eg:beginning
+    393.3;
+  eg:end 382.7;
+  gts:rank rank:Epoch .
+
+ischart:Eifelian
+  eg:beginning 393.3;
+  eg:end 387.7;
+  gts:rank rank:Age .
+
+ischart:Emsian
+  eg:beginning 407.6;
+  eg:end 393.3;
+  gts:rank rank:Age .
+
+ischart:LowerDevonian
+  eg:beginning 419.2;
+  eg:end 393.3;
+  gts:rank rank:Epoch .
+
+ischart:Pragian
+  eg:beginning 410.8;
+  eg:end 407.6;
+  gts:rank rank:Age .
+
+ischart:Lochkovian
+  eg:beginning 419.2;
+  eg:end 410.8;
+  gts:rank rank:Age .
+
+ischart:Pridoli
+  eg:beginning 423.0;
+  eg:end 419.2;
+  gts:rank rank:Epoch .
+
+ischart:Silurian
+  eg:beginning 443.8;
+  eg:end 419.2;
+  gts:rank rank:Period .
+
+ischart:Ludfordian
+  eg:beginning 425.6;
+  eg:end 423.0;
+  gts:rank rank:Age .
+
+ischart:Ludlow
+  eg:beginning 427.4;
+  eg:end 423.0;
+  gts:rank rank:Epoch .
+
+ischart:Gorstian
+  eg:beginning 427.4;
+  eg:end 425.6;
+  gts:rank rank:Age .
+
+ischart:Homerian
+  eg:beginning 430.5;
+  eg:end 427.4;
+  gts:rank rank:Age .
+
+ischart:Wenlock
+  eg:beginning 433.4;
+  eg:end 427.4;
+  gts:rank rank:Epoch .
+
+ischart:Sheinwoodian
+  eg:beginning 433.4;
+  eg:end 430.5;
+  gts:rank rank:Age .
+
+ischart:Telychian
+  eg:beginning 438.5;
+  eg:end 433.4;
+  gts:rank rank:Age .
+
+ischart:Llandovery
+  eg:beginning 443.8;
+  eg:end 433.4;
+  gts:rank rank:Epoch .
+
+ischart:Aeronian
+  eg:beginning 440.8;
+  eg:end 438.5;
+  gts:rank rank:Age .
+
+ischart:Rhuddanian
+  eg:beginning 443.8;
+  eg:end 440.8;
+  gts:rank rank:Age .
+
+ischart:Hirnantian
+  eg:beginning 445.2;
+  eg:end 443.8;
+  gts:rank rank:Age .
+
+ischart:UpperOrdovician
+  eg:beginning
+    458.4;
+  eg:end 443.8;
+  gts:rank rank:Epoch .
+
+ischart:Ordovician
+  eg:beginning 485.4;
+  eg:end 443.8;
+  gts:rank rank:Period .
+
+ischart:Katian
+  eg:beginning 453.0;
+  eg:end 445.2;
+  gts:rank rank:Age .
+
+ischart:Sandbian
+  eg:beginning 458.4;
+  eg:end 453.0;
+  gts:rank rank:Age .
+
+ischart:Darriwilian
+  eg:beginning 467.3;
+  eg:end 458.4;
+  gts:rank rank:Age .
+
+ischart:MiddleOrdovician
+  eg:beginning
+    470.0;
+  eg:end 458.4;
+  gts:rank rank:Epoch .
+
+ischart:Dapingian
+  eg:beginning 470.0;
+  eg:end 467.3;
+  gts:rank rank:Age .
+
+ischart:Floian
+  eg:beginning 477.7;
+  eg:end 470.0;
+  gts:rank rank:Age .
+
+ischart:LowerOrdovician
+  eg:beginning
+    485.4;
+  eg:end 470.0;
+  gts:rank rank:Epoch .
+
+ischart:Tremadocian
+  eg:beginning 485.4;
+  eg:end 477.7;
+  gts:rank rank:Age .
+
+ischart:CambrianStage10
+  eg:beginning
+    489.5;
+  eg:end 485.4;
+  gts:rank rank:Age .
+
+ischart:Furongian
+  eg:beginning 497.0;
+  eg:end 485.4;
+  gts:rank rank:Epoch .
+
+ischart:Cambrian
+  eg:beginning 541.0;
+  eg:end 485.4;
+  gts:rank rank:Period .
+
+ischart:Jiangshanian
+  eg:beginning 494.0;
+  eg:end 489.5;
+  gts:rank rank:Age .
+
+ischart:Paibian
+  eg:beginning 497.0;
+  eg:end 494.0;
+  gts:rank rank:Age .
+
+ischart:Guzhangian
+  eg:beginning 500.5;
+  eg:end 497.0;
+  gts:rank rank:Age .
+
+ischart:Miaolingian
+  eg:beginning 509.0;
+  eg:end 497.0;
+  gts:rank rank:Epoch .
+
+ischart:Drumian
+  eg:beginning 504.5;
+  eg:end 500.5;
+  gts:rank rank:Age .
+
+ischart:Wuliuan
+  eg:beginning 509.0;
+  eg:end 504.5;
+  gts:rank rank:Age .
+
+ischart:CambrianStage4
+  eg:beginning
+    514.0;
+  eg:end 509.0;
+  gts:rank rank:Age .
+
+ischart:CambrianSeries2
+  eg:beginning
+    521.0;
+  eg:end 509.0;
+  gts:rank rank:Epoch .
+
+ischart:CambrianStage3
+  eg:beginning
+    521.0;
+  eg:end 514.0;
+  gts:rank rank:Age .
+
+ischart:CambrianStage2
+  eg:beginning
+    529.0;
+  eg:end 521.0;
+  gts:rank rank:Age .
+
+ischart:Terreneuvian
+  eg:beginning 541.0;
+  eg:end 521.0;
+  gts:rank rank:Epoch .
+
+ischart:Fortunian
+  eg:beginning 541.0;
+  eg:end 529.0;
+  gts:rank rank:Age .
+
+ischart:Ediacaran
+  eg:beginning 635.0;
+  eg:end 541.0;
+  gts:rank rank:Period .
+
+ischart:Neoproterozoic
+  eg:beginning
+    1000.0;
+  eg:end 541.0;
+  gts:rank rank:Era .
+
+ischart:Proterozoic
+  eg:beginning 2500.0;
+  eg:end 541.0;
+  gts:rank rank:Eon .
+
+ischart:Precambrian
+  eg:beginning 4567.0;
+  eg:end 541.0;
+  gts:rank rank:Super-Eon .
+
+ischart:Cryogenian
+  eg:beginning 720.0;
+  eg:end 635.0;
+  gts:rank rank:Period .
+
+ischart:Tonian
+  eg:beginning 1000.0;
+  eg:end 720.0;
+  gts:rank rank:Period .
+
+ischart:Stenian
+  eg:beginning 1200.0;
+  eg:end 1000.0;
+  gts:rank rank:Period .
+
+ischart:Mesoproterozoic
+  eg:beginning
+    1600.0;
+  eg:end 1000.0;
+  gts:rank rank:Era .
+
+ischart:Ectasian
+  eg:beginning 1400.0;
+  eg:end 1200.0;
+  gts:rank rank:Period .
+
+ischart:Calymmian
+  eg:beginning 1600.0;
+  eg:end 1400.0;
+  gts:rank rank:Period .
+
+ischart:Statherian
+  eg:beginning 1800.0;
+  eg:end 1600.0;
+  gts:rank rank:Period .
+
+ischart:Paleoproterozoic
+  eg:beginning
+    2500.0;
+  eg:end 1600.0;
+  gts:rank rank:Era .
+
+ischart:Orosirian
+  eg:beginning 2050.0;
+  eg:end 1800.0;
+  gts:rank rank:Period .
+
+ischart:Rhyacian
+  eg:beginning 2300.0;
+  eg:end 2050.0;
+  gts:rank rank:Period .
+
+ischart:Siderian
+  eg:beginning 2500.0;
+  eg:end 2300.0;
+  gts:rank rank:Period .
+
+ischart:Neoarchean
+  eg:beginning 2800.0;
+  eg:end 2500.0;
+  gts:rank rank:Era .
+
+ischart:Archean
+  eg:beginning 4000.0;
+  eg:end 2500.0;
+  gts:rank rank:Eon .
+
+ischart:Mesoarchean
+  eg:beginning 3200.0;
+  eg:end 2800.0;
+  gts:rank rank:Era .
+
+ischart:Paleoarchean
+  eg:beginning 3600.0;
+  eg:end 3200.0;
+  gts:rank rank:Era .
+
+ischart:Eoarchean
+  eg:beginning 4000.0;
+  eg:end 3600.0;
+  gts:rank rank:Era .
+
+ischart:Hadean
+  eg:beginning 4567.0;
+  eg:end 4000.0;
+  gts:rank rank:Eon .
