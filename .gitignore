@@ -1,2 +1,8 @@
 # JetBrains tools
 .idea/
+
+# TopBraid
+.project
+
+# Mac
+.DS_Store
