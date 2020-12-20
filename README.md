@@ -33,11 +33,10 @@ This dataset can be used with other LocI datasets for spatial interactions etc.
 
 ### Metadata
 
-The dataset-level metadata is available in the following files:
+The dataset-level metadata is available in multiple RDF (Turtle) files within the [_metadata/](_metadata/) folder. These can be combined using the `[make_dataset_rdf.py](_scripts/make_dataset_rdf.py)` Python script to form [_metadata/metadata.ttl](_metadata/metadata.ttl) whihc, in turn, can be combined with the data files (see above) to form the complete dataset.
 
-* [loci.ttl](_metadata/loci.ttl) - LocI 
-* [dcat.ttl](_metadata/dcat.ttl) - DCAT2
-* [void.ttl](_metadata/void.ttl) - VoID
+Each of the RDF files within the [_metadata/](_metadata/) folder adds another *profile* 's metadata, such as VoID, LocI etc. The main metadata file is [_metadata/dcat_dataset.ttl](_metadata/dcat_dataset.ttl).
+
 
 ### Persistent Identifier
 The persistent identifier (PID) for this dataset is:
