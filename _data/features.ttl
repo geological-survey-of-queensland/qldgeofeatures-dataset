@@ -1,21 +1,21 @@
 # baseURI: file:///Users/nick/Work/gsq/qldgeofeatures-dataset/dataset.ttl
 
-@prefix data: <https://linked.data.gov.au/dataset/qldgeofeatures/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix geof: <https://linked.data.gov.au/def/geofeatures#> .
-@prefix geox: <https://linked.data.gov.au/def/geox#> .
-@prefix grole: <https://linked.data.gov.au/def/geometry-roles/> .
-@prefix ischart: <http://resource.geosciml.org/classifier/ics/ischart/> .
-@prefix loci: <https://linked.data.gov.au/def/loci#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sdo: <https://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix su: <http://pid.geoscience.gov.au/def/stratunits#> .
-@prefix supr: <https://linked.data.gov.au/def/su/province-rank/> .
-@prefix supt: <https://linked.data.gov.au/def/su/province-type/> .
-@prefix time: <http://www.w3.org/2006/time#> .
+PREFIX data: <https://linked.data.gov.au/dataset/qldgeofeatures/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <https://linked.data.gov.au/def/geofeatures#>
+PREFIX geox: <https://linked.data.gov.au/def/geox#>
+PREFIX grole: <https://linked.data.gov.au/def/geometry-roles/>
+PREFIX ischart: <http://resource.geosciml.org/classifier/ics/ischart/>
+PREFIX loci: <https://linked.data.gov.au/def/loci#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX su: <http://pid.geoscience.gov.au/def/stratunits#>
+PREFIX supr: <https://linked.data.gov.au/def/su/province-rank/>
+PREFIX supt: <https://linked.data.gov.au/def/su/province-type/>
+PREFIX time: <http://www.w3.org/2006/time#>
 
 
 data:AdavaleBasin
