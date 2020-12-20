@@ -1,10 +1,9 @@
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
-@prefix locn: <http://www.w3.org/ns/locn#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix sdo: <https://schema.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
 <https://linked.data.gov.au/dataset/qldgeofeatures>
@@ -20,6 +19,8 @@ This tool uses the SWEET Geological Features Profile Ontology (https://github.co
   dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
   dcterms:modified "2020-12-19"^^xsd:date ;
   dcterms:publisher <https://linked.data.gov.au/org/gsq> ;
+  dcat:contactPoint <http://orcid.org/0000-0001-5489-9590> ;
+  dcterms:contributor <http://orcid.org/0000-0002-8742-7730> ;
   dcterms:spatial [
       a dcterms:Location ;
       dcat:bbox "POLYGON ((96.0000 -45.0000,96.0000 -9.0000,96.0000 -9.0000,96.0000 -45.0000,96.0000 -45.0000, 168.0000 -9.0000,168.0000 -45.0000,168.0000 -45.0000,168.0000 -9.0000,168.0000 -9.0000, 96.0000 -45.0000))"^^geo:wktLiteral ;
@@ -28,24 +29,20 @@ This tool uses the SWEET Geological Features Profile Ontology (https://github.co
   dcterms:title "Queensland's Geological Features" ;
   dcat:distribution [
       a dcat:Distribution ;
-      dcterms:title "Qld GeoFeatures Dataset via an OGC & Linked Data API" ;
+      dcterms:title "OGC & Linked Data API" ;
       dcat:accessURL <http://qldgeofeatures.surroundaustralia.com> ;
     ] ;
   dcat:distribution [
       a dcat:Distribution ;
-      dcterms:title "Qld GeoFeatures Dataset as a downloadable in RDF (Turtle) file" ;
+      dcterms:title "Downloadable RDF (Turtle) file" ;
       dcat:downloadURL <http://qldgeofeatures.surroundaustralia.com/?_profile=dcat&_mediatype=text/turtle> ;
     ] ;
-  dcat:keyword "Queensland" ;
-  dcat:keyword "geologic" ;
-  dcat:keyword "geological" ;
-  dcat:keyword "minerals" ;
-  dcat:keyword "province" ;
+  dcat:distribution [
+      a dcat:Distribution ;
+      dcterms:title "SPARQL Endpoint" ;
+      dcat:accessURL <http://qldgeofeatures.surroundaustralia.com/sparql> ;
+    ] ;   
+  dcat:keyword "Queensland" , "geologic" , "geological" , "minerals" , "province" ;
   dcat:landingPage <http://qldgeofeatures.surroundaustralia.com> ;
 .
 
-<https://linked.data.gov.au/org/gsq> 
-    a sdo:Organization ;
-    sdo:name "Geological Survey of Queensland" ;
-    sdo:url "https://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq"^^xsd:anyURI ;
-.
