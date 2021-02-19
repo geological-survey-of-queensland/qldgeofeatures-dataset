@@ -45,7 +45,7 @@ The persistent identifier (PID) for this dataset is:
 
 
 ## Data
-***Currently this dataset contains a base of publicly avaiable GSQ Structural Framework data which is certainly not all of GSQ's Features of Interest. It is being extended to cotntain more data over time.***
+***Currently this dataset contains a base of publicly avaiable GSQ Structural Framework data which is certainly not all of GSQ's Features of Interest. It is being extended to contain more data over time.***
 
 This dataset's data is all in the single file [dataset.ttl](dataset.ttl). The spatial and some of the other properties of the features were produced from the initial GSQ Structural Framework JSON data which is stored in [_data/](_data/) by the Python script [data-processor.py](_scripts/data-processor.py). The source of the JSON files is the [Queensland Globe](https://qldglobe.information.qld.gov.au/), which was originally populated with GSQ Structural Framework deliverd to the Globe by GSQ some years ago. This data is already public.
 
@@ -70,7 +70,7 @@ The content of this API is licensed for use under the [Creative Commons 4.0 Lice
 <nicholas.car@surroundaustralia.com>  
 <http://orcid.org/0000-0002-8742-7730>  
 
-**Dr John McKeller** - *geoscience additions to the base GeoResGlob data*  
+**Dr John McKellar** - *geoscience additions to the base GeoResGlob data*  
 [Geological Survey of Queensland](https://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq)  
 <john.mckellar@dnrm.qld.gov.au>  
 <http://orcid.org/0000-0001-5489-9590>  
