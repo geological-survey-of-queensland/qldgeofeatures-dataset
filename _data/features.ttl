@@ -4,6 +4,7 @@ PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX geof: <https://linked.data.gov.au/def/geofeatures#>
 PREFIX geox: <https://linked.data.gov.au/def/geox#>
 PREFIX grole: <https://linked.data.gov.au/def/geometry-roles/>
+PREFIX gsoc: <https://w3id.org/gso/common/>
 PREFIX ischart: <http://resource.geosciml.org/classifier/ics/ischart/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -12,13 +13,16 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX su: <http://pid.geoscience.gov.au/def/stratunits#>
 PREFIX supr: <https://linked.data.gov.au/def/su/province-rank/>
 PREFIX supt: <https://linked.data.gov.au/def/su/province-type/>
+PREFIX sweetg: <http://sweetontology.net/realmGeol/>
 PREFIX time: <http://www.w3.org/2006/time#>
 
 
 data:AdavaleBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -45,8 +49,10 @@ data:AdavaleBasin
 .
 data:AmberleyBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -60,8 +66,10 @@ data:AmberleyBasin
 .
 data:AnakieProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -93,8 +101,10 @@ data:AnakieProvince
 .
 data:AuburnSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -122,8 +132,10 @@ data:AuburnSubprovince
 .
 data:AustralDownsBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -136,8 +148,10 @@ data:AustralDownsBasin
 .
 data:AwoongaSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -165,8 +179,10 @@ data:AwoongaSubprovince
 .
 data:BagaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -182,8 +198,10 @@ data:BagaBasin
 .
 data:BarnardProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -213,8 +231,10 @@ data:BarnardProvince
 .
 data:BarrolkaDepression
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Depression ;
   a sdo:Landform ;
@@ -241,8 +261,10 @@ data:BarrolkaDepression
 .
 data:BeaudesertBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -255,8 +277,10 @@ data:BeaudesertBasin
 .
 data:BeenleighSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -283,8 +307,10 @@ data:BeenleighSubprovince
 .
 data:BelyandoBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -311,8 +337,10 @@ data:BelyandoBasin
 .
 data:BerserkerSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -339,8 +367,10 @@ data:BerserkerSubprovince
 .
 data:BiloelaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:HalfGraben ;
   a sdo:Landform ;
@@ -354,8 +384,10 @@ data:BiloelaBasin
 .
 data:BoovalBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -369,8 +401,10 @@ data:BoovalBasin
 .
 data:BowenBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -402,8 +436,10 @@ data:BowenBasin
 .
 data:BrokenRiverProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
@@ -421,8 +457,10 @@ data:BrokenRiverProvince
 .
 data:BundockBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -450,8 +488,10 @@ data:BundockBasin
 .
 data:BurdekinBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -479,8 +519,10 @@ data:BurdekinBasin
 .
 data:BurdekinFallsSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -494,8 +536,10 @@ data:BurdekinFallsSubprovince
 .
 data:BurketownDepression
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Depression ;
   a sdo:Landform ;
@@ -525,8 +569,10 @@ data:BurketownDepression
 .
 data:CalenBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -553,8 +599,10 @@ data:CalenBasin
 .
 data:CallideBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -582,8 +630,10 @@ data:CallideBasin
 .
 data:CalliopeProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
@@ -603,8 +653,10 @@ data:CalliopeProvince
 .
 data:CamelCreekSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -633,8 +685,10 @@ data:CamelCreekSubprovince
 .
 data:CampwynSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -662,8 +716,10 @@ data:CampwynSubprovince
 .
 data:CanobieDepression
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:HalfGraben ;
   a sdo:Landform ;
@@ -690,8 +746,10 @@ data:CanobieDepression
 .
 data:CapellaSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -719,8 +777,10 @@ data:CapellaSubprovince
 .
 data:CapricornBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Graben ;
   a sdo:Landform ;
@@ -738,8 +798,10 @@ data:CapricornBasin
 .
 data:CarpentariaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -768,8 +830,10 @@ data:CarpentariaBasin
 .
 data:CasuarinaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:HalfGraben ;
   a sdo:Landform ;
@@ -784,8 +848,10 @@ data:CasuarinaBasin
 .
 data:CentralianSuperbasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Superbasin ;
   a sdo:Landform ;
@@ -818,8 +884,10 @@ data:CentralianSuperbasin
 .
 data:ChartersTowersProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -850,8 +918,10 @@ data:ChartersTowersProvince
 .
 data:ChillagoeSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -879,8 +949,10 @@ data:ChillagoeSubprovince
 .
 data:Clarence-MoretonBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -910,8 +982,10 @@ data:Clarence-MoretonBasin
 .
 data:ClarkeRiverBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -939,8 +1013,10 @@ data:ClarkeRiverBasin
 .
 data:CoastalSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -968,8 +1044,10 @@ data:CoastalSubprovince
 .
 data:Connors-AuburnProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
@@ -985,8 +1063,10 @@ data:Connors-AuburnProvince
 .
 data:ConnorsSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -1014,8 +1094,10 @@ data:ConnorsSubprovince
 .
 data:CooperBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1043,8 +1125,10 @@ data:CooperBasin
 .
 data:CraigileeSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -1073,8 +1157,10 @@ data:CraigileeSubprovince
 .
 data:CroydonProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -1102,8 +1188,10 @@ data:CroydonProvince
 .
 data:DaintreeSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -1117,8 +1205,10 @@ data:DaintreeSubprovince
 .
 data:DevonianCarboniferousBasinTypes
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:BasinType ;
   a sdo:Landform ;
@@ -1141,8 +1231,10 @@ data:DevonianCarboniferousBasinTypes
 .
 data:DrummondBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1170,8 +1262,10 @@ data:DrummondBasin
 .
 data:DuaringaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:HalfGraben ;
   a sdo:Landform ;
@@ -1187,8 +1281,10 @@ data:DuaringaBasin
 .
 data:EasternSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedSubprovince ;
   a sdo:Landform ;
@@ -1219,8 +1315,10 @@ data:EasternSubprovince
 .
 data:EmeraldBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1234,8 +1332,10 @@ data:EmeraldBasin
 .
 data:ErebusSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -1264,8 +1364,10 @@ data:ErebusSubprovince
 .
 data:EromangaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1296,8 +1398,10 @@ data:EromangaBasin
 .
 data:EskBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1327,8 +1431,10 @@ data:EskBasin
 .
 data:EtheridgeProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -1359,8 +1465,10 @@ data:EtheridgeProvince
 .
 data:ForkLagoonsSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedSubprovince ;
   a sdo:Landform ;
@@ -1388,8 +1496,10 @@ data:ForkLagoonsSubprovince
 .
 data:ForsaythSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -1403,8 +1513,10 @@ data:ForsaythSubprovince
 .
 data:GalileeBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1436,8 +1548,10 @@ data:GalileeBasin
 .
 data:GamboolaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1464,8 +1578,10 @@ data:GamboolaBasin
 .
 data:GeorginaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1499,8 +1615,10 @@ data:GeorginaBasin
 .
 data:GilbertonBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1528,8 +1646,10 @@ data:GilbertonBasin
 .
 data:GrantleighSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -1556,8 +1676,10 @@ data:GrantleighSubprovince
 .
 data:GraveyardCreekSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -1587,8 +1709,10 @@ data:GraveyardCreekSubprovince
 .
 data:GreatAustralianSuperbasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Superbasin ;
   a sdo:Landform ;
@@ -1614,8 +1738,10 @@ data:GreatAustralianSuperbasin
 .
 data:GreenvaleProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -1645,8 +1771,10 @@ data:GreenvaleProvince
 .
 data:GympieProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
@@ -1675,8 +1803,10 @@ data:GympieProvince
 .
 data:HebertonSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -1690,8 +1820,10 @@ data:HebertonSubprovince
 .
 data:HerbertCreekBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:HalfGraben ;
   a sdo:Landform ;
@@ -1705,8 +1837,10 @@ data:HerbertCreekBasin
 .
 data:HillsboroughBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1719,8 +1853,10 @@ data:HillsboroughBasin
 .
 data:HodgkinsonProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
@@ -1739,8 +1875,10 @@ data:HodgkinsonProvince
 .
 data:InorunieBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1768,8 +1906,10 @@ data:InorunieBasin
 .
 data:IpswichBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1796,8 +1936,10 @@ data:IpswichBasin
 .
 data:IronRangeProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -1825,8 +1967,10 @@ data:IronRangeProvince
 .
 data:JardineSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -1839,8 +1983,10 @@ data:JardineSubprovince
 .
 data:Kalkadoon-LeichhardtSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedSubprovince ;
   a sdo:Landform ;
@@ -1867,8 +2013,10 @@ data:Kalkadoon-LeichhardtSubprovince
 .
 data:KalpowarBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1882,8 +2030,10 @@ data:KalpowarBasin
 .
 data:KangarooHillsSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -1900,8 +2050,10 @@ data:KangarooHillsSubprovince
 .
 data:KarumbaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1915,8 +2067,10 @@ data:KarumbaBasin
 .
 data:KennedyIgneousProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousProvince ;
   a sdo:Landform ;
@@ -1947,8 +2101,10 @@ data:KennedyIgneousProvince
 .
 data:KidstonSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -1962,8 +2118,10 @@ data:KidstonSubprovince
 .
 data:LakefieldBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -1991,8 +2149,10 @@ data:LakefieldBasin
 .
 data:LakefieldSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -2008,8 +2168,10 @@ data:LakefieldSubprovince
 .
 data:LauraBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2038,8 +2200,10 @@ data:LauraBasin
 .
 data:LowmeadGraben
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Graben ;
   a sdo:Landform ;
@@ -2052,8 +2216,10 @@ data:LowmeadGraben
 .
 data:MacrossanIgneousProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousProvince ;
   a sdo:Landform ;
@@ -2072,8 +2238,10 @@ data:MacrossanIgneousProvince
 .
 data:MarionBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2086,8 +2254,10 @@ data:MarionBasin
 .
 data:MarlboroughProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
@@ -2115,8 +2285,10 @@ data:MarlboroughProvince
 .
 data:MaryboroughBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2143,8 +2315,10 @@ data:MaryboroughBasin
 .
 data:McArthurBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2173,8 +2347,10 @@ data:McArthurBasin
 .
 data:MillungeraBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2202,8 +2378,10 @@ data:MillungeraBasin
 .
 data:MossmanOrogen
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Orogen ;
   a sdo:Landform ;
@@ -2236,8 +2414,10 @@ data:MossmanOrogen
 .
 data:MountIsaProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -2256,8 +2436,10 @@ data:MountIsaProvince
 .
 data:MountWindsorSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedSubprovince ;
   a sdo:Landform ;
@@ -2285,8 +2467,10 @@ data:MountWindsorSubprovince
 .
 data:MulgildieBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2315,8 +2499,10 @@ data:MulgildieBasin
 .
 data:NagoorinGraben
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Graben ;
   a sdo:Landform ;
@@ -2329,8 +2515,10 @@ data:NagoorinGraben
 .
 data:NambourBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2359,8 +2547,10 @@ data:NambourBasin
 .
 data:NarrowsGraben
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Graben ;
   a sdo:Landform ;
@@ -2373,8 +2563,10 @@ data:NarrowsGraben
 .
 data:NeoproterozoicLowerPaleozoicBasinTypes
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:BasinType ;
   a sdo:Landform ;
@@ -2390,8 +2582,10 @@ data:NeoproterozoicLowerPaleozoicBasinTypes
 .
 data:NeoproterozoicLowerPaleozoicProvinces
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -2416,8 +2610,10 @@ data:NeoproterozoicLowerPaleozoicProvinces
 .
 data:NewEnglandOrogen
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Orogen ;
   a sdo:Landform ;
@@ -2455,8 +2651,10 @@ data:NewEnglandOrogen
 .
 data:NgarrabullganBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2484,8 +2682,10 @@ data:NgarrabullganBasin
 .
 data:NogoSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -2513,8 +2713,10 @@ data:NogoSubprovince
 .
 data:NoransideBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2527,8 +2729,10 @@ data:NoransideBasin
 .
 data:NorthAustralianCraton
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Craton ;
   a sdo:Landform ;
@@ -2568,8 +2772,10 @@ data:NorthAustralianCraton
 .
 data:NorthDAguilarSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -2596,8 +2802,10 @@ data:NorthDAguilarSubprovince
 .
 data:OldCorkBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2610,8 +2818,10 @@ data:OldCorkBasin
 .
 data:OliveRiverBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2638,8 +2848,10 @@ data:OliveRiverBasin
 .
 data:OxleyBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2652,8 +2864,10 @@ data:OxleyBasin
 .
 data:PaleoproterozoicMesoproterozoicBasinTypes
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:BasinType ;
   a sdo:Landform ;
@@ -2671,8 +2885,10 @@ data:PaleoproterozoicMesoproterozoicBasinTypes
 .
 data:PaleoproterozoicMesoproterozoicProvinces
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -2690,8 +2906,10 @@ data:PaleoproterozoicMesoproterozoicProvinces
 .
 data:Palmer-BarronSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -2722,8 +2940,10 @@ data:Palmer-BarronSubprovince
 .
 data:PalumaSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -2737,8 +2957,10 @@ data:PalumaSubprovince
 .
 data:PamaIgneousProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousProvince ;
   a sdo:Landform ;
@@ -2763,8 +2985,10 @@ data:PamaIgneousProvince
 .
 data:PascoeRiverBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2778,8 +3002,10 @@ data:PascoeRiverBasin
 .
 data:PetrieBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2792,8 +3018,10 @@ data:PetrieBasin
 .
 data:PhilpottSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -2821,8 +3049,10 @@ data:PhilpottSubprovince
 .
 data:PomonaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2836,8 +3066,10 @@ data:PomonaBasin
 .
 data:RedbankBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2850,8 +3082,10 @@ data:RedbankBasin
 .
 data:RhaetianJurassicCenomanianBasinTypes
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:BasinType ;
   a sdo:Landform ;
@@ -2879,8 +3113,10 @@ data:RhaetianJurassicCenomanianBasinTypes
 .
 data:RockhamptonSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -2909,8 +3145,10 @@ data:RockhamptonSubprovince
 .
 data:RossmoyaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -2923,8 +3161,10 @@ data:RossmoyaBasin
 .
 data:SavannahProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -2952,8 +3192,10 @@ data:SavannahProvince
 .
 data:SilverSpurSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -2980,8 +3222,10 @@ data:SilverSpurSubprovince
 .
 data:SilverwoodProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
@@ -3009,8 +3253,10 @@ data:SilverwoodProvince
 .
 data:SouthDAguilarSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -3037,8 +3283,10 @@ data:SouthDAguilarSubprovince
 .
 data:SouthNicholsonBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -3066,8 +3314,10 @@ data:SouthNicholsonBasin
 .
 data:SpringvaleBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -3080,8 +3330,10 @@ data:SpringvaleBasin
 .
 data:StanwellBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -3094,8 +3346,10 @@ data:StanwellBasin
 .
 data:StoodleighSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -3123,8 +3377,10 @@ data:StoodleighSubprovince
 .
 data:StyxBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -3151,8 +3407,10 @@ data:StyxBasin
 .
 data:SuratBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -3182,8 +3440,10 @@ data:SuratBasin
 .
 data:TarongBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -3210,8 +3470,10 @@ data:TarongBasin
 .
 data:Tasmanides
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:OrogenicCollage ;
   a sdo:Landform ;
@@ -3234,8 +3496,10 @@ data:Tasmanides
 .
 data:TateSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -3249,8 +3513,10 @@ data:TateSubprovince
 .
 data:TexasSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -3277,8 +3543,10 @@ data:TexasSubprovince
 .
 data:ThomsonOrogen
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Orogen ;
   a sdo:Landform ;
@@ -3318,8 +3586,10 @@ data:ThomsonOrogen
 .
 data:TorresStraitSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousSubprovince ;
   a sdo:Landform ;
@@ -3350,8 +3620,10 @@ data:TorresStraitSubprovince
 .
 data:UpperCretaceousCenozoicBasinTypes
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:BasinType ;
   a sdo:Landform ;
@@ -3393,8 +3665,10 @@ data:UpperCretaceousCenozoicBasinTypes
 .
 data:UpperPaleozoicMiddleTriassicBasinTypes
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:BasinTypes ;
   a sdo:Landform ;
@@ -3422,8 +3696,10 @@ data:UpperPaleozoicMiddleTriassicBasinTypes
 .
 data:UpperTriassicBasinTypes
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:BasinType ;
   a sdo:Landform ;
@@ -3438,8 +3714,10 @@ data:UpperTriassicBasinTypes
 .
 data:WandillaProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
@@ -3458,8 +3736,10 @@ data:WandillaProvince
 .
 data:WarburtonBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -3489,8 +3769,10 @@ data:WarburtonBasin
 .
 data:WarrabinTrough
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Trough ;
   a sdo:Landform ;
@@ -3517,8 +3799,10 @@ data:WarrabinTrough
 .
 data:WaterParkCreekBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:HalfGraben ;
   a sdo:Landform ;
@@ -3531,8 +3815,10 @@ data:WaterParkCreekBasin
 .
 data:WesternSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedSubprovince ;
   a sdo:Landform ;
@@ -3563,8 +3849,10 @@ data:WesternSubprovince
 .
 data:WhitsundayIgneousProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:IgneousProvince ;
   a sdo:Landform ;
@@ -3596,8 +3884,10 @@ data:WhitsundayIgneousProvince
 .
 data:WhitsundaySilicicLargeIgneousProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:LargeIgneousProvince ;
   a sdo:Landform ;
@@ -3611,8 +3901,10 @@ data:WhitsundaySilicicLargeIgneousProvince
 .
 data:WoolominProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
@@ -3628,8 +3920,10 @@ data:WoolominProvince
 .
 data:WoorabindaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -3642,8 +3936,10 @@ data:WoorabindaBasin
 .
 data:YaambaBasin
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:Basin ;
   a sdo:Landform ;
@@ -3656,8 +3952,10 @@ data:YaambaBasin
 .
 data:YamboSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedProvince ;
   a sdo:Landform ;
@@ -3671,8 +3969,10 @@ data:YamboSubprovince
 .
 data:YaringaSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedMetamorphosedSubprovince ;
   a sdo:Landform ;
@@ -3699,8 +3999,10 @@ data:YaringaSubprovince
 .
 data:YarramanSubprovince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedSubprovince ;
   a sdo:Landform ;
@@ -3728,8 +4030,10 @@ data:YarramanSubprovince
 .
 data:YarrolProvince
   a geo:Feature ;
+  a gsoc:Spatial_Region_2D ;
+  dcterms:source "Geological Survey of Queensland" ;
   su:provinceRank supr:province ;
-  a sweet:GeologicFeature ;
+  a sweetg:GeologicFeature ;
   a owl:NamedIndividual ;
   a geof:TectonisedProvince ;
   a sdo:Landform ;
