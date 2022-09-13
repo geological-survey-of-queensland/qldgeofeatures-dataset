@@ -1,7 +1,7 @@
 <img src="gsq.jpg" style="width:25%" />
 
 # Queensland Geological Features Dataset
-This [RDF](https://en.wikipedia.org/wiki/RDF) dataset contains some of the geological Features of Interest (_Feature_ s) of Queensland described and published by the [Geological Survey of Queensland](https://en.wikipedia.org/wiki/Geological_Survey_of_Queensland).
+This [RDF](https://en.wikipedia.org/wiki/RDF) dataset contains some of the geological Features of Interest of Queensland described and published by the [Geological Survey of Queensland](https://en.wikipedia.org/wiki/Geological_Survey_of_Queensland).
 
 
 ## _Features_
@@ -57,14 +57,14 @@ The content of this API is licensed for use under the [Creative Commons 4.0 Lice
 
 
 ## Contacts
-*owner*:  
-**Geological Survey of Queensland**  
-*Within the Queensland Department of Natural Resources, Mines & Energy*  
-1 William St, Brisbane, Queensland, Australia  
-<https://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq>  
-<GSQOpenData@dnrme.qld.gov.au>  
+*System owner*:  
+**Mark Gordon**,
+Geological Survey of Queensland,
+Department of Resources,
+Brisbane, QLD, Australia,
+<mark.gordon@resources.qld.gov.au>  
 
-*authors*:  
+*Contributors*:  
 **Dr Nicholas Car** *technical modelling and data assembly*  
 [SURROUND Australia Pty Ltd](https://surroundaustralia.com)  
 <nicholas.car@surroundaustralia.com>  
