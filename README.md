@@ -65,12 +65,12 @@ Brisbane, QLD, Australia,
 <mark.gordon@resources.qld.gov.au>  
 
 *Contributors*:  
-**Dr Nicholas Car** *technical modelling and data assembly*  
+**Dr Nicholas Car**
 [SURROUND Australia Pty Ltd](https://surroundaustralia.com)  
 <nicholas.car@surroundaustralia.com>  
 <http://orcid.org/0000-0002-8742-7730>  
 
-**Dr John McKellar** - *geoscience additions to the base GeoResGlob data*  
+**Dr John McKellar**
 [Geological Survey of Queensland](https://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq)  
 <john.mckellar@dnrm.qld.gov.au>  
 <http://orcid.org/0000-0001-5489-9590>  
