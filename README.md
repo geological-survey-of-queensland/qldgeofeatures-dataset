@@ -57,20 +57,8 @@ The content of this API is licensed for use under the [Creative Commons 4.0 Lice
 
 
 ## Contacts
-*System owner*:  
-**Mark Gordon**,
+**Geoscience Information Team**,
 Geological Survey of Queensland,
 Department of Resources,
 Brisbane, QLD, Australia,
-<mark.gordon@resources.qld.gov.au>  
-
-*Contributors*:  
-**Dr Nicholas Car**
-[SURROUND Australia Pty Ltd](https://surroundaustralia.com)  
-<nicholas.car@surroundaustralia.com>  
-<http://orcid.org/0000-0002-8742-7730>  
-
-**Dr John McKellar**
-[Geological Survey of Queensland](https://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq)  
-<john.mckellar@dnrm.qld.gov.au>  
-<http://orcid.org/0000-0001-5489-9590>  
+<geological_info@resources.qld.gov.au>
