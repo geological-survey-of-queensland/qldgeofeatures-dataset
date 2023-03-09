@@ -13,6 +13,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
         ] ;
     rdfs:member <https://linked.data.gov.au/dataset/qldgeofeatures/features> ;
+    sdo:contributor
+        <http://orcid.org/0000-0001-5489-9590> ,
+        <http://orcid.org/0000-0002-8742-7730> ;
     sdo:copyrightNotice "(c) The State of Queensland (Department of Resources) 2023" ;
     sdo:copyrightYear "2023"^^xsd:gYear ;
     sdo:creator <https://linked.data.gov.au/org/gsq> ;
@@ -22,4 +25,28 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:license <http://creativecommons.org/licenses/by/4.0/> ;
     sdo:name "Queensland Geological Features Dataset"@en ;
     sdo:publisher <https://linked.data.gov.au/org/gsq> ;
+.
+
+<http://orcid.org/0000-0001-5489-9590>
+    a sdo:Person ;
+    sdo:affiliation <https://linked.data.gov.au/org/gsq> ;
+    sdo:email <mailto:john.mckellar@dnrm.qld.gov.au> ;
+    sdo:honorificPrefix "Dr" ;
+    sdo:jobTitle "Senior Geologist" ;
+    sdo:name "John McKeller" ;
+.
+
+<http://orcid.org/0000-0002-8742-7730>
+    a sdo:Person ;
+    sdo:affiliation <https://kurrawong.ai> ;
+    sdo:email <mailto:nick@kurrawoing.ai> ;
+    sdo:honorificPrefix "Dr" ;
+    sdo:jobTitle "Data Architect" ;
+    sdo:name "Nicholas J. Car" ;
+.
+
+<https://kurrawong.ai>
+    a sdo:Organization ;
+    sdo:name "KurrawongAI" ;
+    sdo:url "https://kurrawong.ai"^^xsd:anyURI ;
 .
