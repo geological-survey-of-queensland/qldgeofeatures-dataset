@@ -45,7 +45,7 @@ The persistent identifier (PID) for this dataset is:
 
 
 ## Data
-***Currently this dataset contains a base of publicly avaiable GSQ Structural Framework data which is certainly not all of GSQ's Features of Interest. It is being extended to contain more data over time.***
+***Currently this dataset contains a base of publicly available GSQ Structural Framework data which is certainly not all of GSQ's Features of Interest. It is being extended to contain more data over time.***
 
 This dataset's data is all in the single file [dataset.ttl](dataset.ttl). The spatial and some of the other properties of the features were produced from the initial GSQ Structural Framework JSON data which is stored in [_data/](_data/) by the Python script [data-processor.py](_scripts/data-processor.py). The source of the JSON files is the [Queensland Globe](https://qldglobe.information.qld.gov.au/), which was originally populated with GSQ Structural Framework deliverd to the Globe by GSQ some years ago. This data is already public.
 

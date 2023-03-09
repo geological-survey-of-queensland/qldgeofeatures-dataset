@@ -1,5 +1,5 @@
 from rdflib import Graph
 
 
-g = Graph().parse("../dataset.ttl", format="turtle")
+g = Graph().parse("../_data/features.ttl", format="longturtle")
 print(len(g))

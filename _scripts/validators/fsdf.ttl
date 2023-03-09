@@ -1,0 +1,286 @@
+PREFIX : <https://linked.data.gov.au/def/fsdf-backbone/validator/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://linked.data.gov.au/def/fsdf-backbone/validator>
+    a owl:Ontology ;
+    dcterms:provenance "This validator for the FSDF Backbone Model was made in 2022."@en ;
+    owl:versionIRI <http://linked.data.gov.au/def/fsdf-backbone/1.0.0> ;
+    owl:versionInfo "1.0.0" ;
+    sdo:codeRespository "https://github.com/geoscienceaustralia/fsdf-supermodel"^^xsd:anyURI ;
+    sdo:copyrightHolder <https://orcid.org/0000-0002-8742-7730> ;
+    sdo:copyrightNotice "(c) Commonwealth of Australia (Geoscience Australia), 2022" ;
+    sdo:copyrightYear "2022"^^xsd:gYear ;
+    sdo:creator <https://orcid.org/0000-0002-8742-7730> ;
+    sdo:dateCreated "2022-09-05"^^xsd:date ;
+    sdo:dateIssued "2022-09-05"^^xsd:date ;
+    sdo:dateModified "2023-03-09"^^xsd:date ;
+    sdo:description "The Shapes Constraint Language file storing validation rules to assess RDF data against the FSDF Backbone Model Profile’s Specification’s Requirements"@en ;
+    sdo:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    sdo:name "FSDF Backbone Model Profile Validator"@en ;
+    sdo:publisher <https://linked.data.gov.au/org/ga> ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    a sdo:Person ;
+    sdo:name "Nicholas J. Car"@en ;
+    sdo:email "nick@kurrawong.net"^^xsd:anyURI ;
+    sdo:affiliation <https://kurrawong.net> ;
+.
+
+<https://kurrawong.net>
+    a sdo:Organization ;
+    sdo:name "Kurrawong AI" ;
+    sdo:description "Kurrawong AI is a small, Artificial Intelligence, company in Australia specialising in Knowledge Graphs." ;
+    sdo:url "https://kurrawong.net"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+#
+#   Node Shapes
+#
+
+# :GM2
+#     a sh:NodeShape ;
+#     sh:targetSubjectsOf rdf:type ;
+#     rdfs:label "Class Modelling" ;
+#     sh:property [
+#         a sh:PropertyShape ;
+#         rdfs:label "All class instances must be owl:Class instances" ;
+#         sh:path rdf:type ;
+#         sh:minCount 1 ;
+#         sh:class owl:Class ;
+#         sh:message "Req GM2: Classes of object MUST be modelled as owl:Class instances" ;
+#     ] ;
+#     sh:message "" ;
+# .
+
+:DM2
+    a sh:NodeShape ;
+    sh:targetClass dcat:Dataset ;
+    rdfs:label "Dataset Mandatory Properties" ;
+    sh:property
+        :mandatory-title ,
+        :mandatory-description ,
+        :mandatory-dateCreated ,
+        :mandatory-dateModified ;
+    sh:message "dcat:Dataset instances MUST be presented as dcat:Dataset instances with at least the following properties: dcaterms:title & sdo:description - as strings or langString values, sdo:dateCreated & sdo:dateModified - as xsd:date, xsd:dateTime or xsd:dateTimeStamp values" ;
+.
+
+:DM3
+    a sh:NodeShape ;
+    sh:targetClass dcat:Dataset ;
+    rdfs:label "Dataset Agents" ;
+    sh:property
+        :mandatory-creator ,
+        :mandatory-publisher ;
+    sh:message "dcat:Dataset instances MUST indicate at least creator & publisher Agents via use of the sdo:creator and sdo:publisher properties. The values for these properties must be IRIs, not strings" ;
+.
+
+:DM4
+    a sh:NodeShape ;
+    sh:targetClass dcat:Dataset ;
+    rdfs:label "Dataset Provenance" ;
+    sh:or (
+        [
+			sh:path prov:wasDerivedFrom ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
+        ]
+        [
+			sh:path dcterms:source ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
+        ]
+        [
+			sh:path dcterms:provenance ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
+        ]
+    ) ;
+    sh:message "dcat:Dataset instances SHOULD indicate provenance in one of three ways: if derived from an RDF dataset then with prov:wasDerivedFrom - with an IRI value, if derived from an online but non-RDF data source then with dcterms:source - xsd:anyURI` value and if neither then with a written statement with dcterms:provenance - string or langString value" ;
+    sh:severity sh:Warning ;
+.
+
+:DM5
+    a sh:NodeShape ;
+    sh:targetClass dcat:Dataset ;
+    rdfs:label "Dataset Spatiality" ;
+    sh:property
+        :mandatory-geometry ;
+    sh:message "dcat:Dataset instances MUST indicate the total spatial footprint the elements within them by indicating a geo:Geometry object via a geo:hasGeometry or geo:hasBoundingBox property" ;
+.
+
+:DM6
+    a sh:NodeShape ;
+    sh:targetClass dcat:Dataset ;
+    rdfs:label "Dataset Feature Collections" ;
+    sh:property [
+        a sh:PropertyShape ;
+        sh:path rdfs:member ;
+        sh:class geo:FeatureCollection ;
+        sh:minCount 1 ;
+        sh:message "dcat:Dataset instances MUST indicate at least one geo:FeatureCollection instances within them with the rdfs:member property" ;
+    ] ;
+.
+
+:DM7
+    a sh:NodeShape ;
+    sh:targetClass geo:Feature ;
+    rdfs:label "Dataset Optional Properties" ;
+    # sh:property :mandatory-identifier ;
+    sh:message "dcat:Dataset instances MAY be presented with the following properties: TODO" ;
+.
+
+:S2
+    a sh:NodeShape ;
+    sh:targetClass geo:FeatureCollection ;
+    rdfs:label "Feature Collection Mandatory Properties" ;
+    sh:property
+        :mandatory-title ,
+        :mandatory-description ;
+    sh:message "geo:FeatureCollection instances MUST be presented with at least the following properties: dcaterms:title & sdo:description - as strings or langString values" ;
+.
+
+:S3
+    a sh:NodeShape ;
+    sh:targetClass geo:FeatureCollection ;
+    rdfs:label "Feature Collection Spatiality" ;
+    sh:property
+        :mandatory-geometry ;
+.
+
+:S4
+    a sh:NodeShape ;
+    sh:targetClass geo:FeatureCollection ;
+    rdfs:label "Feature Collection Features" ;
+    sh:property [
+        a sh:PropertyShape ;
+        sh:path rdfs:member ;
+        sh:class geo:Feature ;
+        sh:minCount 1 ;
+        sh:message "geo:FeatureCollection instances MUST indicate at least one geo:Feature instances within them with the rdfs:member property" ;
+    ] ;
+.
+
+:S5
+    a sh:NodeShape ;
+    sh:targetClass geo:Feature ;
+    rdfs:label "Feature Mandatory Properties" ;
+    # sh:property :mandatory-identifier ;
+    # sh:message "geo:Feature instances MUST be presented with at least the following properties: dcterms:identifier - as an xsd:token value" ;
+.
+
+:S6
+    a sh:NodeShape ;
+    sh:targetClass geo:FeatureCollection ;
+    rdfs:label "Feature Collection Optional Properties" ;
+    # sh:property :mandatory-identifier ;
+    sh:message "geo:FeatureCollection instances MAY be presented with the following properties: TODO" ;
+.
+
+:S7
+    a sh:NodeShape ;
+    sh:targetClass geo:Feature ;
+    rdfs:label "Feature Optional Properties" ;
+    # sh:property :mandatory-identifier ;
+    sh:message "geo:Feature instances MAY be presented with the following properties: TODO" ;
+.
+
+:mandatory-title
+    a sh:PropertyShape ;
+    rdfs:label "Mandatory Title" ;
+    sh:path sdo:name ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:or (
+        [ sh:datatype xsd:string ]
+        [ sh:datatype rdf:langString ]
+    ) ;
+    sh:message "Each dcate:Dataset and geo:FeatureCollection instance MUST indicate one and only one sdo:description property that with a value of data type xsd:string or rdf:langString" ;
+.
+
+:mandatory-description
+    a sh:PropertyShape ;
+    rdfs:label "Mandatory Description" ;
+    sh:path sdo:description ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:or (
+        [ sh:datatype xsd:string ]
+        [ sh:datatype rdf:langString ]
+    ) ;
+    sh:message "Each dcate:Dataset and geo:FeatureCollection instance MUST indicate one and only one sdo:description property that with a value of data type xsd:string or rdf:langString" ;
+.
+
+:mandatory-dateCreated
+    a sh:PropertyShape ;
+    rdfs:label "Date Created" ;
+    sh:path sdo:dateCreated ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:or (
+        [ sh:datatype xsd:dateTime ]
+        [ sh:datatype xsd:date ]
+        [ sh:datatype xsd:dateTimeStamp ]
+    ) ;
+    sh:message "Each dcat:Dataset instance MUST indicate one and only one sdo:dateCreated property with a value of data type xsd:date, xsd:dateTime, or xsd:dateTimeStamp" ;
+.
+
+:mandatory-dateModified ;
+    a sh:PropertyShape ;
+    rdfs:label "Date Modified" ;
+    sh:path sdo:dateModified ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:or (
+        [ sh:datatype xsd:dateTime ]
+        [ sh:datatype xsd:date ]
+        [ sh:datatype xsd:dateTimeStamp ]
+    ) ;
+    sh:message "Each dcat:Dataset instance MUST indicate one and only one sdo:dateModified property with a value of data type xsd:date, xsd:dateTime, or xsd:dateTimeStamp" ;
+.
+
+:mandatory-creator
+    a sh:PropertyShape ;
+    rdfs:label "Creator" ;
+    sh:path sdo:creator ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:message "Each dcat:Dataset instance MUST indicate at least one sdo:creator property with a value of type Blank Node or IRI" ;
+.
+
+:mandatory-publisher
+    a sh:PropertyShape ;
+    rdfs:label "Publisher" ;
+    sh:path sdo:publisher ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:message "Each dcat:Dataset instance MUST indicate at least one sdo:publisher property with a value of type Blank Node or IRI" ;
+.
+
+:mandatory-geometry
+    a sh:PropertyShape ;
+    sh:path [sh:alternativePath (
+        geo:hasGeometry
+        geo:hasBoundingBox
+    )] ;
+    sh:class geo:Geometry ;
+    sh:minCount 1 ;
+    sh:message "dcat:Dataset and geo:FeatureCollection instances MUST indicate the total spatial footprint the elements within them by indicating a geo:Geometry object via a geo:hasGeometry or geo:hasBoundingBox property" ;
+.

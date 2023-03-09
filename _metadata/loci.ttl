@@ -1,6 +1,0 @@
-PREFIX loci: <https://linked.data.gov.au/def/loci#>
-
-
-<https://linked.data.gov.au/dataset/qldgeofeatures>
-    a loci:Dataset ;
-.

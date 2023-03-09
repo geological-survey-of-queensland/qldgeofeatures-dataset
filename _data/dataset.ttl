@@ -1,0 +1,25 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/qldgeofeatures>
+    a dcat:Dataset ;
+    dcterms:provenance "This dataset was originally created in 2020 from GSQ data made public via GeoResGlobe some years before. It has been updated since 2020 to use more up-to-date age information and to align with various domain ontologies." ;
+    geo:hasBoundingBox [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
+        ] ;
+    rdfs:member <https://linked.data.gov.au/dataset/qldgeofeatures/features> ;
+    sdo:copyrightNotice "(c) The State of Queensland (Department of Resources) 2023" ;
+    sdo:copyrightYear "2023"^^xsd:gYear ;
+    sdo:creator <https://linked.data.gov.au/org/gsq> ;
+    sdo:dateCreated "2023-01-15"^^xsd:date ;
+    sdo:dateModified "2023-03-09"^^xsd:date ;
+    sdo:description "This dataset contains a base of publicly available Geological Survey of Queensland Structural Framework data. This is certainly not all of GSQ's Features of Interest but it is being extended to contain more data over time"@en ;
+    sdo:license <http://creativecommons.org/licenses/by/4.0/> ;
+    sdo:name "Queensland Geological Features Dataset"@en ;
+    sdo:publisher <https://linked.data.gov.au/org/gsq> ;
+.
