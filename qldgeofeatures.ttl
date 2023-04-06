@@ -71,7 +71,7 @@ qgf:AdavaleBasin
     su:older ischart:Devonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Devonian ;
-    dcterms:identifier "qgf:AdavaleBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:AdavaleBasin" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -97,7 +97,7 @@ qgf:AmberleyBasin
     su:older ischart:Paleocene ;
     su:provinceRank supr:province ;
     su:younger ischart:Eocene ;
-    dcterms:identifier "qgf:AmberleyBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:AmberleyBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime
         ischart:Eocene ,
@@ -117,7 +117,7 @@ qgf:AnakieProvince
     su:provinceRank supr:province ;
     su:younger ischart:Silurian ;
     dcterms:hasPart qgf:FORK_LAGOONS_SUBPROVINCE ;
-    dcterms:identifier "qgf:AnakieProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:AnakieProvince" ;
     dcterms:isPartOf
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_PROVINCES ,
         qgf:ThomsonOrogen ;
@@ -149,7 +149,7 @@ qgf:AuburnSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Permian ;
-    dcterms:identifier "qgf:AuburnSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:AuburnSubprovince" ;
     dcterms:isPartOf qgf:CONNORS_AUBURN_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -177,7 +177,7 @@ qgf:AustralDownsBasin
     su:older ischart:Neogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:AustralDownsBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:AustralDownsBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Neogene ;
     sdo:name "Austral Downs Basin"@en ;
@@ -194,7 +194,7 @@ qgf:AwoongaSubprovince
     su:older ischart:Pridoli ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerDevonian ;
-    dcterms:identifier "qgf:AwoongaSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:AwoongaSubprovince" ;
     dcterms:isPartOf qgf:CALLIOPE_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -222,7 +222,7 @@ qgf:BagaBasin
     su:older ischart:LowerCretaceous ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerCretaceous ;
-    dcterms:identifier "qgf:BagaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BagaBasin" ;
     dcterms:isPartOf qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
     skos:altLabel "Jim Crow Basin"@en ;
     skos:prefLabel "Baga Basin"@en ;
@@ -242,7 +242,7 @@ qgf:BarnardProvince
     su:older ischart:Neoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerOrdovician ;
-    dcterms:identifier "qgf:BarnardProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BarnardProvince" ;
     dcterms:isPartOf
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_PROVINCES ,
         qgf:ThomsonOrogen ;
@@ -273,7 +273,7 @@ qgf:BarrolkaDepression
     su:older ischart:Devonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Devonian ;
-    dcterms:identifier "qgf:BarrolkaDepression"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BarrolkaDepression" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -299,7 +299,7 @@ qgf:BeaudesertBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:BeaudesertBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BeaudesertBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Beaudesert Basin"@en ;
@@ -316,7 +316,7 @@ qgf:BeenleighSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Carboniferous ;
-    dcterms:identifier "qgf:BeenleighSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BeenleighSubprovince" ;
     dcterms:isPartOf qgf:WANDILLA_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -342,7 +342,7 @@ qgf:BelyandoBasin
     su:older ischart:Devonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Devonian ;
-    dcterms:identifier "qgf:BelyandoBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BelyandoBasin" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -368,7 +368,7 @@ qgf:BerserkerSubprovince
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:Permian ;
-    dcterms:identifier "qgf:BerserkerSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BerserkerSubprovince" ;
     dcterms:isPartOf qgf:YARROL_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -394,7 +394,7 @@ qgf:BiloelaBasin
     su:older ischart:Eocene ;
     su:provinceRank supr:province ;
     su:younger ischart:Oligocene ;
-    dcterms:identifier "qgf:BiloelaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BiloelaBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime
         ischart:Eocene ,
@@ -413,7 +413,7 @@ qgf:BoovalBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:BoovalBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BoovalBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime
         ischart:Neogene ,
@@ -432,7 +432,7 @@ qgf:BowenBasin
     su:older ischart:UpperPennsylvanian ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleTriassic ;
-    dcterms:identifier "qgf:BowenBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BowenBasin" ;
     dcterms:isPartOf
         qgf:NEW_ENGLAND_OROGEN ,
         qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
@@ -468,7 +468,7 @@ qgf:BrokenRiverProvince
     dcterms:hasPart
         qgf:CAMEL_CREEK_SUBPROVINCE ,
         qgf:GRAVEYARD_CREEK_SUBPROVINCE ;
-    dcterms:identifier "qgf:BrokenRiverProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BrokenRiverProvince" ;
     dcterms:isPartOf qgf:MOSSMAN_OROGEN ;
     time:hasTime
         ischart:Frasnian ,
@@ -489,7 +489,7 @@ qgf:BundockBasin
     su:older ischart:UpperDevonian ;
     su:provinceRank supr:province ;
     su:younger ischart:UpperDevonian ;
-    dcterms:identifier "qgf:BundockBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BundockBasin" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -517,7 +517,7 @@ qgf:BurdekinBasin
     su:older ischart:Devonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Mississippian ;
-    dcterms:identifier "qgf:BurdekinBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BurdekinBasin" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -545,7 +545,7 @@ qgf:BurdekinFallsSubprovince
     su:older ischart:UpperPennsylvanian ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:BurdekinFallsSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BurdekinFallsSubprovince" ;
     dcterms:isPartOf qgf:KENNEDY_IGNEOUS_PROVINCE ;
     time:hasTime
         ischart:Cisuralian ,
@@ -564,7 +564,7 @@ qgf:BurketownDepression
     su:older ischart:Cisuralian ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleTriassic ;
-    dcterms:identifier "qgf:BurketownDepression"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:BurketownDepression" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -594,7 +594,7 @@ qgf:CalenBasin
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:Permian ;
-    dcterms:identifier "qgf:CalenBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CalenBasin" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -620,7 +620,7 @@ qgf:CallideBasin
     su:older ischart:UpperTriassic ;
     su:provinceRank supr:province ;
     su:younger ischart:UpperTriassic ;
-    dcterms:identifier "qgf:CallideBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CallideBasin" ;
     dcterms:isPartOf qgf:UPPER_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -653,7 +653,7 @@ qgf:CalliopeProvince
         qgf:CRAIGILEE_SUBPROVINCE ,
         qgf:EREBUS_SUBPROVINCE ,
         qgf:PHILPOTT_SUBPROVINCE ;
-    dcterms:identifier "qgf:CalliopeProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CalliopeProvince" ;
     dcterms:isPartOf qgf:NEW_ENGLAND_OROGEN ;
     time:hasTime
         ischart:LowerDevonian ,
@@ -673,7 +673,7 @@ qgf:CamelCreekSubprovince
     su:older ischart:Ordovician ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerDevonian ;
-    dcterms:identifier "qgf:CamelCreekSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CamelCreekSubprovince" ;
     dcterms:isPartOf qgf:BROKEN_RIVER_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -702,7 +702,7 @@ qgf:CampwynSubprovince
     su:older ischart:UpperDevonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Mississippian ;
-    dcterms:identifier "qgf:CampwynSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CampwynSubprovince" ;
     dcterms:isPartOf qgf:YARROL_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -730,7 +730,7 @@ qgf:CanobieDepression
     su:older ischart:MiddleTriassic ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleTriassic ;
-    dcterms:identifier "qgf:CanobieDepression"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CanobieDepression" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -756,7 +756,7 @@ qgf:CapellaSubprovince
     su:older ischart:LowerDevonian ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleDevonian ;
-    dcterms:identifier "qgf:CapellaSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CapellaSubprovince" ;
     dcterms:isPartOf qgf:CALLIOPE_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -784,7 +784,7 @@ qgf:CapricornBasin
     su:older ischart:UpperCretaceous ;
     su:provinceRank supr:province ;
     su:younger ischart:Quaternary ;
-    dcterms:identifier "qgf:CapricornBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CapricornBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     skos:altLabel "Bundaberg Trough"@en ;
     skos:prefLabel "Capricorn Basin"@en ;
@@ -807,7 +807,7 @@ qgf:CarpentariaBasin
     su:older ischart:Jurassic ;
     su:provinceRank supr:province ;
     su:younger ischart:Cretaceous ;
-    dcterms:identifier "qgf:CarpentariaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CarpentariaBasin" ;
     dcterms:isPartOf
         qgf:GREAT_AUSTRALIAN_SUPERBASIN ,
         qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
@@ -837,7 +837,7 @@ qgf:CasuarinaBasin
     su:older ischart:Eocene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:CasuarinaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CasuarinaBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime
         ischart:Eocene ,
@@ -858,7 +858,7 @@ qgf:CentralianSuperbasin
     su:provinceRank supr:province ;
     su:younger ischart:Devonian ;
     dcterms:hasPart qgf:GEORGINA_BASIN ;
-    dcterms:identifier "qgf:CentralianSuperbasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CentralianSuperbasin" ;
     dcterms:isPartOf qgf:NORTH_AUSTRALIAN_CRATON ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -891,7 +891,7 @@ qgf:ChartersTowersProvince
     su:provinceRank supr:province ;
     su:younger ischart:Ordovician ;
     dcterms:hasPart qgf:MOUNT_WINDSOR_SUBPROVINCE ;
-    dcterms:identifier "qgf:ChartersTowersProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:ChartersTowersProvince" ;
     dcterms:isPartOf
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_PROVINCES ,
         qgf:ThomsonOrogen ;
@@ -922,7 +922,7 @@ qgf:ChillagoeSubprovince
     su:older ischart:Llandovery ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerDevonian ;
-    dcterms:identifier "qgf:ChillagoeSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:ChillagoeSubprovince" ;
     dcterms:isPartOf qgf:HODGKINSON_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -950,7 +950,7 @@ qgf:Clarence-MoretonBasin
     su:older ischart:Rhaetian ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleJurassic ;
-    dcterms:identifier "qgf:Clarence-MoretonBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:Clarence-MoretonBasin" ;
     dcterms:isPartOf
         qgf:GREAT_AUSTRALIAN_SUPERBASIN ,
         qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
@@ -981,7 +981,7 @@ qgf:ClarkeRiverBasin
     su:older ischart:UpperDevonian ;
     su:provinceRank supr:province ;
     su:younger ischart:UpperDevonian ;
-    dcterms:identifier "qgf:ClarkeRiverBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:ClarkeRiverBasin" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1009,7 +1009,7 @@ qgf:CoastalSubprovince
     su:older ischart:Devonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Carboniferous ;
-    dcterms:identifier "qgf:CoastalSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CoastalSubprovince" ;
     dcterms:isPartOf qgf:WANDILLA_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1040,7 +1040,7 @@ qgf:Connors-AuburnProvince
     dcterms:hasPart
         qgf:AUBURN_SUBPROVINCE ,
         qgf:CONNORS_SUBPROVINCE ;
-    dcterms:identifier "qgf:Connors-AuburnProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:Connors-AuburnProvince" ;
     dcterms:isPartOf qgf:NEW_ENGLAND_OROGEN ;
     time:hasTime
         ischart:Carboniferous ,
@@ -1059,7 +1059,7 @@ qgf:ConnorsSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:ConnorsSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:ConnorsSubprovince" ;
     dcterms:isPartOf qgf:CONNORS_AUBURN_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1087,7 +1087,7 @@ qgf:CooperBasin
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:Triassic ;
-    dcterms:identifier "qgf:CooperBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CooperBasin" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1115,7 +1115,7 @@ qgf:CraigileeSubprovince
     su:older ischart:Pridoli ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleDevonian ;
-    dcterms:identifier "qgf:CraigileeSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CraigileeSubprovince" ;
     dcterms:isPartOf qgf:CALLIOPE_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1144,7 +1144,7 @@ qgf:CroydonProvince
     su:older ischart:Calymmian ;
     su:provinceRank supr:province ;
     su:younger ischart:Calymmian ;
-    dcterms:identifier "qgf:CroydonProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:CroydonProvince" ;
     dcterms:isPartOf
         qgf:NORTH_AUSTRALIAN_CRATON ,
         qgf:PALEOPROTEROZOIC_MESOPROTEROZOIC_PROVINCES ;
@@ -1172,7 +1172,7 @@ qgf:DaintreeSubprovince
     su:older ischart:Cisuralian ;
     su:provinceRank supr:province ;
     su:younger ischart:Guadalupian ;
-    dcterms:identifier "qgf:DaintreeSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:DaintreeSubprovince" ;
     dcterms:isPartOf qgf:KENNEDY_IGNEOUS_PROVINCE ;
     time:hasTime
         ischart:Cisuralian ,
@@ -1202,7 +1202,7 @@ qgf:DevonianCarboniferousBasinTypes
         qgf:GILBERTON_BASIN ,
         qgf:PASCOE_RIVER_BASIN ,
         qgf:WARRABIN_TROUGH ;
-    dcterms:identifier "qgf:DevonianCarboniferousBasinTypes"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:DevonianCarboniferousBasinTypes" ;
     time:hasTime
         ischart:Carboniferous ,
         ischart:Devonian ;
@@ -1220,7 +1220,7 @@ qgf:DrummondBasin
     su:older ischart:Devonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Carboniferous ;
-    dcterms:identifier "qgf:DrummondBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:DrummondBasin" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1248,7 +1248,7 @@ qgf:DuaringaBasin
     su:older ischart:UpperCretaceous ;
     su:provinceRank supr:province ;
     su:younger ischart:Miocene ;
-    dcterms:identifier "qgf:DuaringaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:DuaringaBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     skos:scopeNote "Babaahmadi et al. (2018) have indicated a Late Cretaceous(?) to early Cenozoic age for the basin fill. Palynofloras from the upper part of its succession are middle to late Eocene, and Oligocene-Miocene nearer the surface (Foster, 1980; Jell, 2013)."@en ;
     time:hasTime
@@ -1269,7 +1269,7 @@ qgf:EasternSubprovince
     su:older ischart:Statherian ;
     su:provinceRank supr:province ;
     su:younger ischart:Calymmian ;
-    dcterms:identifier "qgf:EasternSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:EasternSubprovince" ;
     dcterms:isPartOf qgf:MountIsaProvince ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1301,7 +1301,7 @@ qgf:EmeraldBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:EmeraldBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:EmeraldBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime
         ischart:Neogene ,
@@ -1320,7 +1320,7 @@ qgf:ErebusSubprovince
     su:older ischart:Pridoli ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleDevonian ;
-    dcterms:identifier "qgf:ErebusSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:ErebusSubprovince" ;
     dcterms:isPartOf qgf:CALLIOPE_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1349,7 +1349,7 @@ qgf:EromangaBasin
     su:older ischart:Rhaetian ;
     su:provinceRank supr:province ;
     su:younger ischart:Cenomanian ;
-    dcterms:identifier "qgf:EromangaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:EromangaBasin" ;
     dcterms:isPartOf
         qgf:GREAT_AUSTRALIAN_SUPERBASIN ,
         qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
@@ -1381,7 +1381,7 @@ qgf:EskBasin
     su:older ischart:LowerTriassic ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleTriassic ;
-    dcterms:identifier "qgf:EskBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:EskBasin" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1414,7 +1414,7 @@ qgf:EtheridgeProvince
     dcterms:hasPart
         qgf:FORSAYTH_SUBPROVINCE ,
         qgf:YAMBO_SUBPROVINCE ;
-    dcterms:identifier "qgf:EtheridgeProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:EtheridgeProvince" ;
     dcterms:isPartOf
         qgf:NORTH_AUSTRALIAN_CRATON ,
         qgf:PALEOPROTEROZOIC_MESOPROTEROZOIC_PROVINCES ;
@@ -1444,7 +1444,7 @@ qgf:ForkLagoonsSubprovince
     su:older ischart:Ordovician ;
     su:provinceRank supr:province ;
     su:younger ischart:Silurian ;
-    dcterms:identifier "qgf:ForkLagoonsSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:ForkLagoonsSubprovince" ;
     dcterms:isPartOf qgf:ANAKIE_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1472,7 +1472,7 @@ qgf:ForsaythSubprovince
     su:older ischart:Paleoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Calymmian ;
-    dcterms:identifier "qgf:ForsaythSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:ForsaythSubprovince" ;
     dcterms:isPartOf qgf:ETHERIDGE_PROVINCE ;
     time:hasTime
         ischart:Calymmian ,
@@ -1491,7 +1491,7 @@ qgf:GalileeBasin
     su:older ischart:UpperMississippian ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleTriassic ;
-    dcterms:identifier "qgf:GalileeBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:GalileeBasin" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1523,7 +1523,7 @@ qgf:GamboolaBasin
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:Permian ;
-    dcterms:identifier "qgf:GamboolaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:GamboolaBasin" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1549,7 +1549,7 @@ qgf:GeorginaBasin
     su:older ischart:Neoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Devonian ;
-    dcterms:identifier "qgf:GeorginaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:GeorginaBasin" ;
     dcterms:isPartOf
         qgf:CENTRALIAN_SUPERBASIN ,
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_BASIN_TYPES ,
@@ -1584,7 +1584,7 @@ qgf:GilbertonBasin
     su:older ischart:UpperDevonian ;
     su:provinceRank supr:province ;
     su:younger ischart:UpperDevonian ;
-    dcterms:identifier "qgf:GilbertonBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:GilbertonBasin" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1612,7 +1612,7 @@ qgf:GrantleighSubprovince
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:Permian ;
-    dcterms:identifier "qgf:GrantleighSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:GrantleighSubprovince" ;
     dcterms:isPartOf qgf:YARROL_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1638,7 +1638,7 @@ qgf:GraveyardCreekSubprovince
     su:older ischart:Silurian ;
     su:provinceRank supr:province ;
     su:younger ischart:Frasnian ;
-    dcterms:identifier "qgf:GraveyardCreekSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:GraveyardCreekSubprovince" ;
     dcterms:isPartOf qgf:BROKEN_RIVER_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1676,7 +1676,7 @@ qgf:GreatAustralianSuperbasin
         qgf:MULGILDIE_BASIN ,
         qgf:NAMBOUR_BASIN ,
         qgf:SURAT_BASIN ;
-    dcterms:identifier "qgf:GreatAustralianSuperbasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:GreatAustralianSuperbasin" ;
     dcterms:isPartOf qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
     skos:altLabel "Great Australian Basin"@en ;
     skos:prefLabel "Great Australian Superbasin"@en ;
@@ -1700,7 +1700,7 @@ qgf:GreenvaleProvince
     su:older ischart:Neoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Ordovician ;
-    dcterms:identifier "qgf:GreenvaleProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:GreenvaleProvince" ;
     dcterms:isPartOf
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_PROVINCES ,
         qgf:ThomsonOrogen ;
@@ -1731,7 +1731,7 @@ qgf:GympieProvince
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleTriassic ;
-    dcterms:identifier "qgf:GympieProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:GympieProvince" ;
     dcterms:isPartOf qgf:NEW_ENGLAND_OROGEN ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1760,7 +1760,7 @@ qgf:HebertonSubprovince
     su:older ischart:Pennsylvanian ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:HebertonSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:HebertonSubprovince" ;
     dcterms:isPartOf qgf:KENNEDY_IGNEOUS_PROVINCE ;
     time:hasTime
         ischart:Cisuralian ,
@@ -1779,7 +1779,7 @@ qgf:HerbertCreekBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:HerbertCreekBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:HerbertCreekBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime
         ischart:Neogene ,
@@ -1798,7 +1798,7 @@ qgf:HillsboroughBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:HillsboroughBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:HillsboroughBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Hillsborough Basin"@en ;
@@ -1818,7 +1818,7 @@ qgf:HodgkinsonProvince
     dcterms:hasPart
         qgf:CHILLAGOE_SUBPROVINCE ,
         qgf:PALMER_BARRON_SUBPROVINCE ;
-    dcterms:identifier "qgf:HodgkinsonProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:HodgkinsonProvince" ;
     dcterms:isPartOf qgf:MOSSMAN_OROGEN ;
     time:hasTime
         ischart:Devonian ,
@@ -1840,7 +1840,7 @@ qgf:InorunieBasin
     su:older ischart:Mesoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Mesoproterozoic ;
-    dcterms:identifier "qgf:InorunieBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:InorunieBasin" ;
     dcterms:isPartOf
         qgf:NORTH_AUSTRALIAN_CRATON ,
         qgf:PALEOPROTEROZOIC_MESOPROTEROZOIC_BASIN_TYPES ;
@@ -1868,7 +1868,7 @@ qgf:IpswichBasin
     su:older ischart:UpperTriassic ;
     su:provinceRank supr:province ;
     su:younger ischart:UpperTriassic ;
-    dcterms:identifier "qgf:IpswichBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:IpswichBasin" ;
     dcterms:isPartOf qgf:UPPER_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1894,7 +1894,7 @@ qgf:IronRangeProvince
     su:older ischart:Neoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Neoproterozoic ;
-    dcterms:identifier "qgf:IronRangeProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:IronRangeProvince" ;
     dcterms:isPartOf
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_PROVINCES ,
         qgf:ThomsonOrogen ;
@@ -1922,7 +1922,7 @@ qgf:JardineSubprovince
     su:older ischart:Cisuralian ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:JardineSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:JardineSubprovince" ;
     dcterms:isPartOf qgf:KENNEDY_IGNEOUS_PROVINCE ;
     time:hasTime ischart:Cisuralian ;
     sdo:name "Jardine Subprovince"@en ;
@@ -1937,7 +1937,7 @@ qgf:Kalkadoon-LeichhardtSubprovince
         gsoc:Spatial_Region_2D ;
     rdfs:label "Kalkadoon-Leichhardt Subprovince"@en ;
     su:provinceRank supr:province ;
-    dcterms:identifier "qgf:Kalkadoon-LeichhardtSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:Kalkadoon-LeichhardtSubprovince" ;
     dcterms:isPartOf qgf:MountIsaProvince ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1965,7 +1965,7 @@ qgf:KalpowarBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:KalpowarBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:KalpowarBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime
         ischart:Neogene ,
@@ -1984,7 +1984,7 @@ qgf:KangarooHillsSubprovince
     su:older ischart:Mississippian ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:KangarooHillsSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:KangarooHillsSubprovince" ;
     dcterms:isPartOf
         qgf:KENNEDY_IGNEOUS_PROVINCE ,
         qgf:MOSSMAN_OROGEN ,
@@ -2007,7 +2007,7 @@ qgf:KarumbaBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:KarumbaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:KarumbaBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime
         ischart:Neogene ,
@@ -2037,7 +2037,7 @@ qgf:KennedyIgneousProvince
         qgf:PALUMA_SUBPROVINCE ,
         qgf:TATE_SUBPROVINCE ,
         qgf:TORRES_STRAIT_SUBPROVINCE ;
-    dcterms:identifier "qgf:KennedyIgneousProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:KennedyIgneousProvince" ;
     dcterms:isPartOf
         qgf:MOSSMAN_OROGEN ,
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_PROVINCES ,
@@ -2065,7 +2065,7 @@ qgf:KidstonSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:KidstonSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:KidstonSubprovince" ;
     dcterms:isPartOf qgf:KENNEDY_IGNEOUS_PROVINCE ;
     time:hasTime
         ischart:Carboniferous ,
@@ -2084,7 +2084,7 @@ qgf:LakefieldBasin
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:Triassic ;
-    dcterms:identifier "qgf:LakefieldBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:LakefieldBasin" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2112,7 +2112,7 @@ qgf:LakefieldSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Guadalupian ;
-    dcterms:identifier "qgf:LakefieldSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:LakefieldSubprovince" ;
     dcterms:isPartOf qgf:KENNEDY_IGNEOUS_PROVINCE ;
     skos:scopeNote "The Lakefield Subprovince is provisionally assigned the same age as the Kennedy Igneous Province (Visean-Guadalupian: David Purdy, pers. comm.), and is approximately coincident with the Permian-Triassic Lakefield Basin (Bain & Draper, 1997). This nomenclatural similarity has the potential to cause confusion, and a suggestion has been made to assign rocks of the Lakefield Subprovince to the Jardine Subprovince, then abandoning the former term (Bob Bultitude, pers. comm.)."@en ;
     time:hasTime
@@ -2133,7 +2133,7 @@ qgf:LauraBasin
     su:older ischart:Jurassic ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerCretaceous ;
-    dcterms:identifier "qgf:LauraBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:LauraBasin" ;
     dcterms:isPartOf
         qgf:GREAT_AUSTRALIAN_SUPERBASIN ,
         qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
@@ -2163,7 +2163,7 @@ qgf:LowmeadGraben
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:LowmeadGraben"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:LowmeadGraben" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Lowmead Graben"@en ;
@@ -2180,7 +2180,7 @@ qgf:MacrossanIgneousProvince
     su:older ischart:Miaolingian ;
     su:provinceRank supr:province ;
     su:younger ischart:Devonian ;
-    dcterms:identifier "qgf:MacrossanIgneousProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:MacrossanIgneousProvince" ;
     dcterms:isPartOf
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_PROVINCES ,
         qgf:ThomsonOrogen ;
@@ -2205,7 +2205,7 @@ qgf:MarionBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:MarionBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:MarionBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Marion Basin"@en ;
@@ -2222,7 +2222,7 @@ qgf:MarlboroughProvince
     su:older ischart:Neoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleozoic ;
-    dcterms:identifier "qgf:MarlboroughProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:MarlboroughProvince" ;
     dcterms:isPartOf qgf:NEW_ENGLAND_OROGEN ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2250,7 +2250,7 @@ qgf:MaryboroughBasin
     su:older ischart:LowerCretaceous ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerCretaceous ;
-    dcterms:identifier "qgf:MaryboroughBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:MaryboroughBasin" ;
     dcterms:isPartOf qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2276,7 +2276,7 @@ qgf:McArthurBasin
     su:older ischart:Paleoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Mesoproterozoic ;
-    dcterms:identifier "qgf:McArthurBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:McArthurBasin" ;
     dcterms:isPartOf
         qgf:NORTH_AUSTRALIAN_CRATON ,
         qgf:PALEOPROTEROZOIC_MESOPROTEROZOIC_BASIN_TYPES ;
@@ -2306,7 +2306,7 @@ qgf:MillungeraBasin
     su:older ischart:Mesoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Mesoproterozoic ;
-    dcterms:identifier "qgf:MillungeraBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:MillungeraBasin" ;
     dcterms:isPartOf
         qgf:NORTH_AUSTRALIAN_CRATON ,
         qgf:PALEOPROTEROZOIC_MESOPROTEROZOIC_BASIN_TYPES ;
@@ -2339,7 +2339,7 @@ qgf:MossmanOrogen
         qgf:HODGKINSON_PROVINCE ,
         qgf:KENNEDY_IGNEOUS_PROVINCE ,
         qgf:PAMA_IGNEOUS_PROVINCE ;
-    dcterms:identifier "qgf:MossmanOrogen"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:MossmanOrogen" ;
     dcterms:isPartOf qgf:TASMANIDES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2368,7 +2368,7 @@ qgf:MountWindsorSubprovince
     su:older ischart:Cambrian ;
     su:provinceRank supr:province ;
     su:younger ischart:Ordovician ;
-    dcterms:identifier "qgf:MountWindsorSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:MountWindsorSubprovince" ;
     dcterms:isPartOf qgf:CHARTERS_TOWERS_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2396,7 +2396,7 @@ qgf:MulgildieBasin
     su:older ischart:LowerJurassic ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleJurassic ;
-    dcterms:identifier "qgf:MulgildieBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:MulgildieBasin" ;
     dcterms:isPartOf
         qgf:GREAT_AUSTRALIAN_SUPERBASIN ,
         qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
@@ -2426,7 +2426,7 @@ qgf:NagoorinGraben
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:NagoorinGraben"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NagoorinGraben" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Nagoorin Graben"@en ;
@@ -2443,7 +2443,7 @@ qgf:NambourBasin
     su:older ischart:Rhaetian ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerJurassic ;
-    dcterms:identifier "qgf:NambourBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NambourBasin" ;
     dcterms:isPartOf
         qgf:GREAT_AUSTRALIAN_SUPERBASIN ,
         qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
@@ -2473,7 +2473,7 @@ qgf:NarrowsGraben
     su:older ischart:Eocene ;
     su:provinceRank supr:province ;
     su:younger ischart:Eocene ;
-    dcterms:identifier "qgf:NarrowsGraben"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NarrowsGraben" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Eocene ;
     sdo:name "Narrows Graben"@en ;
@@ -2493,7 +2493,7 @@ qgf:NeoproterozoicLowerPaleozoicBasinTypes
     dcterms:hasPart
         qgf:GEORGINA_BASIN ,
         qgf:WARBURTON_BASIN ;
-    dcterms:identifier "qgf:NeoproterozoicLowerPaleozoicBasinTypes"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NeoproterozoicLowerPaleozoicBasinTypes" ;
     time:hasTime
         ischart:Cambrian ,
         ischart:EarlyOrdovician ,
@@ -2521,7 +2521,7 @@ qgf:NeoproterozoicLowerPaleozoicProvinces
         qgf:KENNEDY_IGNEOUS_PROVINCE ,
         qgf:MACROSSAN_IGNEOUS_PROVINCE ,
         qgf:PAMA_IGNEOUS_PROVINCE ;
-    dcterms:identifier "qgf:NeoproterozoicLowerPaleozoicProvinces"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NeoproterozoicLowerPaleozoicProvinces" ;
     dcterms:isPartOf qgf:ThomsonOrogen ;
     time:hasTime
         ischart:Cambrian ,
@@ -2553,7 +2553,7 @@ qgf:NewEnglandOrogen
         qgf:WANDILLA_PROVINCE ,
         qgf:WOOLOMIN_PROVINCE ,
         qgf:YARROL_PROVINCE ;
-    dcterms:identifier "qgf:NewEnglandOrogen"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NewEnglandOrogen" ;
     dcterms:isPartOf qgf:TASMANIDES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2582,7 +2582,7 @@ qgf:NgarrabullganBasin
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:Triassic ;
-    dcterms:identifier "qgf:NgarrabullganBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NgarrabullganBasin" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2610,7 +2610,7 @@ qgf:NogoSubprovince
     su:older ischart:UpperDevonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:NogoSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NogoSubprovince" ;
     dcterms:isPartOf qgf:YARROL_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2638,7 +2638,7 @@ qgf:NoransideBasin
     su:older ischart:Neogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:NoransideBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NoransideBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Neogene ;
     sdo:name "Noranside Basin"@en ;
@@ -2669,7 +2669,7 @@ qgf:NorthAustralianCraton
         qgf:PAMA_IGNEOUS_PROVINCE ,
         qgf:SAVANNAH_PROVINCE ,
         qgf:SOUTH_NICHOLSON_BASIN ;
-    dcterms:identifier "qgf:NorthAustralianCraton"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NorthAustralianCraton" ;
     geo:hasBoundingBox [
             a geo:Geometry ;
             geo:asWKT "POLYGON((137.994699 -1936993.160174,137.994699 -10.690817,15896421.754636 -10.690817,15896421.754636 -1936993.160174,137.994699 -1936993.160174))"^^geo:wktLiteral
@@ -2696,7 +2696,7 @@ qgf:NorthDAguilarSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Carboniferous ;
-    dcterms:identifier "qgf:NorthDAguilarSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:NorthDAguilarSubprovince" ;
     dcterms:isPartOf qgf:WANDILLA_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2722,7 +2722,7 @@ qgf:OldCorkBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:OldCorkBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:OldCorkBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Old Cork Basin"@en ;
@@ -2739,7 +2739,7 @@ qgf:OliveRiverBasin
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:Permian ;
-    dcterms:identifier "qgf:OliveRiverBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:OliveRiverBasin" ;
     dcterms:isPartOf qgf:UPPER_PALEOZOIC_MIDDLE_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2765,7 +2765,7 @@ qgf:OxleyBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:OxleyBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:OxleyBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Oxley Basin"@en ;
@@ -2787,7 +2787,7 @@ qgf:PaleoproterozoicMesoproterozoicBasinTypes
         qgf:MCARTHUR_BASIN ,
         qgf:MILLUNGERA_BASIN ,
         qgf:SOUTH_NICHOLSON_BASIN ;
-    dcterms:identifier "qgf:PaleoproterozoicMesoproterozoicBasinTypes"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:PaleoproterozoicMesoproterozoicBasinTypes" ;
     dcterms:isPartOf qgf:NORTH_AUSTRALIAN_CRATON ;
     time:hasTime
         ischart:Mesoproterozoic ,
@@ -2811,7 +2811,7 @@ qgf:PaleoproterozoicMesoproterozoicProvinces
         qgf:ETHERIDGE_PROVINCE ,
         qgf:MountIsaProvince ,
         qgf:SAVANNAH_PROVINCE ;
-    dcterms:identifier "qgf:PaleoproterozoicMesoproterozoicProvinces"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:PaleoproterozoicMesoproterozoicProvinces" ;
     dcterms:isPartOf qgf:NORTH_AUSTRALIAN_CRATON ;
     time:hasTime
         ischart:Mesoproterozoic ,
@@ -2830,7 +2830,7 @@ qgf:Palmer-BarronSubprovince
     su:older ischart:Wenlock ;
     su:provinceRank supr:province ;
     su:younger ischart:Mississippian ;
-    dcterms:identifier "qgf:Palmer-BarronSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:Palmer-BarronSubprovince" ;
     dcterms:isPartOf qgf:HODGKINSON_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2861,7 +2861,7 @@ qgf:PalumaSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:PalumaSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:PalumaSubprovince" ;
     dcterms:isPartOf qgf:KENNEDY_IGNEOUS_PROVINCE ;
     time:hasTime
         ischart:Carboniferous ,
@@ -2880,7 +2880,7 @@ qgf:PamaIgneousProvince
     su:older ischart:Llandovery ;
     su:provinceRank supr:province ;
     su:younger ischart:Frasnian ;
-    dcterms:identifier "qgf:PamaIgneousProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:PamaIgneousProvince" ;
     dcterms:isPartOf
         qgf:MOSSMAN_OROGEN ,
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_PROVINCES ,
@@ -2911,7 +2911,7 @@ qgf:PascoeRiverBasin
     su:older ischart:UpperDevonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Mississippian ;
-    dcterms:identifier "qgf:PascoeRiverBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:PascoeRiverBasin" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     time:hasTime
         ischart:Mississippian ,
@@ -2930,7 +2930,7 @@ qgf:PetrieBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:PetrieBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:PetrieBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Petrie Basin"@en ;
@@ -2947,7 +2947,7 @@ qgf:PhilpottSubprovince
     su:older ischart:LowerDevonian ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleDevonian ;
-    dcterms:identifier "qgf:PhilpottSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:PhilpottSubprovince" ;
     dcterms:isPartOf qgf:CALLIOPE_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2975,7 +2975,7 @@ qgf:PomonaBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:PomonaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:PomonaBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime
         ischart:Neogene ,
@@ -2994,7 +2994,7 @@ qgf:RedbankBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:RedbankBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:RedbankBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Redbank Basin"@en ;
@@ -3024,7 +3024,7 @@ qgf:RhaetianJurassicCenomanianBasinTypes
         qgf:STANWELL_BASIN ,
         qgf:STYX_BASIN ,
         qgf:SURAT_BASIN ;
-    dcterms:identifier "qgf:RhaetianJurassicCenomanianBasinTypes"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:RhaetianJurassicCenomanianBasinTypes" ;
     skos:scopeNote "Only the Eromanga Basin, in this group of basins, has strata extending above the Lower Cretaceous into the Cenomanian."@en ;
     time:hasTime
         ischart:Cenomanian ,
@@ -3045,7 +3045,7 @@ qgf:RockhamptonSubprovince
     su:older ischart:UpperDevonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:RockhamptonSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:RockhamptonSubprovince" ;
     dcterms:isPartOf qgf:YARROL_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3074,7 +3074,7 @@ qgf:RossmoyaBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:RossmoyaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:RossmoyaBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Rossmoya Basin"@en ;
@@ -3091,7 +3091,7 @@ qgf:SavannahProvince
     su:older ischart:Calymmian ;
     su:provinceRank supr:province ;
     su:younger ischart:Calymmian ;
-    dcterms:identifier "qgf:SavannahProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:SavannahProvince" ;
     dcterms:isPartOf
         qgf:NORTH_AUSTRALIAN_CRATON ,
         qgf:PALEOPROTEROZOIC_MESOPROTEROZOIC_PROVINCES ;
@@ -3119,7 +3119,7 @@ qgf:SilverSpurSubprovince
     su:older ischart:Permian ;
     su:provinceRank supr:province ;
     su:younger ischart:Permian ;
-    dcterms:identifier "qgf:SilverSpurSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:SilverSpurSubprovince" ;
     dcterms:isPartOf qgf:WOOLOMIN_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3145,7 +3145,7 @@ qgf:SilverwoodProvince
     su:older ischart:Silurian ;
     su:provinceRank supr:province ;
     su:younger ischart:Devonian ;
-    dcterms:identifier "qgf:SilverwoodProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:SilverwoodProvince" ;
     dcterms:isPartOf qgf:NEW_ENGLAND_OROGEN ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3173,7 +3173,7 @@ qgf:SouthDAguilarSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Carboniferous ;
-    dcterms:identifier "qgf:SouthDAguilarSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:SouthDAguilarSubprovince" ;
     dcterms:isPartOf qgf:WANDILLA_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3199,7 +3199,7 @@ qgf:SouthNicholsonBasin
     su:older ischart:Mesoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Mesoproterozoic ;
-    dcterms:identifier "qgf:SouthNicholsonBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:SouthNicholsonBasin" ;
     dcterms:isPartOf
         qgf:NORTH_AUSTRALIAN_CRATON ,
         qgf:PALEOPROTEROZOIC_MESOPROTEROZOIC_BASIN_TYPES ;
@@ -3227,7 +3227,7 @@ qgf:SpringvaleBasin
     su:older ischart:Neogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Neogene ;
-    dcterms:identifier "qgf:SpringvaleBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:SpringvaleBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Neogene ;
     sdo:name "Springvale Basin"@en ;
@@ -3244,7 +3244,7 @@ qgf:StanwellBasin
     su:older ischart:LowerCretaceous ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerCretaceous ;
-    dcterms:identifier "qgf:StanwellBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:StanwellBasin" ;
     dcterms:isPartOf qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
     time:hasTime ischart:LowerCretaceous ;
     sdo:name "Stanwell Basin"@en ;
@@ -3261,7 +3261,7 @@ qgf:StoodleighSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Permian ;
-    dcterms:identifier "qgf:StoodleighSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:StoodleighSubprovince" ;
     dcterms:isPartOf qgf:YARROL_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3289,7 +3289,7 @@ qgf:StyxBasin
     su:older ischart:LowerCretaceous ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerCretaceous ;
-    dcterms:identifier "qgf:StyxBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:StyxBasin" ;
     dcterms:isPartOf qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3315,7 +3315,7 @@ qgf:SuratBasin
     su:older ischart:Rhaetian ;
     su:provinceRank supr:province ;
     su:younger ischart:LowerCretaceous ;
-    dcterms:identifier "qgf:SuratBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:SuratBasin" ;
     dcterms:isPartOf
         qgf:GREAT_AUSTRALIAN_SUPERBASIN ,
         qgf:RHAETIAN_JURASSIC_CENOMANIAN_BASIN_TYPES ;
@@ -3346,7 +3346,7 @@ qgf:TarongBasin
     su:older ischart:UpperTriassic ;
     su:provinceRank supr:province ;
     su:younger ischart:UpperTriassic ;
-    dcterms:identifier "qgf:TarongBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:TarongBasin" ;
     dcterms:isPartOf qgf:UPPER_TRIASSIC_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3378,7 +3378,7 @@ qgf:Tasmanides
         qgf:MOSSMAN_OROGEN ,
         qgf:NEW_ENGLAND_OROGEN ,
         qgf:ThomsonOrogen ;
-    dcterms:identifier "qgf:Tasmanides"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:Tasmanides" ;
     skos:altLabel
         "Tasman Orogenic Zone"@en ,
         "Tasmanide System"@en ,
@@ -3402,7 +3402,7 @@ qgf:TateSubprovince
     su:older ischart:Pennsylvanian ;
     su:provinceRank supr:province ;
     su:younger ischart:Cisuralian ;
-    dcterms:identifier "qgf:TateSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:TateSubprovince" ;
     dcterms:isPartOf qgf:KENNEDY_IGNEOUS_PROVINCE ;
     time:hasTime
         ischart:Cisuralian ,
@@ -3421,7 +3421,7 @@ qgf:TexasSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Carboniferous ;
-    dcterms:identifier "qgf:TexasSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:TexasSubprovince" ;
     dcterms:isPartOf qgf:WOOLOMIN_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3447,7 +3447,7 @@ qgf:TorresStraitSubprovince
     su:older ischart:Carboniferous ;
     su:provinceRank supr:province ;
     su:younger ischart:Carboniferous ;
-    dcterms:identifier "qgf:TorresStraitSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:TorresStraitSubprovince" ;
     dcterms:isPartOf
         qgf:KENNEDY_IGNEOUS_PROVINCE ,
         qgf:NORTH_AUSTRALIAN_CRATON ;
@@ -3506,7 +3506,7 @@ qgf:UpperCretaceousCenozoicBasinTypes
         qgf:WATER_PARK_CREEK_BASIN ,
         qgf:WOORABINDA_BASIN ,
         qgf:YAMBA_BASIN ;
-    dcterms:identifier "qgf:UpperCretaceousCenozoicBasinTypes"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:UpperCretaceousCenozoicBasinTypes" ;
     time:hasTime
         ischart:Neogene ,
         ischart:Paleogene ,
@@ -3538,7 +3538,7 @@ qgf:UpperPaleozoicMiddleTriassicBasinTypes
         qgf:LAKEFIELD_BASIN ,
         qgf:NGARRABULLGAN_BASIN ,
         qgf:OLIVE_RIVER_BASIN ;
-    dcterms:identifier "qgf:UpperPaleozoicMiddleTriassicBasinTypes"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:UpperPaleozoicMiddleTriassicBasinTypes" ;
     skos:scopeNote "Includes upper Paleozoic and/or Lower to Middle Triassic Basins. Some upper Paleozoic basins may extend down into the Pennsylvanian, and one (Galilee Basin) may have commenced deposition in the Upper Mississippian (Serpukhovian) [van Heeswijck, 2010; McKellar & Henderson, 2013]. Excludes Upper Triassic (extensional) basins."@en ;
     time:hasTime
         ischart:LowerTriassic ,
@@ -3564,7 +3564,7 @@ qgf:UpperTriassicBasinTypes
         qgf:CALLIDE_BASIN ,
         qgf:IPSWICH_BASIN ,
         qgf:TARONG_BASIN ;
-    dcterms:identifier "qgf:UpperTriassicBasinTypes"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:UpperTriassicBasinTypes" ;
     time:hasTime ischart:UpperTriassic ;
     sdo:name "Upper Triassic Basins"@en ;
 .
@@ -3586,7 +3586,7 @@ qgf:WandillaProvince
         qgf:NORTH-DAIGLAR_SUBPROVINCE ,
         qgf:SOUTH_DAIGULAR_SUBPROVINCE ,
         qgf:YARRAMAN_SUBPROVINCE ;
-    dcterms:identifier "qgf:WandillaProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:WandillaProvince" ;
     dcterms:isPartOf qgf:NEW_ENGLAND_OROGEN ;
     time:hasTime
         ischart:Carboniferous ,
@@ -3605,7 +3605,7 @@ qgf:WarburtonBasin
     su:older ischart:Cambrian ;
     su:provinceRank supr:province ;
     su:younger ischart:MiddleOrdovician ;
-    dcterms:identifier "qgf:WarburtonBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:WarburtonBasin" ;
     dcterms:isPartOf
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_BASIN_TYPES ,
         qgf:ThomsonOrogen ;
@@ -3636,7 +3636,7 @@ qgf:WarrabinTrough
     su:older ischart:Devonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Devonian ;
-    dcterms:identifier "qgf:WarrabinTrough"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:WarrabinTrough" ;
     dcterms:isPartOf qgf:DEVONIAN_CARBONIFEROUS_BASIN_TYPES ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3662,7 +3662,7 @@ qgf:WaterParkCreekBasin
     su:older ischart:Eocene ;
     su:provinceRank supr:province ;
     su:younger ischart:Eocene ;
-    dcterms:identifier "qgf:WaterParkCreekBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:WaterParkCreekBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Eocene ;
     sdo:name "Water Park Creek Basin"@en ;
@@ -3679,7 +3679,7 @@ qgf:WesternSubprovince
     su:older ischart:Statherian ;
     su:provinceRank supr:province ;
     su:younger ischart:Calymmian ;
-    dcterms:identifier "qgf:WesternSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:WesternSubprovince" ;
     dcterms:isPartOf qgf:MountIsaProvince ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3711,7 +3711,7 @@ qgf:WhitsundayIgneousProvince
     su:older ischart:LowerCretaceous ;
     su:provinceRank supr:province ;
     su:younger ischart:Cenomanian ;
-    dcterms:identifier "qgf:WhitsundayIgneousProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:WhitsundayIgneousProvince" ;
     dcterms:isPartOf qgf:WHITSUNDAY_SILICIC_LARGE_IGNEOUS_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3745,7 +3745,7 @@ qgf:WhitsundaySilicicLargeIgneousProvince
     su:provinceRank supr:province ;
     su:younger ischart:Cenomanian ;
     dcterms:hasPart qgf:WHITSUNDAY_IGNEOUS_PROVINCE ;
-    dcterms:identifier "qgf:WhitsundaySilicicLargeIgneousProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:WhitsundaySilicicLargeIgneousProvince" ;
     time:hasTime
         ischart:Cenomanian ,
         ischart:LowerCretaceous ;
@@ -3766,7 +3766,7 @@ qgf:WoolominProvince
     dcterms:hasPart
         qgf:SILVER_SPUR_SUBPROVINCE ,
         qgf:TEXAS_SUBPROVINCE ;
-    dcterms:identifier "qgf:WoolominProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:WoolominProvince" ;
     dcterms:isPartOf qgf:NEW_ENGLAND_OROGEN ;
     time:hasTime
         ischart:Carboniferous ,
@@ -3785,7 +3785,7 @@ qgf:WoorabindaBasin
     su:older ischart:Paleogene ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleogene ;
-    dcterms:identifier "qgf:WoorabindaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:WoorabindaBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Paleogene ;
     sdo:name "Woorabinda Basin"@en ;
@@ -3802,7 +3802,7 @@ qgf:YaambaBasin
     su:older ischart:Eocene ;
     su:provinceRank supr:province ;
     su:younger ischart:Eocene ;
-    dcterms:identifier "qgf:YaambaBasin"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:YaambaBasin" ;
     dcterms:isPartOf qgf:UPPER_CRETACEOUS_CENOZOIC_BASIN_TYPES ;
     time:hasTime ischart:Eocene ;
     sdo:name "Yaamba Basin"@en ;
@@ -3819,7 +3819,7 @@ qgf:YamboSubprovince
     su:older ischart:Calymmian ;
     su:provinceRank supr:province ;
     su:younger ischart:Calymmian ;
-    dcterms:identifier "qgf:YamboSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:YamboSubprovince" ;
     dcterms:isPartOf qgf:ETHERIDGE_PROVINCE ;
     time:hasTime
         ischart:Calymmian ,
@@ -3838,7 +3838,7 @@ qgf:YaringaSubprovince
     su:older ischart:Paleoproterozoic ;
     su:provinceRank supr:province ;
     su:younger ischart:Paleoproterozoic ;
-    dcterms:identifier "qgf:YaringaSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:YaringaSubprovince" ;
     dcterms:isPartOf qgf:MountIsaProvince ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3864,7 +3864,7 @@ qgf:YarramanSubprovince
     su:older ischart:Devonian ;
     su:provinceRank supr:province ;
     su:younger ischart:Carboniferous ;
-    dcterms:identifier "qgf:YarramanSubprovince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:YarramanSubprovince" ;
     dcterms:isPartOf qgf:WANDILLA_PROVINCE ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -3899,7 +3899,7 @@ qgf:YarrolProvince
         qgf:NOGO_SUBPROVINCE ,
         qgf:ROCKHAMPTON_SUBPROVINCE ,
         qgf:STOODLEIGH_SUBPROVINCE ;
-    dcterms:identifier "qgf:YarrolProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:YarrolProvince" ;
     dcterms:isPartOf qgf:NEW_ENGLAND_OROGEN ;
     time:hasTime
         ischart:Carboniferous ,
@@ -4086,7 +4086,7 @@ qgf:MountIsaProvince
         qgf:KALKADOON-LEICHHARDT_SUBPROVINCE ,
         qgf:WESTERN_SUBPROVINCE ,
         qgf:YARINGA_SUBPROVINCE ;
-    dcterms:identifier "qgf:MountIsaProvince"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:MountIsaProvince" ;
     dcterms:isPartOf
         qgf:NORTH_AUSTRALIAN_CRATON ,
         qgf:PALEOPROTEROZOIC_MESOPROTEROZOIC_PROVINCES ;
@@ -4118,7 +4118,7 @@ qgf:ThomsonOrogen
         qgf:NEOPROTEROZOIC_LOWER_PALEOZOIC_PROVINCES ,
         qgf:PAMA_IGNEOUS_PROVINCE ,
         qgf:WARBURTON_BASIN ;
-    dcterms:identifier "qgf:ThomsonOrogen"^^<https://prez.dev/slug> ;
+    dcterms:identifier "qgf:ThomsonOrogen" ;
     dcterms:isPartOf qgf:TASMANIDES ;
     geo:hasBoundingBox [
             a geo:Geometry ;

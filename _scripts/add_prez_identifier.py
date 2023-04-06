@@ -14,7 +14,6 @@ for feature in g.subjects(RDF.type, GEO.Feature):
             DCTERMS.identifier,
             Literal(
                 feature.n3(g.namespace_manager),
-                datatype=URIRef("https://prez.dev/slug"),
             ),
         )
     )
