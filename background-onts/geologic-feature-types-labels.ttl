@@ -1,0 +1,567 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<http://sweetontology.net/realmGeol/GeologicFeature>
+    rdfs:label "geologic feature"@en ;
+.
+
+<https://kurrawong.ai>
+    rdfs:label "KurrawongAI" ;
+.
+
+<https://linked.data.gov.au/def/geofeatures>
+    rdfs:label "Geologic Feature Types"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/AbundanceZone>
+    rdfs:label "abundance zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/AlluvialFluvialUnit>
+    rdfs:label "alluvial/fluvial regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/AncientContinent>
+    rdfs:label "ancient continent"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Anticline>
+    rdfs:label "anticline"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Anticlinorium>
+    rdfs:label "anticlinorium"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Antiform>
+    rdfs:label "antiform"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/AntiformalStack>
+    rdfs:label "antiformal stack"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Arch>
+    rdfs:label "arch"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/AssemblageZone>
+    rdfs:label "assemblage zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/AssociationZone>
+    rdfs:label "association zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Bed>
+    rdfs:label "bed"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Beds>
+    rdfs:label "beds"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/BiostratigraphicUnit>
+    rdfs:label "biostratigraphic unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Block>
+    rdfs:label "block"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/ChronostratigraphicUnit>
+    rdfs:label "chronostratigraphic unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/CoastalTideDominatedUnit>
+    rdfs:label "coastal (tide-dominated) regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/CoastalWaveDominatedUnit>
+    rdfs:label "coastal (wave-dominated) regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/ColluvialUnit>
+    rdfs:label "colluvial regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/ComplexRockUnit>
+    rdfs:label "complex rock unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/ConcurrentRangeZone>
+    rdfs:label "concurrent range zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Continent>
+    rdfs:label "continent"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Craton>
+    rdfs:label "craton"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/CrustalElement>
+    rdfs:label "crustal element"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/DenudationalFeature>
+    rdfs:label "denudational feature"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Depression>
+    rdfs:label "depression"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Dome>
+    rdfs:label "dome"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/DominantlyIgneousComplexRockUnit>
+    rdfs:label "dominantly igneous complex rock unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/DominantlyStratifiedComplexRockUnit>
+    rdfs:label "dominantly stratified complex rock unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Duplex>
+    rdfs:label "duplex"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/DuricrustRelict>
+    rdfs:label "duricrust (relict/transported) landform element"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/DuricrustResidual>
+    rdfs:label "duricrust (residual/in situ) landform element"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/DuricrustResidualRelict>
+    rdfs:label "duricrust (residual or relict) landform element"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Embayment>
+    rdfs:label "embayment"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/EolianUnit>
+    rdfs:label "eolian regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Escarpment>
+    rdfs:label "escarpment"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/ExposedUnit>
+    rdfs:label "exposed regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/ExtendedCrustProvince>
+    rdfs:label "extended crust province"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Fault>
+    rdfs:label "fault"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/FaultScarp>
+    rdfs:label "fault scarp"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/FaultSet>
+    rdfs:label "fault set"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/FaultSystem>
+    rdfs:label "fault system"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/FaultZone>
+    rdfs:label "fault zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Flow>
+    rdfs:label "flow"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Fold>
+    rdfs:label "fold"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/FoldBelt>
+    rdfs:label "fold belt"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Formation>
+    rdfs:label "formation"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/GeoResourceAccumulation>
+    rdfs:label "georesource accumulation"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/GeologicalHeritageSite>
+    rdfs:label "geological heritage site"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/GeologicallySignificantSite>
+    rdfs:label "geologically significant site"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Geopark>
+    rdfs:label "geopark"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/GeophysicalDomain>
+    rdfs:label "geophysical domain"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/GeophysicalFeature>
+    rdfs:label "geophysical feature"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Geotrail>
+    rdfs:label "geotrail"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Graben>
+    rdfs:label "graben"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Group>
+    rdfs:label "group"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/HalfGraben>
+    rdfs:label "half graben"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Horst>
+    rdfs:label "horst"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/IgneousAssociation>
+    rdfs:label "igneous association"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/IgneousIntrusiveRockUnit>
+    rdfs:label "igneous intrusive rock unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/IgneousProvince>
+    rdfs:label "igneous province"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/IgneousSubprovince>
+    rdfs:label "igneous subprovince"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Inlier>
+    rdfs:label "inlier"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/IntervalZone>
+    rdfs:label "interval zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/IntrusiveRockUnit>
+    rdfs:label "intrusive rock unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Klippe>
+    rdfs:label "klippe"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/LacustrineUnit>
+    rdfs:label "lacustrine regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/LandformFeature>
+    rdfs:label "landform feature"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/LargeIgneousProvince>
+    rdfs:label "large igneous province"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/LineageZone>
+    rdfs:label "lineage zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/LithostratigraphicUnit>
+    rdfs:label "lithostratigraphic unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/MagnetostratigraphicPolaritySubzone>
+    rdfs:label "magnetostratigraphic polarity subzone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/MagnetostratigraphicPolaritySuperzone>
+    rdfs:label "magnetostratigraphic polarity superzone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/MagnetostratigraphicPolarityZone>
+    rdfs:label "magnetostratigraphic polarity zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/MagnetostratigraphicUnit>
+    rdfs:label "magnetostratigraphic unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/MarineUnit>
+    rdfs:label "marine regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Member>
+    rdfs:label "member"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/MineralProvince>
+    rdfs:label "mineral province"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Monocline>
+    rdfs:label "monocline"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/MyloniteZone>
+    rdfs:label "mylonite zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Nappe>
+    rdfs:label "nappe"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/NappeComplex>
+    rdfs:label "nappe complex"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Non-IgneousIntrusiveRockUnit>
+    rdfs:label "non-igneous intrusive rock unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Orogen>
+    rdfs:label "orogen"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/OrogenicCollage>
+    rdfs:label "orogenic collage"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Outlier>
+    rdfs:label "outlier"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/OverturnedFold>
+    rdfs:label "overturned fold"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/PedostratigraphicUnit>
+    rdfs:label "pedostratigraphic unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Peneplain>
+    rdfs:label "peneplain"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/PresentContinent>
+    rdfs:label "present continent"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Province>
+    rdfs:label "Province"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/RangeZone>
+    rdfs:label "range zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/RegolithFeature>
+    rdfs:label "regolith feature"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/RegolithLandformUnit>
+    rdfs:label "regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/RelictUnit>
+    rdfs:label "relict regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/ResidualRelictUnit>
+    rdfs:label "residual or relict regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/ResidualUnit>
+    rdfs:label "residual regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Ridge>
+    rdfs:label "ridge"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/SandplainUnit>
+    rdfs:label "sandplain regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/SedimentaryBasin>
+    rdfs:label "sedimentary basin"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/SeismicProvince>
+    rdfs:label "seismic province"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/SequenceStratigraphicUnit>
+    rdfs:label "sequence stratigraphic unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/ShearZone>
+    rdfs:label "shear zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/SheetwashUnit>
+    rdfs:label "sheetwash regolith-landform unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Shield>
+    rdfs:label "shield"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/StratigraphicEvent>
+    rdfs:label "stratigraphic event"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/StratigraphicFeature>
+    rdfs:label "stratigraphic feature"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/StratigraphicUnit>
+    rdfs:label "stratigraphic unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/StructuralFeature>
+    rdfs:label "structural feature"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Subbasin>
+    rdfs:label "subbasin"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Subgroup>
+    rdfs:label "subgroup"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Subprovince>
+    rdfs:label "Subprovince"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Superbasin>
+    rdfs:label "superbasin"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Supercontinent>
+    rdfs:label "supercontinent"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Supercraton>
+    rdfs:label "supercraton"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Superprovince>
+    rdfs:label "Superprovince"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Syncline>
+    rdfs:label "syncline"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Synclinorium>
+    rdfs:label "synclinorium"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Synform>
+    rdfs:label "synform"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/TaxonRangeZone>
+    rdfs:label "taxon range zone"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/TectonicFeature>
+    rdfs:label "tectonic feature"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/TectonicPlate>
+    rdfs:label "tectonic plate"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/TectonisedMetamorphosedProvince>
+    rdfs:label "tectonised metamorphosed province"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/TectonometamorphicRockUnit>
+    rdfs:label "tectonometamorphic rock unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/TectonostratigraphicRockUnit>
+    rdfs:label "tectonostratigraphic rock unit"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Terrane>
+    rdfs:label "terrane"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Trough>
+    rdfs:label "trough"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Unconformity>
+    rdfs:label "unconformity"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/WaterBody>
+    rdfs:label "water body"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/Window>
+    rdfs:label "window"@en ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    rdfs:label "Geoscience Australia" ;
+.
+
+<https://linked.data.gov.au/org/gsq>
+    rdfs:label "Geological Survey of Queensland" ;
+.
+
+<https://orcid.org/0000-0001-5489-9590>
+    rdfs:label "John L. McKellar" ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    rdfs:label "Nicholas J. Car" ;
+.
+
+[]    rdfs:label "Derek Hoy" ;
+.
+
+
+############ Additions
+
+<https://linked.data.gov.au/def/geofeatures/Basin>
+    rdfs:label "basin"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/TectonisedMetamorphosedSubprovince>
+    rdfs:label "tectonised metamorphosed subprovince"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/TectonisedProvince>
+    rdfs:label "tectonised province"@en ;
+.
+
+<https://linked.data.gov.au/def/geofeatures/TectonisedSubprovince>
+    rdfs:label "tectonised subprovince"@en ;
+.
