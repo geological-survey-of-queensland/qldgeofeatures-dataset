@@ -20,7 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
         ] ;
     rdfs:member
-        qgf:Features ,
+        qgf:all-geological-features ,
         qgf:DevonianCarboniferousBasinTypes ,
         qgf:NeoproterozoicLowerPaleozoicBasinTypes ,
         qgf:PaleoproterozoicMesoproterozoicBasinTypes ,
@@ -102,7 +102,7 @@ qgf:AnakieProvince
     sdo:name "Anakie Province"@en ;
     dcterms:hasPart qgf:ForkLagoonsSubprovince ;
     dcterms:isPartOf
-        qgf:Qgf:NeoproterozoicLowerPaleozoicProvinces ,
+        qgf:NeoproterozoicLowerPaleozoicProvinces ,
         qgf:ThomsonOrogen ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -125,7 +125,7 @@ qgf:AnakieProvince
 qgf:AuburnSubprovince
     a geo:Feature ;
     sdo:name "Auburn Subprovince"@en ;
-    dcterms:isPartOf qgf:ConnorsAuburnProvince ;
+    dcterms:isPartOf qgf:Connors-AuburnProvince ;
     geo:hasBoundingBox [
             a geo:Geometry ;
             geo:asWKT "POLYGON((150.016416 -26.070166,150.016416 -23.762619,151.100306 -23.762619,151.100306 -26.070166,150.016416 -26.070166))"^^geo:wktLiteral
@@ -191,7 +191,7 @@ qgf:BarnardProvince
     a geo:Feature ;
     sdo:name "Barnard Province"@en ;
     dcterms:isPartOf
-        qgf:Qgf:NeoproterozoicLowerPaleozoicProvinces ,
+        qgf:NeoproterozoicLowerPaleozoicProvinces ,
         qgf:ThomsonOrogen ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -656,7 +656,7 @@ qgf:ChartersTowersProvince
     sdo:name "Charters Towers Province"@en ;
     dcterms:hasPart qgf:MountWindsorSubprovince ;
     dcterms:isPartOf
-        qgf:Qgf:NeoproterozoicLowerPaleozoicProvinces ,
+        qgf:NeoproterozoicLowerPaleozoicProvinces ,
         qgf:ThomsonOrogen ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -781,7 +781,7 @@ qgf:Connors-AuburnProvince
 qgf:ConnorsSubprovince
     a geo:Feature ;
     sdo:name "Connors Subprovince"@en ;
-    dcterms:isPartOf qgf:ConnorsAuburnProvince ;
+    dcterms:isPartOf qgf:Connors-AuburnProvince ;
     geo:hasBoundingBox [
             a geo:Geometry ;
             geo:asWKT "POLYGON((147.118129 -2566337.603297,147.118129 -19.305063,16667325.558392 -19.305063,16667325.558392 -2566337.603297,147.118129 -2566337.603297))"^^geo:wktLiteral
@@ -879,6 +879,11 @@ qgf:DaintreeSubprovince
 
 qgf:DevonianCarboniferousBasinTypes
     a geo:FeatureCollection ;
+    sdo:description "Basins formed during the Devonian to Carboniferous time period" ;
+    geo:hasBoundingBox [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
+        ] ;
     rdfs:member
         qgf:AdavaleBasin ,
         qgf:BarrolkaDepression ,
@@ -1258,7 +1263,7 @@ qgf:GreenvaleProvince
     a geo:Feature ;
     sdo:name "Greenvale Province"@en ;
     dcterms:isPartOf
-        qgf:Qgf:NeoproterozoicLowerPaleozoicProvinces ,
+        qgf:NeoproterozoicLowerPaleozoicProvinces ,
         qgf:ThomsonOrogen ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1340,7 +1345,7 @@ qgf:HodgkinsonProvince
     sdo:name "Hodgkinson Province"@en ;
     dcterms:hasPart
         qgf:ChillagoeSubprovince ,
-        qgf:PalmerBarronSubprovince ;
+        qgf:Palmer-BarronSubprovince ;
     dcterms:isPartOf qgf:MossmanOrogen ;
     sdo:additionalType geof:TectonisedProvince ;
     sdo:name "Hodgkinson Province"@en ;
@@ -1393,7 +1398,7 @@ qgf:IronRangeProvince
     a geo:Feature ;
     sdo:name "Iron Range Province"@en ;
     dcterms:isPartOf
-        qgf:Qgf:NeoproterozoicLowerPaleozoicProvinces ,
+        qgf:NeoproterozoicLowerPaleozoicProvinces ,
         qgf:ThomsonOrogen ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -1496,7 +1501,7 @@ qgf:KennedyIgneousProvince
         qgf:TorresStraitSubprovince ;
     dcterms:isPartOf
         qgf:MossmanOrogen ,
-        qgf:Qgf:NeoproterozoicLowerPaleozoicProvinces ,
+        qgf:NeoproterozoicLowerPaleozoicProvinces ,
         qgf:NorthAustralianCraton ,
         qgf:ThomsonOrogen ;
     skos:altLabel
@@ -1598,7 +1603,7 @@ qgf:MacrossanIgneousProvince
     a geo:Feature ;
     sdo:name "Macrossan Igneous Province"@en ;
     dcterms:isPartOf
-        qgf:Qgf:NeoproterozoicLowerPaleozoicProvinces ,
+        qgf:NeoproterozoicLowerPaleozoicProvinces ,
         qgf:ThomsonOrogen ;
     skos:altLabel "Macrossan Igneous Association"@en ;
     skos:prefLabel "Macrossan Igneous Province"@en ;
@@ -1821,6 +1826,11 @@ qgf:NarrowsGraben
 
 qgf:NeoproterozoicLowerPaleozoicBasinTypes
     a geo:FeatureCollection ;
+    sdo:description "Basins formed during the Neoproterozoic to Lower Paleozoic time period" ;
+    geo:hasBoundingBox [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
+        ] ;
     rdfs:member
         qgf:GeorginaBasin ,
         qgf:WarburtonBasin ;
@@ -1860,7 +1870,7 @@ qgf:NewEnglandOrogen
     dcterms:hasPart
         qgf:BowenBasin ,
         qgf:CalliopeProvince ,
-        qgf:ConnorsAuburnProvince ,
+        qgf:Connors-AuburnProvince ,
         qgf:GympieProvince ,
         qgf:MarlboroughProvince ,
         qgf:SilverwoodProvince ,
@@ -2030,6 +2040,11 @@ qgf:OxleyBasin
 
 qgf:PaleoproterozoicMesoproterozoicBasinTypes
     a geo:FeatureCollection ;
+    sdo:description "Basins formed during the Paleoproterozoic to the Mesoproterozoic time period" ;
+    geo:hasBoundingBox [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
+        ] ;
     rdfs:member
         qgf:InorunieBasin ,
         qgf:McarthurBasin ,
@@ -2102,7 +2117,7 @@ qgf:PamaIgneousProvince
     sdo:name "Pama Igneous Province"@en ;
     dcterms:isPartOf
         qgf:MossmanOrogen ,
-        qgf:Qgf:NeoproterozoicLowerPaleozoicProvinces ,
+        qgf:NeoproterozoicLowerPaleozoicProvinces ,
         qgf:NorthAustralianCraton ,
         qgf:ThomsonOrogen ;
     skos:altLabel "Pama Igneous Association"@en ;
@@ -2185,6 +2200,11 @@ qgf:RedbankBasin
 
 qgf:RhaetianJurassicCenomanianBasinTypes
     a geo:FeatureCollection ;
+    sdo:description "Basins formed during the Rhaetian to Cenomanian time period" ;
+    geo:hasBoundingBox [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
+        ] ;
     rdfs:member
         qgf:BagaBasin ,
         qgf:CarpentariaBasin ,
@@ -2516,6 +2536,11 @@ qgf:TorresStraitSubprovince
 
 qgf:UpperCretaceousCenozoicBasinTypes
     a geo:FeatureCollection ;
+    sdo:description "Basins formed during the Upper Cretaceous to Cenozoic time period" ;
+    geo:hasBoundingBox [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
+        ] ;
     rdfs:member
         qgf:AmberleyBasin ,
         qgf:AustralDownsBasin ,
@@ -2554,6 +2579,11 @@ qgf:UpperCretaceousCenozoicBasinTypes
 
 qgf:UpperPaleozoicMiddleTriassicBasinTypes
     a geo:FeatureCollection ;
+    sdo:description "Basins formed during the Upper Paleozoic to the Middle Triassic time period" ;
+    geo:hasBoundingBox [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
+        ] ;
     rdfs:member
         qgf:BowenBasin ,
         qgf:BurketownDepression ,
@@ -2577,6 +2607,11 @@ qgf:UpperPaleozoicMiddleTriassicBasinTypes
 
 qgf:UpperTriassicBasinTypes
     a geo:FeatureCollection ;
+    sdo:description "Basins formed during the Upper Triassic time period" ;
+    geo:hasBoundingBox [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((138.1581 -10.3374, 138.1581 -28.7877, 154.1542 -28.7877, 154.1542 -10.3374, 138.1581 -10.3374))"^^geo:wktLiteral
+        ] ;
     rdfs:member
         qgf:CallideBasin ,
         qgf:IpswichBasin ,
@@ -2823,7 +2858,7 @@ qgf:YarrolProvince
         ] ;
 .
 
-qgf:Features
+qgf:all-geological-features
     a geo:FeatureCollection ;
     geo:hasBoundingBox [
             a geo:Geometry ;
@@ -2873,7 +2908,6 @@ qgf:Features
         qgf:CraigileeSubprovince ,
         qgf:CroydonProvince ,
         qgf:DaintreeSubprovince ,
-        qgf:DevonianCarboniferousBasinTypes ,
         qgf:DrummondBasin ,
         qgf:DuaringaBasin ,
         qgf:EasternSubprovince ,
@@ -2924,7 +2958,6 @@ qgf:Features
         qgf:NagoorinGraben ,
         qgf:NambourBasin ,
         qgf:NarrowsGraben ,
-        qgf:NeoproterozoicLowerPaleozoicBasinTypes ,
         qgf:NeoproterozoicLowerPaleozoicProvinces ,
         qgf:NewEnglandOrogen ,
         qgf:NgarrabullganBasin ,
@@ -2935,7 +2968,6 @@ qgf:Features
         qgf:OldCorkBasin ,
         qgf:OliveRiverBasin ,
         qgf:OxleyBasin ,
-        qgf:PaleoproterozoicMesoproterozoicBasinTypes ,
         qgf:PaleoproterozoicMesoproterozoicProvinces ,
         qgf:Palmer-BarronSubprovince ,
         qgf:PalumaSubprovince ,
@@ -2945,7 +2977,6 @@ qgf:Features
         qgf:PhilpottSubprovince ,
         qgf:PomonaBasin ,
         qgf:RedbankBasin ,
-        qgf:RhaetianJurassicCenomanianBasinTypes ,
         qgf:RockhamptonSubprovince ,
         qgf:RossmoyaBasin ,
         qgf:SavannahProvince ,
@@ -2964,9 +2995,6 @@ qgf:Features
         qgf:TexasSubprovince ,
         qgf:ThomsonOrogen ,
         qgf:TorresStraitSubprovince ,
-        qgf:UpperCretaceousCenozoicBasinTypes ,
-        qgf:UpperPaleozoicMiddleTriassicBasinTypes ,
-        qgf:UpperTriassicBasinTypes ,
         qgf:WandillaProvince ,
         qgf:WarburtonBasin ,
         qgf:WarrabinTrough ,
@@ -3038,3 +3066,57 @@ qgf:ThomsonOrogen
         ] ;
 .
 
+qgf:HerbertonSubprovince
+    a geo:Feature ;
+    sdo:name "Herberton Subprovince"@en ;
+.
+
+qgf:BarnardSubprovince
+    a geo:Feature ;
+    sdo:name "Barnard Subprovince"@en ;
+.
+
+qgf:IronRangeSubprovince
+    a geo:Feature ;
+    sdo:name "Iron Range Subprovince"@en ;
+.
+
+qgf:LachlanOrogen
+    a geo:Feature ;
+    sdo:name "Lachlan Orogen"@en ;
+.
+
+qgf:StodleighSubprovince
+    a geo:Feature ;
+    sdo:name "Stodleigh Subprovince"@en ;
+.
+
+qgf:BeserkerSubprovince
+    a geo:Feature ;
+    sdo:name "Beserker Subprovince"@en ;
+.
+
+qgf:BanardProvince
+    a geo:Feature ;
+    sdo:name "Banard Province"@en ;
+.
+
+qgf:GreenvaleSubprovince
+    a geo:Feature ;
+    sdo:name "Greenvale Subprovince"@en ;
+.
+
+qgf:YambaBasin
+    a geo:Feature ;
+    sdo:name "Yamba Basin"@en ;
+.
+
+qgf:DelamerianOrogen
+    a geo:Feature ;
+    sdo:name "Delamerian Orogen"@en ;
+.
+
+qgf:McarthurBasin
+    a geo:Feature ;
+    sdo:name "Mcarthur Basin"@en ;
+.
